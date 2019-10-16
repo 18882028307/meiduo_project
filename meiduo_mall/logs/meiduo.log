@@ -1,0 +1,19 @@
+ERROR 2019-10-16 14:28:36,286 exception 77 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2019-10-16 14:28:39,988 log 228 Bad Request: /
+WARNING 2019-10-16 14:28:39,989 basehttp 124 "GET / HTTP/1.1" 400 68480
+ERROR 2019-10-16 14:28:40,211 exception 77 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2019-10-16 14:28:40,266 log 228 Bad Request: /favicon.ico
+WARNING 2019-10-16 14:28:40,267 basehttp 124 "GET /favicon.ico HTTP/1.1" 400 68403
+ERROR 2019-10-16 14:31:43,012 exception 77 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2019-10-16 14:31:43,303 log 228 Bad Request: /
+WARNING 2019-10-16 14:31:43,318 basehttp 124 "GET / HTTP/1.1" 400 68481
+ERROR 2019-10-16 14:31:43,566 exception 77 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2019-10-16 14:31:43,633 log 228 Bad Request: /favicon.ico
+WARNING 2019-10-16 14:31:43,634 basehttp 124 "GET /favicon.ico HTTP/1.1" 400 68403
+INFO 2019-10-16 14:33:19,893 basehttp 124 "GET / HTTP/1.1" 200 16286
+INFO 2019-10-16 14:33:19,936 basehttp 124 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2019-10-16 14:33:20,109 basehttp 124 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+INFO 2019-10-16 14:33:20,109 basehttp 124 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+INFO 2019-10-16 14:33:20,110 basehttp 124 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+WARNING 2019-10-16 14:33:20,176 log 228 Not Found: /favicon.ico
+WARNING 2019-10-16 14:33:20,181 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 1977

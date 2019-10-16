@@ -204,7 +204,10 @@ CORS_ALLOW_CREDENTIALS = True
 # django默认访问127.0.0.1地址,如果要用api.meiduo.com请求接口会失败
 # 添加后端接口地址
 ALLOWED_HOSTS = ['api.meiduo.com']
+# ALLOWED_HOSTS = ['*']
 
+# Django认证系统使用的模型类
+AUTH_USER_MODEL = 'users.User'
 
 USE_I18N = True
 
