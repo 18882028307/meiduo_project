@@ -208,8 +208,12 @@ REST_FRAMEWORK = {
 # 设置JWT token有效期
 JWT_AUTH = {
     'JWT_EXPIRATION_DELTA': datetime.timedelta(days=7),
+    'JWT_RESPONSE_PAYLOAD_HANDLER': 'users.utils.jwt_response_payload_handler',
 }
 
+AUTHENTICATION_BACKENDS = [
+    'users.utils.UsernameMobileAuthBackend',
+]
 
 # CORS跨域请求
 CORS_ORIGIN_WHITELIST = (
