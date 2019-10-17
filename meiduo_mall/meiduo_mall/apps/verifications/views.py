@@ -5,10 +5,8 @@ from django.shortcuts import render
 from django_redis import get_redis_connection
 from rest_framework.views import APIView
 
-# from meiduo_mall.meiduo_mall import constants
-# from meiduo_mall.meiduo_mall.captcha import captcha
+from meiduo_mall.libs.captcha.captcha import captcha
 from . import constants
-from meiduo_mall.meiduo_mall.libs.captcha.captcha import captcha
 
 
 class ImageCodeView(APIView):
@@ -23,13 +21,13 @@ class ImageCodeView(APIView):
         :param image_code_id:
         :return:
         """
+        print('???/')
         # 生成验证码图片
-        text, image = captcha.generate_captcha()
+        name, text, image = captcha.generate_captcha()
         print('图片验证码是：{}'.format(text))
 
         # 连接redis数据库
         redis_conn = get_redis_connection("verify_codes")
         redis_conn.setex("img_%s" % image_code_id, constants.IMAGE_CODE_REDIS_EXPIRES, text)
-        print(image)
         # 指定返回的数据类型
         return HttpResponse(image, content_type="images/jpg")

@@ -17,3 +17,126 @@ INFO 2019-10-16 14:33:20,109 basehttp 124 "GET /static/admin/fonts/Roboto-Light-
 INFO 2019-10-16 14:33:20,110 basehttp 124 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
 WARNING 2019-10-16 14:33:20,176 log 228 Not Found: /favicon.ico
 WARNING 2019-10-16 14:33:20,181 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 1977
+ERROR 2019-10-17 09:23:17,102 exception 77 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2019-10-17 09:23:20,581 log 228 Bad Request: /image_codes/ed96d5ca-c88e-4a64-b1fb-52ccd8810f00/
+WARNING 2019-10-17 09:23:20,582 basehttp 124 "GET /image_codes/ed96d5ca-c88e-4a64-b1fb-52ccd8810f00/ HTTP/1.1" 400 69620
+ERROR 2019-10-17 09:23:20,832 exception 77 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2019-10-17 09:23:20,886 log 228 Bad Request: /favicon.ico
+WARNING 2019-10-17 09:23:20,888 basehttp 124 "GET /favicon.ico HTTP/1.1" 400 69053
+ERROR 2019-10-17 09:23:48,002 log 228 Internal Server Error: /image_codes/ed96d5ca-c88e-4a64-b1fb-52ccd8810f00/
+Traceback (most recent call last):
+  File "F:\python\virtual\django_meiduo\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "F:\python\virtual\django_meiduo\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\python\virtual\django_meiduo\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\python\virtual\django_meiduo\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "F:\python\virtual\django_meiduo\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\python\virtual\django_meiduo\lib\site-packages\rest_framework\views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "F:\python\virtual\django_meiduo\lib\site-packages\rest_framework\views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "F:\python\virtual\django_meiduo\lib\site-packages\rest_framework\views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "F:\python\workspace\meiduo_project\meiduo_mall\meiduo_mall\apps\verifications\views.py", line 25, in get
+    text, image = captcha.generate_captcha()
+ValueError: too many values to unpack (expected 2)
+ERROR 2019-10-17 09:23:48,009 basehttp 124 "GET /image_codes/ed96d5ca-c88e-4a64-b1fb-52ccd8810f00/ HTTP/1.1" 500 94628
+WARNING 2019-10-17 09:23:48,269 log 228 Not Found: /favicon.ico
+WARNING 2019-10-17 09:23:48,270 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 2165
+ERROR 2019-10-17 09:23:50,146 log 228 Internal Server Error: /image_codes/ed96d5ca-c88e-4a64-b1fb-52ccd8810f00/
+Traceback (most recent call last):
+  File "F:\python\virtual\django_meiduo\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "F:\python\virtual\django_meiduo\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\python\virtual\django_meiduo\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\python\virtual\django_meiduo\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "F:\python\virtual\django_meiduo\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\python\virtual\django_meiduo\lib\site-packages\rest_framework\views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "F:\python\virtual\django_meiduo\lib\site-packages\rest_framework\views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "F:\python\virtual\django_meiduo\lib\site-packages\rest_framework\views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "F:\python\workspace\meiduo_project\meiduo_mall\meiduo_mall\apps\verifications\views.py", line 25, in get
+    text, image = captcha.generate_captcha()
+ValueError: too many values to unpack (expected 2)
+ERROR 2019-10-17 09:23:50,149 basehttp 124 "GET /image_codes/ed96d5ca-c88e-4a64-b1fb-52ccd8810f00/ HTTP/1.1" 500 94628
+ERROR 2019-10-17 09:27:59,697 log 228 Internal Server Error: /image_codes/ed96d5ca-c88e-4a64-b1fb-52ccd8810f00/
+Traceback (most recent call last):
+  File "F:\python\virtual\django_meiduo\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "F:\python\virtual\django_meiduo\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\python\virtual\django_meiduo\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\python\virtual\django_meiduo\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "F:\python\virtual\django_meiduo\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\python\virtual\django_meiduo\lib\site-packages\rest_framework\views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "F:\python\virtual\django_meiduo\lib\site-packages\rest_framework\views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "F:\python\virtual\django_meiduo\lib\site-packages\rest_framework\views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "F:\python\workspace\meiduo_project\meiduo_mall\meiduo_mall\apps\verifications\views.py", line 26, in get
+    text, image = captcha.generate_captcha()
+ValueError: too many values to unpack (expected 2)
+ERROR 2019-10-17 09:27:59,702 basehttp 124 "GET /image_codes/ed96d5ca-c88e-4a64-b1fb-52ccd8810f00/ HTTP/1.1" 500 94631
+INFO 2019-10-17 09:30:49,708 basehttp 124 "GET /image_codes/ed96d5ca-c88e-4a64-b1fb-52ccd8810f00/ HTTP/1.1" 200 3087
+ERROR 2019-10-17 09:31:20,330 exceptions 25 [<verifications.views.ImageCodeView object at 0x000001F9E6179F28>] Error while reading from socket: (10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)
+ERROR 2019-10-17 09:31:20,472 log 228 Insufficient Storage: /image_codes/ed96d5ca-c88e-4a64-b1fb-52ccd8810f00/
+ERROR 2019-10-17 09:31:20,473 basehttp 124 "GET /image_codes/ed96d5ca-c88e-4a64-b1fb-52ccd8810f00/ HTTP/1.1" 507 5404
+INFO 2019-10-17 09:31:20,608 basehttp 124 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2019-10-17 09:31:20,618 basehttp 124 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121200
+INFO 2019-10-17 09:31:20,630 basehttp 124 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1735
+INFO 2019-10-17 09:31:20,632 basehttp 124 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2019-10-17 09:31:20,637 basehttp 124 "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1131
+INFO 2019-10-17 09:31:20,644 basehttp 124 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2019-10-17 09:31:20,682 basehttp 124 "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1262
+INFO 2019-10-17 09:31:20,685 basehttp 124 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2019-10-17 09:31:20,701 basehttp 124 "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+INFO 2019-10-17 09:31:20,727 basehttp 124 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 37045
+INFO 2019-10-17 09:31:20,728 basehttp 124 "GET /static/rest_framework/js/jquery-3.3.1.min.js HTTP/1.1" 200 86927
+ERROR 2019-10-17 09:41:36,898 exception 77 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2019-10-17 09:41:37,157 log 228 Bad Request: /
+WARNING 2019-10-17 09:41:37,158 basehttp 124 "GET / HTTP/1.1" 400 69082
+INFO 2019-10-17 09:45:53,672 basehttp 124 "GET /image_codes/a08ff2be-756e-4fdc-8421-4a456928fdec/ HTTP/1.1" 200 3083
+INFO 2019-10-17 09:46:11,992 basehttp 124 "GET /image_codes/2e4f882b-06d2-43b5-ab13-acfcdb287817/ HTTP/1.1" 200 3238
+INFO 2019-10-17 09:46:13,502 basehttp 124 "GET /image_codes/25073290-4360-4ea3-ba59-74fb4e2a88b6/ HTTP/1.1" 200 3599
+WARNING 2019-10-17 10:22:03,242 log 228 Not Found: /
+WARNING 2019-10-17 10:22:03,243 basehttp 124 "GET / HTTP/1.1" 404 2119
+WARNING 2019-10-17 10:22:03,370 log 228 Not Found: /favicon.ico
+WARNING 2019-10-17 10:22:03,371 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 2170
+INFO 2019-10-17 10:22:08,466 basehttp 124 "OPTIONS /cart/ HTTP/1.1" 200 0
+INFO 2019-10-17 10:22:17,692 basehttp 124 "GET /image_codes/2cbb534f-0b44-4ed2-a715-585effe8d12c/ HTTP/1.1" 200 3222
+WARNING 2019-10-17 10:22:34,443 log 228 Not Found: /usernames/世界那么大/count/
+WARNING 2019-10-17 10:22:34,505 basehttp 124 "GET /usernames/%E4%B8%96%E7%95%8C%E9%82%A3%E4%B9%88%E5%A4%A7/count/ HTTP/1.1" 404 2263
+WARNING 2019-10-17 10:22:52,842 log 228 Not Found: /mobiles/18882028307/count/
+WARNING 2019-10-17 10:22:52,843 basehttp 124 "GET /mobiles/18882028307/count/ HTTP/1.1" 404 2215
+WARNING 2019-10-17 10:22:59,335 log 228 Not Found: /sms_codes/18882028307/
+WARNING 2019-10-17 10:22:59,337 log 228 Not Found: /mobiles/18882028307/count/
+WARNING 2019-10-17 10:22:59,338 basehttp 124 "GET /mobiles/18882028307/count/ HTTP/1.1" 404 2215
+WARNING 2019-10-17 10:22:59,339 basehttp 124 "GET /sms_codes/18882028307/?text=mtsa&image_code_id=2cbb534f-0b44-4ed2-a715-585effe8d12c HTTP/1.1" 404 2268
+ERROR 2019-10-17 10:23:37,213 exceptions 25 [<verifications.views.ImageCodeView object at 0x0000015577524B38>] Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+ERROR 2019-10-17 10:23:37,243 log 228 Insufficient Storage: /image_codes/f63cc8e0-5d30-4755-aca8-8b0998a2adce/
+ERROR 2019-10-17 10:23:37,244 basehttp 124 "GET /image_codes/f63cc8e0-5d30-4755-aca8-8b0998a2adce/ HTTP/1.1" 507 35
+ERROR 2019-10-17 10:23:37,276 basehttp 124 "GET /image_codes/f63cc8e0-5d30-4755-aca8-8b0998a2adce/ HTTP/1.1" 500 59
+ERROR 2019-10-17 10:23:38,324 exceptions 25 [<verifications.views.ImageCodeView object at 0x0000015577563BA8>] Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+ERROR 2019-10-17 10:23:38,325 log 228 Insufficient Storage: /image_codes/93d81dc4-e6bc-4b72-a5ef-ca07f371083b/
+ERROR 2019-10-17 10:23:38,327 basehttp 124 "GET /image_codes/93d81dc4-e6bc-4b72-a5ef-ca07f371083b/ HTTP/1.1" 507 35
+ERROR 2019-10-17 10:23:45,788 exceptions 25 [<verifications.views.ImageCodeView object at 0x000001557756BDD8>] Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+ERROR 2019-10-17 10:23:45,789 log 228 Insufficient Storage: /image_codes/7a644f97-4e95-41e7-afba-eab50f060b1a/
+ERROR 2019-10-17 10:23:45,790 basehttp 124 "GET /image_codes/7a644f97-4e95-41e7-afba-eab50f060b1a/ HTTP/1.1" 507 35
+INFO 2019-10-17 10:23:59,355 basehttp 124 "GET /image_codes/6fdf8b8d-6218-462b-86b3-63bf91065b54/ HTTP/1.1" 200 3032
+INFO 2019-10-17 10:24:27,733 basehttp 124 "GET /image_codes/eb6bf888-d4dc-4562-a2b5-2a0b95244281/ HTTP/1.1" 200 3110
+WARNING 2019-10-17 10:24:48,605 log 228 Not Found: /mobiles/18882028307/count/
+WARNING 2019-10-17 10:24:48,606 basehttp 124 "GET /mobiles/18882028307/count/ HTTP/1.1" 404 2215
