@@ -252,3 +252,118 @@ INFO 2019-10-17 16:55:48,124 basehttp 124 "OPTIONS /users/ HTTP/1.1" 200 0
 INFO 2019-10-17 16:55:48,164 basehttp 124 "GET /mobiles/18882028307/count/ HTTP/1.1" 200 34
 INFO 2019-10-17 16:55:48,164 basehttp 124 "GET /usernames/%E4%B8%96%E7%95%8C%E9%82%A3%E4%B9%88%E5%A4%A7/count/ HTTP/1.1" 200 40
 INFO 2019-10-17 16:55:48,839 basehttp 124 "POST /users/ HTTP/1.1" 201 266
+INFO 2019-10-17 17:55:24,322 basehttp 124 "OPTIONS /authorizations/ HTTP/1.1" 200 0
+INFO 2019-10-17 17:55:24,493 basehttp 124 "POST /authorizations/ HTTP/1.1" 200 248
+INFO 2019-10-17 17:55:25,234 basehttp 124 "OPTIONS /cart/ HTTP/1.1" 200 0
+WARNING 2019-10-17 17:55:25,304 log 228 Not Found: /cart/
+WARNING 2019-10-17 17:55:25,306 basehttp 124 "GET /cart/ HTTP/1.1" 404 3032
+INFO 2019-10-17 17:55:51,699 basehttp 124 "OPTIONS /authorizations/ HTTP/1.1" 200 0
+INFO 2019-10-17 17:55:51,809 basehttp 124 "POST /authorizations/ HTTP/1.1" 200 248
+INFO 2019-10-17 17:55:52,441 basehttp 124 "OPTIONS /cart/ HTTP/1.1" 200 0
+WARNING 2019-10-17 17:55:52,537 log 228 Not Found: /cart/
+WARNING 2019-10-17 17:55:52,539 basehttp 124 "GET /cart/ HTTP/1.1" 404 3032
+INFO 2019-10-18 10:53:32,102 basehttp 124 "OPTIONS /authorizations/ HTTP/1.1" 200 0
+INFO 2019-10-18 10:53:32,437 basehttp 124 "POST /authorizations/ HTTP/1.1" 200 248
+INFO 2019-10-18 10:53:32,820 basehttp 124 "OPTIONS /cart/ HTTP/1.1" 200 0
+WARNING 2019-10-18 10:53:32,961 log 228 Not Found: /cart/
+WARNING 2019-10-18 10:53:32,962 basehttp 124 "GET /cart/ HTTP/1.1" 404 3032
+INFO 2019-10-18 10:53:52,452 basehttp 124 "OPTIONS /user/ HTTP/1.1" 200 0
+WARNING 2019-10-18 10:53:52,509 log 228 Not Found: /user/
+WARNING 2019-10-18 10:53:52,518 basehttp 124 "GET /user/ HTTP/1.1" 404 3032
+WARNING 2019-10-18 10:54:04,661 log 228 Not Found: /cart/
+WARNING 2019-10-18 10:54:04,663 basehttp 124 "GET /cart/ HTTP/1.1" 404 3032
+WARNING 2019-10-18 10:54:09,886 log 228 Not Found: /cart/
+WARNING 2019-10-18 10:54:09,888 basehttp 124 "GET /cart/ HTTP/1.1" 404 3032
+WARNING 2019-10-18 10:54:17,492 log 228 Not Found: /categories/232/skus/
+WARNING 2019-10-18 10:54:17,500 log 228 Not Found: /categories/232/hotskus/
+WARNING 2019-10-18 10:54:17,501 basehttp 124 "GET /categories/232/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 404 3126
+WARNING 2019-10-18 10:54:17,504 basehttp 124 "GET /categories/232/hotskus/ HTTP/1.1" 404 3086
+WARNING 2019-10-18 10:54:23,027 log 228 Not Found: /cart/
+WARNING 2019-10-18 10:54:23,028 basehttp 124 "GET /cart/ HTTP/1.1" 404 3032
+WARNING 2019-10-18 10:54:25,914 log 228 Not Found: /user/
+WARNING 2019-10-18 10:54:25,916 basehttp 124 "GET /user/ HTTP/1.1" 404 3032
+WARNING 2019-10-18 10:54:27,466 log 228 Not Found: /cart/
+WARNING 2019-10-18 10:54:27,467 basehttp 124 "GET /cart/ HTTP/1.1" 404 3032
+INFO 2019-10-18 16:16:41,720 basehttp 124 "OPTIONS /cart/ HTTP/1.1" 200 0
+WARNING 2019-10-18 16:16:41,987 log 228 Not Found: /cart/
+WARNING 2019-10-18 16:16:41,988 basehttp 124 "GET /cart/ HTTP/1.1" 404 3032
+INFO 2019-10-18 16:16:49,884 basehttp 124 "GET /image_codes/1a231370-7f3c-4077-888c-ad5ae7aff752/ HTTP/1.1" 200 3033
+INFO 2019-10-18 16:16:56,500 basehttp 124 "GET /image_codes/60da3b67-0f41-4cfd-a05d-264e9bc3bde9/ HTTP/1.1" 200 3005
+WARNING 2019-10-18 16:17:06,473 log 228 Not Found: /accounts/18882028307/sms/token/
+WARNING 2019-10-18 16:17:06,474 basehttp 124 "GET /accounts/18882028307/sms/token/?text=qzbk&image_code_id=60da3b67-0f41-4cfd-a05d-264e9bc3bde9 HTTP/1.1" 404 3175
+WARNING 2019-10-18 16:17:20,642 log 228 Not Found: /accounts/18882028307/sms/token/
+WARNING 2019-10-18 16:17:20,642 basehttp 124 "GET /accounts/18882028307/sms/token/?text=qzbk&image_code_id=60da3b67-0f41-4cfd-a05d-264e9bc3bde9 HTTP/1.1" 404 3175
+WARNING 2019-10-18 16:18:22,042 log 228 Not Found: /accounts/18882028307/sms/token/
+WARNING 2019-10-18 16:18:22,043 basehttp 124 "GET /accounts/18882028307/sms/token/?text=qzbk&image_code_id=60da3b67-0f41-4cfd-a05d-264e9bc3bde9 HTTP/1.1" 404 3175
+WARNING 2019-10-18 16:18:39,202 log 228 Not Found: /accounts/世界那么大/sms/token/
+WARNING 2019-10-18 16:18:39,244 basehttp 124 "GET /accounts/%E4%B8%96%E7%95%8C%E9%82%A3%E4%B9%88%E5%A4%A7/sms/token/?text=qzbk&image_code_id=60da3b67-0f41-4cfd-a05d-264e9bc3bde9 HTTP/1.1" 404 3217
+INFO 2019-10-18 17:36:44,468 basehttp 124 "GET /image_codes/c17e3fd8-f073-4709-ac49-f58b96fe1d9c/ HTTP/1.1" 200 3279
+WARNING 2019-10-18 17:36:51,416 log 228 Not Found: /accounts/18882028307/sms/token/
+WARNING 2019-10-18 17:36:51,417 basehttp 124 "GET /accounts/18882028307/sms/token/?text=vkwy&image_code_id=c17e3fd8-f073-4709-ac49-f58b96fe1d9c HTTP/1.1" 404 3368
+ERROR 2019-10-18 17:37:35,052 log 228 Internal Server Error: /accounts/18882028307/sms/token/
+Traceback (most recent call last):
+  File "F:\python\virtual\django_meiduo\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "F:\python\virtual\django_meiduo\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\python\virtual\django_meiduo\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: __init__() takes 1 positional argument but 2 were given
+ERROR 2019-10-18 17:37:35,055 basehttp 124 "GET /accounts/18882028307/sms/token/?text=vkwy&image_code_id=c17e3fd8-f073-4709-ac49-f58b96fe1d9c HTTP/1.1" 500 68889
+ERROR 2019-10-18 17:37:49,475 exceptions 25 [<verifications.views.ImageCodeView object at 0x0000014DF0E1D7F0>] Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+ERROR 2019-10-18 17:37:49,485 log 228 Insufficient Storage: /image_codes/c23075a6-6ec8-42d2-8167-7766e787498d/
+ERROR 2019-10-18 17:37:49,486 basehttp 124 "GET /image_codes/c23075a6-6ec8-42d2-8167-7766e787498d/ HTTP/1.1" 507 35
+ERROR 2019-10-18 17:37:55,208 exceptions 25 [<verifications.views.ImageCodeView object at 0x0000014DF0EFE2B0>] Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+ERROR 2019-10-18 17:37:55,209 log 228 Insufficient Storage: /image_codes/ee4afde7-9e16-4ef5-b0e9-a4da79e52913/
+ERROR 2019-10-18 17:37:55,211 basehttp 124 "GET /image_codes/ee4afde7-9e16-4ef5-b0e9-a4da79e52913/ HTTP/1.1" 507 35
+INFO 2019-10-18 17:38:11,931 basehttp 124 "GET /image_codes/1c7f040c-05aa-48f6-9099-7863f6006f62/ HTTP/1.1" 200 3335
+ERROR 2019-10-18 17:38:20,415 log 228 Internal Server Error: /accounts/18882028307/sms/token/
+Traceback (most recent call last):
+  File "F:\python\virtual\django_meiduo\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "F:\python\virtual\django_meiduo\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\python\virtual\django_meiduo\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: __init__() takes 1 positional argument but 2 were given
+ERROR 2019-10-18 17:38:20,418 basehttp 124 "GET /accounts/18882028307/sms/token/?text=kyv7&image_code_id=1c7f040c-05aa-48f6-9099-7863f6006f62 HTTP/1.1" 500 68889
+INFO 2019-10-18 17:42:54,439 basehttp 124 "GET /image_codes/3cdeae51-f771-47a8-9af2-7f9e2372956e/ HTTP/1.1" 200 3348
+ERROR 2019-10-18 17:43:05,451 log 228 Internal Server Error: /accounts/18882028307/sms/token/
+Traceback (most recent call last):
+  File "F:\python\virtual\django_meiduo\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "F:\python\virtual\django_meiduo\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\python\virtual\django_meiduo\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: __init__() takes 1 positional argument but 2 were given
+ERROR 2019-10-18 17:43:05,454 basehttp 124 "GET /accounts/18882028307/sms/token/?text=5yjn&image_code_id=3cdeae51-f771-47a8-9af2-7f9e2372956e HTTP/1.1" 500 68889
+INFO 2019-10-18 17:43:31,620 basehttp 124 "GET /image_codes/a2641817-a204-4cc8-98af-8a0c286a914c/ HTTP/1.1" 200 3337
+ERROR 2019-10-18 17:43:39,109 log 228 Internal Server Error: /accounts/18882028307/sms/token/
+Traceback (most recent call last):
+  File "F:\python\virtual\django_meiduo\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "F:\python\virtual\django_meiduo\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\python\virtual\django_meiduo\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\python\virtual\django_meiduo\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "F:\python\virtual\django_meiduo\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\python\virtual\django_meiduo\lib\site-packages\rest_framework\views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "F:\python\virtual\django_meiduo\lib\site-packages\rest_framework\views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "F:\python\virtual\django_meiduo\lib\site-packages\rest_framework\views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "F:\python\workspace\meiduo_project\meiduo_mall\meiduo_mall\apps\users\views.py", line 80, in get
+    access_token = user.generate_send_sms_token()
+  File "F:\python\workspace\meiduo_project\meiduo_mall\meiduo_mall\apps\users\models.py", line 24, in generate_send_sms_token
+    serializer = TJWSSerializer(settings.SECRET_KEY, expires_in=constants.SEND_SMS_TOKEN_EXPIRES)
+NameError: name 'constants' is not defined
+ERROR 2019-10-18 17:43:39,115 basehttp 124 "GET /accounts/18882028307/sms/token/?text=lxae&image_code_id=a2641817-a204-4cc8-98af-8a0c286a914c HTTP/1.1" 500 19395
+INFO 2019-10-18 17:56:19,337 basehttp 124 "GET /image_codes/81e4dab5-c78d-41f8-aa1c-eda261662b32/ HTTP/1.1" 200 2978
+INFO 2019-10-18 17:56:27,160 basehttp 124 "GET /accounts/18882028307/sms/token/?text=frmr&image_code_id=81e4dab5-c78d-41f8-aa1c-eda261662b32 HTTP/1.1" 200 185
+WARNING 2019-10-18 17:56:31,222 log 228 Not Found: /sms_codes/
+WARNING 2019-10-18 17:56:31,223 basehttp 124 "GET /sms_codes/?access_token=eyJhbGciOiJIUzI1NiIsImlhdCI6MTU3MTM5MjU4NywiZXhwIjoxNTcxMzkyODg3fQ.eyJtb2JpbGUiOiIxODg4MjAyODMwNyJ9.radOIecJJofhzYkPaUTsMyHyis6MIPXVQ61Cl2SFj9I HTTP/1.1" 404 3398

@@ -26,10 +26,6 @@ class CheckImageCodeSerializer(serializers.Serializer):
         image_code_id = attrs['image_code_id']
         text = attrs['text']
 
-        print(image_code_id)
-        print(text)
-
-
         # 查询redis数据库，获取真实验证码
         redis_conn = get_redis_connection('verify_codes')
         real_image_code = redis_conn.get('img_%s' % image_code_id)
