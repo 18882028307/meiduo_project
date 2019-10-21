@@ -46,6 +46,9 @@ INSTALLED_APPS = [
     'rest_framework',
     'users.apps.UsersConfig',
     'verifications.apps.VerificationsConfig',
+    'areas.apps.AreasConfig',
+    'oauth.apps.OauthConfig',
+
 ]
 
 MIDDLEWARE = [
@@ -204,6 +207,15 @@ REST_FRAMEWORK = {
        'rest_framework.authentication.BasicAuthentication',
        ),
 }
+
+# DRF扩展
+REST_FRAMEWORK_EXTENSIONS = {
+    # 缓存时间
+    'DEFAULT_CACHE_RESPONSE_TIMEOUT': 60 * 60,
+    # 缓存存储
+    'DEFAULT_USE_CACHE': 'default',
+}
+
 
 # 设置JWT token有效期
 JWT_AUTH = {
