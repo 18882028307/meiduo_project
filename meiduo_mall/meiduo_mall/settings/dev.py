@@ -241,7 +241,21 @@ USE_L10N = True
 
 USE_TZ = True
 
+# 邮箱配置
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.qq.com'
+# EMAIL_HOST = 'smtp.163.com'
+EMAIL_PORT = 25
+# 发送邮件的邮箱
+EMAIL_HOST_USER = '710363437@qq.com'
+# EMAIL_HOST_USER = 'newworldkk@163.com'
+# 在邮箱中设置的客户端授权密码
+EMAIL_HOST_PASSWORD = 'wwhbhzeyirsubbed'
+# EMAIL_HOST_PASSWORD = 'a1a1a1'
+# DEFAULT_FROM_EMAIL = '710363437@qq.com'
 
+# 发件人前缀
+EMAIL_FROM = '美多商城<710363437@qq.com>'
 
 
 # Static files (CSS, JavaScript, Images)

@@ -367,3 +367,287 @@ INFO 2019-10-18 17:56:19,337 basehttp 124 "GET /image_codes/81e4dab5-c78d-41f8-a
 INFO 2019-10-18 17:56:27,160 basehttp 124 "GET /accounts/18882028307/sms/token/?text=frmr&image_code_id=81e4dab5-c78d-41f8-aa1c-eda261662b32 HTTP/1.1" 200 185
 WARNING 2019-10-18 17:56:31,222 log 228 Not Found: /sms_codes/
 WARNING 2019-10-18 17:56:31,223 basehttp 124 "GET /sms_codes/?access_token=eyJhbGciOiJIUzI1NiIsImlhdCI6MTU3MTM5MjU4NywiZXhwIjoxNTcxMzkyODg3fQ.eyJtb2JpbGUiOiIxODg4MjAyODMwNyJ9.radOIecJJofhzYkPaUTsMyHyis6MIPXVQ61Cl2SFj9I HTTP/1.1" 404 3398
+INFO 2019-10-18 18:07:22,840 basehttp 124 "GET /image_codes/61abf1a8-301c-4785-b335-d596f83196e8/ HTTP/1.1" 200 3044
+WARNING 2019-10-18 18:07:31,516 log 228 Bad Request: /accounts/18882028307/sms/token/
+WARNING 2019-10-18 18:07:31,517 basehttp 124 "GET /accounts/18882028307/sms/token/?text=sra3&image_code_id=61abf1a8-301c-4785-b335-d596f83196e8 HTTP/1.1" 400 46
+INFO 2019-10-18 18:07:46,453 basehttp 124 "GET /accounts/18882028307/sms/token/?text=8RA3&image_code_id=61abf1a8-301c-4785-b335-d596f83196e8 HTTP/1.1" 200 185
+INFO 2019-10-18 18:07:50,717 basehttp 124 "GET /sms_codes/?access_token=eyJhbGciOiJIUzI1NiIsImlhdCI6MTU3MTM5MzI2NiwiZXhwIjoxNTcxMzkzNTY2fQ.eyJtb2JpbGUiOiIxODg4MjAyODMwNyJ9.MsnbziNN0LVd5rHvkIfwITcKKhrdlr3RjCP4uhxLOBY HTTP/1.1" 200 16
+INFO 2019-10-18 18:08:16,094 basehttp 124 "GET /accounts/18882028307/password/token/?sms_code=868155 HTTP/1.1" 200 160
+INFO 2019-10-18 18:09:26,782 basehttp 124 "OPTIONS /users/1/password/ HTTP/1.1" 200 0
+INFO 2019-10-18 18:09:27,245 basehttp 124 "POST /users/1/password/ HTTP/1.1" 200 8
+INFO 2019-10-18 18:11:43,461 basehttp 124 "OPTIONS /authorizations/ HTTP/1.1" 200 0
+INFO 2019-10-18 18:11:43,572 basehttp 124 "POST /authorizations/ HTTP/1.1" 200 248
+WARNING 2019-10-18 18:11:43,996 log 228 Not Found: /cart/
+WARNING 2019-10-18 18:11:43,997 basehttp 124 "GET /cart/ HTTP/1.1" 404 3766
+WARNING 2019-10-18 18:13:42,087 log 228 Not Found: /cart/
+WARNING 2019-10-18 18:13:42,089 basehttp 124 "GET /cart/ HTTP/1.1" 404 3766
+INFO 2019-10-21 11:23:49,116 basehttp 124 "OPTIONS /authorizations/ HTTP/1.1" 200 0
+INFO 2019-10-21 11:23:49,367 basehttp 124 "POST /authorizations/ HTTP/1.1" 200 248
+INFO 2019-10-21 11:23:49,708 basehttp 124 "OPTIONS /cart/ HTTP/1.1" 200 0
+WARNING 2019-10-21 11:23:49,814 log 228 Not Found: /cart/
+WARNING 2019-10-21 11:23:49,814 basehttp 124 "GET /cart/ HTTP/1.1" 404 4241
+WARNING 2019-10-21 11:23:50,837 log 228 Not Found: /cart/
+WARNING 2019-10-21 11:23:50,840 basehttp 124 "GET /cart/ HTTP/1.1" 404 4241
+INFO 2019-10-21 11:23:53,444 basehttp 124 "OPTIONS /user/ HTTP/1.1" 200 0
+INFO 2019-10-21 11:23:53,505 basehttp 124 "GET /user/ HTTP/1.1" 200 92
+INFO 2019-10-21 11:23:53,523 basehttp 124 "OPTIONS /browse_histories/ HTTP/1.1" 200 0
+WARNING 2019-10-21 11:23:53,560 log 228 Not Found: /browse_histories/
+WARNING 2019-10-21 11:23:53,562 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 4277
+INFO 2019-10-21 11:24:46,622 basehttp 124 "OPTIONS /addresses/ HTTP/1.1" 200 0
+WARNING 2019-10-21 11:24:46,630 log 228 Not Found: /areas/
+WARNING 2019-10-21 11:24:46,633 basehttp 124 "GET /areas/ HTTP/1.1" 404 4244
+WARNING 2019-10-21 11:24:46,649 log 228 Not Found: /addresses/
+WARNING 2019-10-21 11:24:46,650 basehttp 124 "GET /addresses/ HTTP/1.1" 404 4256
+INFO 2019-10-21 11:24:51,845 basehttp 124 "GET /user/ HTTP/1.1" 200 92
+WARNING 2019-10-21 11:24:51,867 log 228 Not Found: /browse_histories/
+WARNING 2019-10-21 11:24:51,868 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 4277
+INFO 2019-10-21 11:25:00,064 basehttp 124 "OPTIONS /emails/ HTTP/1.1" 200 0
+ERROR 2019-10-21 11:25:00,533 log 228 Internal Server Error: /emails/
+Traceback (most recent call last):
+  File "F:\python\virtual\django_meiduo\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "F:\python\virtual\django_meiduo\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\python\virtual\django_meiduo\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\python\virtual\django_meiduo\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "F:\python\virtual\django_meiduo\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\python\virtual\django_meiduo\lib\site-packages\rest_framework\views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "F:\python\virtual\django_meiduo\lib\site-packages\rest_framework\views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "F:\python\virtual\django_meiduo\lib\site-packages\rest_framework\views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "F:\python\virtual\django_meiduo\lib\site-packages\rest_framework\generics.py", line 228, in put
+    return self.update(request, *args, **kwargs)
+  File "F:\python\virtual\django_meiduo\lib\site-packages\rest_framework\mixins.py", line 70, in update
+    self.perform_update(serializer)
+  File "F:\python\virtual\django_meiduo\lib\site-packages\rest_framework\mixins.py", line 80, in perform_update
+    serializer.save()
+  File "F:\python\virtual\django_meiduo\lib\site-packages\rest_framework\serializers.py", line 209, in save
+    self.instance = self.update(self.instance, validated_data)
+  File "F:\python\workspace\meiduo_project\meiduo_mall\meiduo_mall\apps\users\serializers.py", line 206, in update
+    send_verify_email.delay(instance.email, verify_url)
+NameError: name 'send_verify_email' is not defined
+ERROR 2019-10-21 11:25:00,557 basehttp 124 "PUT /emails/ HTTP/1.1" 500 19847
+INFO 2019-10-21 11:26:36,677 basehttp 124 "GET /user/ HTTP/1.1" 200 108
+WARNING 2019-10-21 11:26:36,722 log 228 Not Found: /browse_histories/
+WARNING 2019-10-21 11:26:36,723 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 4277
+ERROR 2019-10-21 11:26:42,049 log 228 Internal Server Error: /emails/
+Traceback (most recent call last):
+  File "F:\python\virtual\django_meiduo\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "F:\python\virtual\django_meiduo\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\python\virtual\django_meiduo\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\python\virtual\django_meiduo\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "F:\python\virtual\django_meiduo\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\python\virtual\django_meiduo\lib\site-packages\rest_framework\views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "F:\python\virtual\django_meiduo\lib\site-packages\rest_framework\views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "F:\python\virtual\django_meiduo\lib\site-packages\rest_framework\views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "F:\python\virtual\django_meiduo\lib\site-packages\rest_framework\generics.py", line 228, in put
+    return self.update(request, *args, **kwargs)
+  File "F:\python\virtual\django_meiduo\lib\site-packages\rest_framework\mixins.py", line 70, in update
+    self.perform_update(serializer)
+  File "F:\python\virtual\django_meiduo\lib\site-packages\rest_framework\mixins.py", line 80, in perform_update
+    serializer.save()
+  File "F:\python\virtual\django_meiduo\lib\site-packages\rest_framework\serializers.py", line 211, in save
+    '`update()` did not return an object instance.'
+AssertionError: `update()` did not return an object instance.
+ERROR 2019-10-21 11:26:42,053 basehttp 124 "PUT /emails/ HTTP/1.1" 500 19692
+INFO 2019-10-21 11:30:58,529 basehttp 124 "GET /user/ HTTP/1.1" 200 108
+WARNING 2019-10-21 11:30:58,557 log 228 Not Found: /browse_histories/
+WARNING 2019-10-21 11:30:58,559 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 4277
+ERROR 2019-10-21 11:31:00,646 log 228 Internal Server Error: /emails/
+Traceback (most recent call last):
+  File "F:\python\virtual\django_meiduo\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "F:\python\virtual\django_meiduo\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\python\virtual\django_meiduo\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\python\virtual\django_meiduo\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "F:\python\virtual\django_meiduo\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\python\virtual\django_meiduo\lib\site-packages\rest_framework\views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "F:\python\virtual\django_meiduo\lib\site-packages\rest_framework\views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "F:\python\virtual\django_meiduo\lib\site-packages\rest_framework\views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "F:\python\virtual\django_meiduo\lib\site-packages\rest_framework\generics.py", line 228, in put
+    return self.update(request, *args, **kwargs)
+  File "F:\python\virtual\django_meiduo\lib\site-packages\rest_framework\mixins.py", line 70, in update
+    self.perform_update(serializer)
+  File "F:\python\virtual\django_meiduo\lib\site-packages\rest_framework\mixins.py", line 80, in perform_update
+    serializer.save()
+  File "F:\python\virtual\django_meiduo\lib\site-packages\rest_framework\serializers.py", line 211, in save
+    '`update()` did not return an object instance.'
+AssertionError: `update()` did not return an object instance.
+ERROR 2019-10-21 11:31:00,650 basehttp 124 "PUT /emails/ HTTP/1.1" 500 19692
+INFO 2019-10-21 11:37:23,384 basehttp 124 "GET /user/ HTTP/1.1" 200 108
+WARNING 2019-10-21 11:37:23,415 log 228 Not Found: /browse_histories/
+WARNING 2019-10-21 11:37:23,417 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 4277
+ERROR 2019-10-21 11:37:25,475 log 228 Internal Server Error: /emails/
+Traceback (most recent call last):
+  File "F:\python\virtual\django_meiduo\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "F:\python\virtual\django_meiduo\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\python\virtual\django_meiduo\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\python\virtual\django_meiduo\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "F:\python\virtual\django_meiduo\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "F:\python\virtual\django_meiduo\lib\site-packages\rest_framework\views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "F:\python\virtual\django_meiduo\lib\site-packages\rest_framework\views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "F:\python\virtual\django_meiduo\lib\site-packages\rest_framework\views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "F:\python\virtual\django_meiduo\lib\site-packages\rest_framework\generics.py", line 228, in put
+    return self.update(request, *args, **kwargs)
+  File "F:\python\virtual\django_meiduo\lib\site-packages\rest_framework\mixins.py", line 70, in update
+    self.perform_update(serializer)
+  File "F:\python\virtual\django_meiduo\lib\site-packages\rest_framework\mixins.py", line 80, in perform_update
+    serializer.save()
+  File "F:\python\virtual\django_meiduo\lib\site-packages\rest_framework\serializers.py", line 211, in save
+    '`update()` did not return an object instance.'
+AssertionError: `update()` did not return an object instance.
+ERROR 2019-10-21 11:37:25,480 basehttp 124 "PUT /emails/ HTTP/1.1" 500 19692
+INFO 2019-10-21 11:38:26,908 basehttp 124 "POST /authorizations/ HTTP/1.1" 200 269
+INFO 2019-10-21 11:38:27,022 basehttp 124 "GET /user/ HTTP/1.1" 200 108
+WARNING 2019-10-21 11:38:27,064 log 228 Not Found: /browse_histories/
+WARNING 2019-10-21 11:38:27,066 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 4277
+INFO 2019-10-21 11:38:30,659 basehttp 124 "GET /user/ HTTP/1.1" 200 108
+WARNING 2019-10-21 11:38:30,679 log 228 Not Found: /browse_histories/
+WARNING 2019-10-21 11:38:30,680 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 4277
+INFO 2019-10-21 11:38:32,830 basehttp 124 "PUT /emails/ HTTP/1.1" 200 35
+INFO 2019-10-21 11:41:00,369 basehttp 124 "GET /user/ HTTP/1.1" 200 108
+WARNING 2019-10-21 11:41:00,392 log 228 Not Found: /browse_histories/
+WARNING 2019-10-21 11:41:00,396 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 4277
+INFO 2019-10-21 11:41:38,562 basehttp 124 "GET /user/ HTTP/1.1" 200 108
+WARNING 2019-10-21 11:41:38,590 log 228 Not Found: /browse_histories/
+WARNING 2019-10-21 11:41:38,594 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 4277
+INFO 2019-10-21 11:41:46,515 basehttp 124 "PUT /emails/ HTTP/1.1" 200 35
+INFO 2019-10-21 11:43:34,941 basehttp 124 "GET /user/ HTTP/1.1" 200 108
+WARNING 2019-10-21 11:43:34,987 log 228 Not Found: /browse_histories/
+WARNING 2019-10-21 11:43:34,988 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 4277
+INFO 2019-10-21 11:43:36,192 basehttp 124 "PUT /emails/ HTTP/1.1" 200 35
+INFO 2019-10-21 11:47:16,336 basehttp 124 "GET /user/ HTTP/1.1" 200 108
+WARNING 2019-10-21 11:47:16,378 log 228 Not Found: /browse_histories/
+WARNING 2019-10-21 11:47:16,380 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 4277
+INFO 2019-10-21 11:47:17,954 basehttp 124 "PUT /emails/ HTTP/1.1" 200 35
+INFO 2019-10-21 11:58:23,129 basehttp 124 "GET /user/ HTTP/1.1" 200 108
+WARNING 2019-10-21 11:58:23,164 log 228 Not Found: /browse_histories/
+WARNING 2019-10-21 11:58:23,166 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 4277
+INFO 2019-10-21 11:58:25,587 basehttp 124 "PUT /emails/ HTTP/1.1" 200 35
+INFO 2019-10-21 12:34:38,243 basehttp 124 "GET /user/ HTTP/1.1" 200 108
+WARNING 2019-10-21 12:34:38,272 log 228 Not Found: /browse_histories/
+WARNING 2019-10-21 12:34:38,273 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 4277
+INFO 2019-10-21 12:34:39,927 basehttp 124 "PUT /emails/ HTTP/1.1" 200 35
+INFO 2019-10-21 13:58:41,134 basehttp 124 "OPTIONS /user/ HTTP/1.1" 200 0
+INFO 2019-10-21 13:58:41,198 basehttp 124 "GET /user/ HTTP/1.1" 200 108
+INFO 2019-10-21 13:58:41,213 basehttp 124 "OPTIONS /browse_histories/ HTTP/1.1" 200 0
+WARNING 2019-10-21 13:58:41,233 log 228 Not Found: /browse_histories/
+WARNING 2019-10-21 13:58:41,236 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 4277
+INFO 2019-10-21 13:58:42,273 basehttp 124 "OPTIONS /emails/ HTTP/1.1" 200 0
+INFO 2019-10-21 13:58:42,535 basehttp 124 "PUT /emails/ HTTP/1.1" 200 35
+INFO 2019-10-21 14:00:17,679 basehttp 124 "GET /user/ HTTP/1.1" 200 108
+WARNING 2019-10-21 14:00:17,715 log 228 Not Found: /browse_histories/
+WARNING 2019-10-21 14:00:17,716 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 4277
+INFO 2019-10-21 14:00:19,068 basehttp 124 "PUT /emails/ HTTP/1.1" 200 35
+INFO 2019-10-21 14:01:55,987 basehttp 124 "GET /user/ HTTP/1.1" 200 108
+WARNING 2019-10-21 14:01:56,027 log 228 Not Found: /browse_histories/
+WARNING 2019-10-21 14:01:56,028 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 4277
+INFO 2019-10-21 14:01:57,742 basehttp 124 "PUT /emails/ HTTP/1.1" 200 35
+INFO 2019-10-21 14:02:40,435 basehttp 124 "GET /user/ HTTP/1.1" 200 108
+WARNING 2019-10-21 14:02:40,467 log 228 Not Found: /browse_histories/
+WARNING 2019-10-21 14:02:40,468 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 4277
+INFO 2019-10-21 14:02:41,998 basehttp 124 "PUT /emails/ HTTP/1.1" 200 35
+INFO 2019-10-21 14:06:43,248 basehttp 124 "GET /user/ HTTP/1.1" 200 108
+WARNING 2019-10-21 14:06:43,278 log 228 Not Found: /browse_histories/
+WARNING 2019-10-21 14:06:43,280 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 4277
+INFO 2019-10-21 14:06:44,578 basehttp 124 "PUT /emails/ HTTP/1.1" 200 35
+WARNING 2019-10-21 14:06:51,936 log 228 Bad Request: /emails/verification/
+WARNING 2019-10-21 14:06:51,939 basehttp 124 "GET /emails/verification/?token=eyJhbGciOiJIUzI1NiIsImlhdCI6MTU3MTYzODAwNCwiZXhwIjoxNTcxNjM4OTA0fQ.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6I HTTP/1.1" 400 18
+INFO 2019-10-21 14:11:22,183 basehttp 124 "GET /user/ HTTP/1.1" 200 108
+WARNING 2019-10-21 14:11:22,221 log 228 Not Found: /browse_histories/
+WARNING 2019-10-21 14:11:22,223 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 4276
+INFO 2019-10-21 14:11:23,461 basehttp 124 "PUT /emails/ HTTP/1.1" 200 35
+INFO 2019-10-21 14:16:53,844 basehttp 124 "GET /user/ HTTP/1.1" 200 108
+WARNING 2019-10-21 14:16:53,876 log 228 Not Found: /browse_histories/
+WARNING 2019-10-21 14:16:53,877 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 4276
+INFO 2019-10-21 14:16:55,178 basehttp 124 "PUT /emails/ HTTP/1.1" 200 35
+INFO 2019-10-21 14:20:52,895 basehttp 124 "GET /user/ HTTP/1.1" 200 108
+WARNING 2019-10-21 14:20:52,925 log 228 Not Found: /browse_histories/
+WARNING 2019-10-21 14:20:52,926 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 4276
+INFO 2019-10-21 14:20:54,084 basehttp 124 "PUT /emails/ HTTP/1.1" 200 35
+INFO 2019-10-21 14:21:48,101 basehttp 124 "GET /user/ HTTP/1.1" 200 108
+WARNING 2019-10-21 14:21:48,132 log 228 Not Found: /browse_histories/
+WARNING 2019-10-21 14:21:48,133 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 4276
+INFO 2019-10-21 14:21:49,256 basehttp 124 "PUT /emails/ HTTP/1.1" 200 35
+INFO 2019-10-21 14:26:41,977 basehttp 124 "OPTIONS /authorizations/ HTTP/1.1" 200 0
+INFO 2019-10-21 14:26:42,139 basehttp 124 "POST /authorizations/ HTTP/1.1" 200 269
+INFO 2019-10-21 14:26:42,263 basehttp 124 "GET /user/ HTTP/1.1" 200 108
+WARNING 2019-10-21 14:26:42,302 log 228 Not Found: /browse_histories/
+WARNING 2019-10-21 14:26:42,303 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 4276
+INFO 2019-10-21 14:26:46,103 basehttp 124 "PUT /emails/ HTTP/1.1" 200 35
+INFO 2019-10-21 14:29:16,674 basehttp 124 "POST /authorizations/ HTTP/1.1" 200 269
+INFO 2019-10-21 14:29:16,836 basehttp 124 "GET /user/ HTTP/1.1" 200 108
+WARNING 2019-10-21 14:29:16,877 log 228 Not Found: /browse_histories/
+WARNING 2019-10-21 14:29:16,881 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 4276
+INFO 2019-10-21 14:29:20,225 basehttp 124 "PUT /emails/ HTTP/1.1" 200 35
+WARNING 2019-10-21 14:29:46,825 log 228 Bad Request: /emails/verification/
+WARNING 2019-10-21 14:29:46,826 basehttp 124 "GET /emails/verification/?token=eyJhbGciOiJIUzI1NiIsImlhdCI6MTU3MTYzOTM2MCwiZXhwIjoxNTcxNjQwMjYwfQ.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6IjcxMDM2MzQzN0BxcS5jb20ifQ.lp_l-pl0qSTkEyhK4STEZgD1ZaxNv8APsV5_lQuSbm4 HTTP/1.1" 400 18
+INFO 2019-10-21 14:33:49,389 basehttp 124 "OPTIONS /cart/ HTTP/1.1" 200 0
+WARNING 2019-10-21 14:33:49,491 log 228 Not Found: /cart/
+WARNING 2019-10-21 14:33:49,492 basehttp 124 "GET /cart/ HTTP/1.1" 404 4240
+INFO 2019-10-21 14:34:01,550 basehttp 124 "OPTIONS /authorizations/ HTTP/1.1" 200 0
+INFO 2019-10-21 14:34:01,653 basehttp 124 "POST /authorizations/ HTTP/1.1" 200 269
+WARNING 2019-10-21 14:34:01,963 log 228 Not Found: /cart/
+WARNING 2019-10-21 14:34:01,964 basehttp 124 "GET /cart/ HTTP/1.1" 404 4240
+INFO 2019-10-21 14:34:04,032 basehttp 124 "OPTIONS /user/ HTTP/1.1" 200 0
+INFO 2019-10-21 14:34:04,066 basehttp 124 "GET /user/ HTTP/1.1" 200 107
+INFO 2019-10-21 14:34:04,099 basehttp 124 "OPTIONS /browse_histories/ HTTP/1.1" 200 0
+WARNING 2019-10-21 14:34:04,127 log 228 Not Found: /browse_histories/
+WARNING 2019-10-21 14:34:04,128 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 4276
+WARNING 2019-10-21 14:38:12,084 log 228 Not Found: /cart/
+WARNING 2019-10-21 14:38:12,085 basehttp 124 "GET /cart/ HTTP/1.1" 404 4240
+WARNING 2019-10-21 14:38:12,969 log 228 Not Found: /cart/
+WARNING 2019-10-21 14:38:12,970 basehttp 124 "GET /cart/ HTTP/1.1" 404 4240
+INFO 2019-10-21 14:38:14,769 basehttp 124 "GET /user/ HTTP/1.1" 200 108
+WARNING 2019-10-21 14:38:14,807 log 228 Not Found: /browse_histories/
+WARNING 2019-10-21 14:38:14,809 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 4276
+INFO 2019-10-21 14:38:17,000 basehttp 124 "GET /user/ HTTP/1.1" 200 108
+WARNING 2019-10-21 14:38:17,025 log 228 Not Found: /browse_histories/
+WARNING 2019-10-21 14:38:17,026 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 4276
+INFO 2019-10-21 14:38:53,288 basehttp 124 "OPTIONS /emails/ HTTP/1.1" 200 0
+INFO 2019-10-21 14:38:53,596 basehttp 124 "PUT /emails/ HTTP/1.1" 200 35
+WARNING 2019-10-21 14:39:12,528 log 228 Bad Request: /emails/verification/
+WARNING 2019-10-21 14:39:12,529 basehttp 124 "GET /emails/verification/?token=eyJhbGciOiJIUzI1NiIsImlhdCI6MTU3MTYzOTkzMywiZXhwIjoxNTcxNjQwODMzfQ.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6IjcxMDM2MzQzN0BxcS5jb20ifQ.76zK-70uXZMLdqLuV0i_GuNCO2kLB2QaRxnEmC54g7I HTTP/1.1" 400 18
+INFO 2019-10-21 14:44:23,147 basehttp 124 "GET /user/ HTTP/1.1" 200 108
+WARNING 2019-10-21 14:44:23,178 log 228 Not Found: /browse_histories/
+WARNING 2019-10-21 14:44:23,180 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 4276
+INFO 2019-10-21 14:44:25,371 basehttp 124 "PUT /emails/ HTTP/1.1" 200 35
+INFO 2019-10-21 14:44:51,388 basehttp 124 "GET /emails/verification/?token=eyJhbGciOiJIUzI1NiIsImlhdCI6MTU3MTY0MDI2NSwiZXhwIjoxNTcxNjQxMTY1fQ.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6IjcxMDM2MzQzN0BxcS5jb20ifQ.XIG57JSQinT8W3LOs9CV9O2DKqXLqJctfeAHjEEDMgc HTTP/1.1" 200 16
+INFO 2019-10-21 14:44:55,201 basehttp 124 "OPTIONS /cart/ HTTP/1.1" 200 0
+WARNING 2019-10-21 14:44:55,308 log 228 Not Found: /cart/
+WARNING 2019-10-21 14:44:55,310 basehttp 124 "GET /cart/ HTTP/1.1" 404 4240
+INFO 2019-10-21 14:45:14,065 basehttp 124 "OPTIONS /authorizations/ HTTP/1.1" 200 0
+INFO 2019-10-21 14:45:14,168 basehttp 124 "POST /authorizations/ HTTP/1.1" 200 269
+INFO 2019-10-21 14:45:14,248 basehttp 124 "OPTIONS /user/ HTTP/1.1" 200 0
+INFO 2019-10-21 14:45:14,290 basehttp 124 "GET /user/ HTTP/1.1" 200 107
+INFO 2019-10-21 14:45:14,313 basehttp 124 "OPTIONS /browse_histories/ HTTP/1.1" 200 0
+WARNING 2019-10-21 14:45:14,343 log 228 Not Found: /browse_histories/
+WARNING 2019-10-21 14:45:14,345 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 4276
