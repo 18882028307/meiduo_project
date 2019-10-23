@@ -9,6 +9,7 @@ from .models import Address
 from .utils import get_user_by_account
 from .models import User
 
+
 class CreateUserSerializer(serializers.ModelSerializer):
     """
     创建用户序列化器

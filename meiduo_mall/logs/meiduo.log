@@ -705,3 +705,411 @@ INFO 2019-10-21 18:37:35,444 basehttp 124 "GET /addresses/ HTTP/1.1" 200 336
 INFO 2019-10-21 18:37:39,283 basehttp 124 "GET /user/ HTTP/1.1" 200 107
 WARNING 2019-10-21 18:37:39,305 log 228 Not Found: /browse_histories/
 WARNING 2019-10-21 18:37:39,306 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 7538
+INFO 2019-10-23 11:32:25,184 basehttp 124 "GET /image_codes/84f4a3c4-cc9f-405a-8cae-bd924f027f66/ HTTP/1.1" 200 3092
+INFO 2019-10-23 11:32:54,746 basehttp 124 "GET /usernames/%E4%B8%96%E7%95%8C%E9%82%A3%E4%B9%88%E5%A4%A7/count/ HTTP/1.1" 200 40
+INFO 2019-10-23 11:33:05,729 basehttp 124 "GET /mobiles/18882028307/count/ HTTP/1.1" 200 34
+INFO 2019-10-23 11:33:14,932 basehttp 124 "GET /mobiles/18882028307/count/ HTTP/1.1" 200 34
+INFO 2019-10-23 11:33:15,202 basehttp 124 "GET /sms_codes/18882028307/?text=wl5r&image_code_id=84f4a3c4-cc9f-405a-8cae-bd924f027f66 HTTP/1.1" 200 16
+INFO 2019-10-23 11:33:15,429 tasks 28 发送验证码短信[正常][ mobile: 18882028307 ]
+INFO 2019-10-23 11:33:32,072 basehttp 124 "GET /usernames/%E4%B8%96%E7%95%8C%E9%82%A3%E4%B9%88%E5%A4%A7/count/ HTTP/1.1" 200 40
+INFO 2019-10-23 11:33:32,087 basehttp 124 "GET /mobiles/18882028307/count/ HTTP/1.1" 200 34
+INFO 2019-10-23 11:33:32,095 basehttp 124 "OPTIONS /users/ HTTP/1.1" 200 0
+INFO 2019-10-23 11:33:32,381 basehttp 124 "POST /users/ HTTP/1.1" 201 266
+INFO 2019-10-23 11:33:48,480 basehttp 124 "OPTIONS /authorizations/ HTTP/1.1" 200 0
+INFO 2019-10-23 11:33:48,657 basehttp 124 "POST /authorizations/ HTTP/1.1" 200 248
+INFO 2019-10-23 11:33:49,777 basehttp 124 "OPTIONS /cart/ HTTP/1.1" 200 0
+WARNING 2019-10-23 11:33:49,977 log 228 Not Found: /cart/
+WARNING 2019-10-23 11:33:49,980 basehttp 124 "GET /cart/ HTTP/1.1" 404 7502
+INFO 2019-10-23 11:33:52,974 basehttp 124 "OPTIONS /user/ HTTP/1.1" 200 0
+INFO 2019-10-23 11:33:53,052 basehttp 124 "GET /user/ HTTP/1.1" 200 92
+INFO 2019-10-23 11:33:53,083 basehttp 124 "OPTIONS /browse_histories/ HTTP/1.1" 200 0
+WARNING 2019-10-23 11:33:53,123 log 228 Not Found: /browse_histories/
+WARNING 2019-10-23 11:33:53,126 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 7538
+INFO 2019-10-23 11:34:08,428 basehttp 124 "OPTIONS /emails/ HTTP/1.1" 200 0
+INFO 2019-10-23 11:34:08,475 basehttp 124 "PUT /emails/ HTTP/1.1" 200 35
+INFO 2019-10-23 11:36:49,463 basehttp 124 "GET /emails/verification/?token=eyJhbGciOiJIUzI1NiIsImlhdCI6MTU3MTgwMTY0OCwiZXhwIjoxNTcxODAyNTQ4fQ.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6IjcxMDM2MzQzN0BxcS5jb20ifQ.IFaI2grwE-uKeSb6L9pcfMDSwN-KaMXfRth6-Gz43Rk HTTP/1.1" 200 16
+INFO 2019-10-23 11:36:54,351 basehttp 124 "OPTIONS /cart/ HTTP/1.1" 200 0
+WARNING 2019-10-23 11:36:54,552 log 228 Not Found: /cart/
+WARNING 2019-10-23 11:36:54,555 basehttp 124 "GET /cart/ HTTP/1.1" 404 7502
+INFO 2019-10-23 11:37:06,801 basehttp 124 "GET /user/ HTTP/1.1" 200 107
+WARNING 2019-10-23 11:37:06,887 log 228 Not Found: /browse_histories/
+WARNING 2019-10-23 11:37:06,892 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 7538
+INFO 2019-10-23 11:37:27,836 basehttp 124 "GET /image_codes/0e89be7c-4ef6-4629-a9f5-c900266ef7ed/ HTTP/1.1" 200 3466
+WARNING 2019-10-23 11:37:40,488 log 228 Bad Request: /accounts/18882028307/sms/token/
+WARNING 2019-10-23 11:37:40,488 basehttp 124 "GET /accounts/18882028307/sms/token/?text=swec&image_code_id=0e89be7c-4ef6-4629-a9f5-c900266ef7ed HTTP/1.1" 400 46
+INFO 2019-10-23 11:37:42,013 basehttp 124 "GET /image_codes/b57b35ab-844c-4dc9-b412-c3c353552154/ HTTP/1.1" 200 2922
+INFO 2019-10-23 11:37:43,527 basehttp 124 "GET /image_codes/b1a89b11-9adf-4379-a6a4-d761b6d48252/ HTTP/1.1" 200 3053
+INFO 2019-10-23 11:37:56,306 basehttp 124 "GET /accounts/18882028307/sms/token/?text=ge6t&image_code_id=b1a89b11-9adf-4379-a6a4-d761b6d48252 HTTP/1.1" 200 185
+INFO 2019-10-23 11:37:58,368 basehttp 124 "GET /sms_codes/?access_token=eyJhbGciOiJIUzI1NiIsImlhdCI6MTU3MTgwMTg3NiwiZXhwIjoxNTcxODAyMTc2fQ.eyJtb2JpbGUiOiIxODg4MjAyODMwNyJ9.i9vd_BzI2FIOLMy4Ll3_dKpeJlnEbGUq12oOCa1-7YA HTTP/1.1" 200 16
+INFO 2019-10-23 11:37:58,528 tasks 28 发送验证码短信[正常][ mobile: 18882028307 ]
+INFO 2019-10-23 11:38:17,062 basehttp 124 "GET /accounts/18882028307/password/token/?sms_code=561439 HTTP/1.1" 200 160
+INFO 2019-10-23 11:38:26,471 basehttp 124 "OPTIONS /users/1/password/ HTTP/1.1" 200 0
+INFO 2019-10-23 11:38:26,668 basehttp 124 "POST /users/1/password/ HTTP/1.1" 200 8
+INFO 2019-10-23 11:38:34,283 basehttp 124 "GET /image_codes/97862b9e-4751-43e3-8cd3-f77f200a8dc1/ HTTP/1.1" 200 3294
+INFO 2019-10-23 11:38:48,863 basehttp 124 "POST /authorizations/ HTTP/1.1" 200 269
+WARNING 2019-10-23 11:38:49,914 log 228 Not Found: /cart/
+WARNING 2019-10-23 11:38:49,918 basehttp 124 "GET /cart/ HTTP/1.1" 404 7502
+INFO 2019-10-23 15:55:15,497 basehttp 124 "OPTIONS /cart/ HTTP/1.1" 200 0
+WARNING 2019-10-23 15:55:15,683 log 228 Not Found: /cart/
+WARNING 2019-10-23 15:55:15,683 basehttp 124 "GET /cart/ HTTP/1.1" 404 7608
+ERROR 2019-10-23 15:55:21,101 log 228 Internal Server Error: /oauth/qq/authorization/
+Traceback (most recent call last):
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/alvin/python/workspace/meiduo_project/meiduo_mall/meiduo_mall/apps/oauth/views.py", line 27, in get
+    auth_url = oauth.get_auth_url()
+AttributeError: 'OAuthQQ' object has no attribute 'get_auth_url'
+ERROR 2019-10-23 15:55:21,107 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.1" 500 19498
+INFO 2019-10-23 15:59:32,652 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.1" 200 193
+INFO 2019-10-23 16:02:29,759 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.1" 200 193
+WARNING 2019-10-23 16:04:16,514 log 228 Not Found: /cart/
+WARNING 2019-10-23 16:04:16,515 basehttp 124 "GET /cart/ HTTP/1.1" 404 7608
+INFO 2019-10-23 16:05:24,724 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.1" 200 193
+WARNING 2019-10-23 16:07:56,743 log 228 Unauthorized: /oauth/qq/user/
+WARNING 2019-10-23 16:07:56,743 basehttp 124 "GET /oauth/qq/user/?code=null HTTP/1.1" 401 43
+INFO 2019-10-23 16:10:17,724 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.1" 200 193
+INFO 2019-10-23 16:16:23,148 basehttp 124 "OPTIONS /cart/ HTTP/1.1" 200 0
+WARNING 2019-10-23 16:16:23,553 log 228 Not Found: /cart/
+WARNING 2019-10-23 16:16:23,553 basehttp 124 "GET /cart/ HTTP/1.1" 404 7608
+INFO 2019-10-23 16:16:37,723 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.1" 200 193
+INFO 2019-10-23 16:18:11,879 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.1" 200 193
+WARNING 2019-10-23 16:18:53,184 log 228 Method Not Allowed: /oauth/qq/user/
+WARNING 2019-10-23 16:18:53,184 basehttp 124 "GET /oauth/qq/user/?code=9C3EBEB5D69DC739B03E043C3D83A520 HTTP/1.1" 405 45
+INFO 2019-10-23 16:20:39,978 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.1" 200 193
+WARNING 2019-10-23 16:21:11,471 log 228 Method Not Allowed: /oauth/qq/user/
+WARNING 2019-10-23 16:21:11,471 basehttp 124 "GET /oauth/qq/user/?code=BD2FCD95F6D91620DBA98EA93B2C62FB HTTP/1.1" 405 45
+INFO 2019-10-23 16:32:35,157 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.1" 200 193
+WARNING 2019-10-23 16:32:56,817 log 228 Method Not Allowed: /oauth/qq/user/
+WARNING 2019-10-23 16:32:56,817 basehttp 124 "GET /oauth/qq/user/?code=6C75BA45EA2289FB8FAB09B7C1E0E507 HTTP/1.1" 405 45
+INFO 2019-10-23 16:40:02,111 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.1" 200 193
+WARNING 2019-10-23 16:40:17,514 log 228 Method Not Allowed: /oauth/qq/user/
+WARNING 2019-10-23 16:40:17,517 basehttp 124 "GET /oauth/qq/user/?code=CB30BD9F2D89A2B826AFCFE1A1CA17AE HTTP/1.1" 405 45
+INFO 2019-10-23 16:41:53,788 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.1" 200 193
+WARNING 2019-10-23 16:42:06,988 log 228 Method Not Allowed: /oauth/qq/user/
+WARNING 2019-10-23 16:42:06,988 basehttp 124 "GET /oauth/qq/user/?code=719D6945DD92F2A0AB4DA7C4EBF9F11D HTTP/1.1" 405 45
+INFO 2019-10-23 16:43:23,197 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.1" 200 193
+ERROR 2019-10-23 16:43:38,171 log 228 Internal Server Error: /oauth/qq/user/
+Traceback (most recent call last):
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/alvin/python/workspace/meiduo_project/meiduo_mall/meiduo_mall/apps/oauth/views.py", line 73, in get
+    oauth = OAuthQQ()
+  File "/home/alvin/python/workspace/meiduo_project/meiduo_mall/meiduo_mall/apps/oauth/utils.py", line 16, in __init__
+    self.state = state or dev.QQ_STATE
+AttributeError: module 'meiduo_mall.settings.dev' has no attribute 'QQ_STATE'
+ERROR 2019-10-23 16:43:38,178 basehttp 124 "GET /oauth/qq/user/?code=B0E553FF1D837E120E739A4B495FB17C HTTP/1.1" 500 19788
+INFO 2019-10-23 16:46:43,205 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.1" 200 193
+ERROR 2019-10-23 16:46:59,534 log 228 Internal Server Error: /oauth/qq/user/
+Traceback (most recent call last):
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/alvin/python/workspace/meiduo_project/meiduo_mall/meiduo_mall/apps/oauth/views.py", line 73, in get
+    oauth = OAuthQQ()
+  File "/home/alvin/python/workspace/meiduo_project/meiduo_mall/meiduo_mall/apps/oauth/utils.py", line 17, in __init__
+    self.state = state or settings.QQ_STATE
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/conf/__init__.py", line 58, in __getattr__
+    val = getattr(self._wrapped, name)
+AttributeError: 'Settings' object has no attribute 'QQ_STATE'
+ERROR 2019-10-23 16:46:59,539 basehttp 124 "GET /oauth/qq/user/?code=B099AA8B494841079CD9E11D72576534 HTTP/1.1" 500 19925
+INFO 2019-10-23 16:48:02,356 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.1" 200 183
+ERROR 2019-10-23 16:48:15,444 log 228 Internal Server Error: /oauth/qq/user/
+Traceback (most recent call last):
+  File "/home/alvin/python/workspace/meiduo_project/meiduo_mall/meiduo_mall/apps/oauth/views.py", line 77, in get
+    access_token = oauth.get_access_token(code)
+  File "/home/alvin/python/workspace/meiduo_project/meiduo_mall/meiduo_mall/apps/oauth/utils.py", line 51, in get_access_token
+    'redirect_uri': self.redirect_uri
+AttributeError: 'OAuthQQ' object has no attribute 'redirect_uri'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/alvin/python/workspace/meiduo_project/meiduo_mall/meiduo_mall/apps/oauth/views.py", line 79, in get
+    except QQAPIError:
+NameError: name 'QQAPIError' is not defined
+ERROR 2019-10-23 16:48:15,448 basehttp 124 "GET /oauth/qq/user/?code=98A57BBD7822B681331C465B816A8C69 HTTP/1.1" 500 20007
+INFO 2019-10-23 16:59:36,427 basehttp 124 "OPTIONS /cart/ HTTP/1.1" 200 0
+WARNING 2019-10-23 16:59:36,583 log 228 Not Found: /cart/
+WARNING 2019-10-23 16:59:36,588 basehttp 124 "GET /cart/ HTTP/1.1" 404 7608
+WARNING 2019-10-23 16:59:38,273 log 228 Not Found: /cart/
+WARNING 2019-10-23 16:59:38,275 basehttp 124 "GET /cart/ HTTP/1.1" 404 7608
+INFO 2019-10-23 16:59:56,870 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.1" 200 193
+INFO 2019-10-23 17:07:42,367 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.1" 200 193
+ERROR 2019-10-23 17:07:55,290 log 228 Internal Server Error: /oauth/qq/user/
+Traceback (most recent call last):
+  File "/home/alvin/python/workspace/meiduo_project/meiduo_mall/meiduo_mall/apps/oauth/views.py", line 78, in get
+    access_token = oauth.get_access_token(code)
+  File "/home/alvin/python/workspace/meiduo_project/meiduo_mall/meiduo_mall/apps/oauth/utils.py", line 51, in get_access_token
+    'redirect_uri': self.redirect_uri
+AttributeError: 'OAuthQQ' object has no attribute 'redirect_uri'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/alvin/python/workspace/meiduo_project/meiduo_mall/meiduo_mall/apps/oauth/views.py", line 80, in get
+    except QQAPIError:
+NameError: name 'QQAPIError' is not defined
+ERROR 2019-10-23 17:07:55,308 basehttp 124 "GET /oauth/qq/user/?code=7357EABD43E947D6550CFB18A7A60136 HTTP/1.1" 500 20035
+INFO 2019-10-23 17:09:38,765 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.1" 200 193
+ERROR 2019-10-23 17:09:58,725 log 228 Service Unavailable: /oauth/qq/user/
+ERROR 2019-10-23 17:09:58,725 basehttp 124 "GET /oauth/qq/user/?code=BB5AEC4DBDAAD141D5DFAF86C67B7D6E HTTP/1.1" 503 28
+INFO 2019-10-23 17:11:27,708 basehttp 124 "OPTIONS /cart/ HTTP/1.1" 200 0
+WARNING 2019-10-23 17:11:27,871 log 228 Not Found: /cart/
+WARNING 2019-10-23 17:11:27,876 basehttp 124 "GET /cart/ HTTP/1.1" 404 7608
+WARNING 2019-10-23 17:11:28,344 log 228 Not Found: /cart/
+WARNING 2019-10-23 17:11:28,344 basehttp 124 "GET /cart/ HTTP/1.1" 404 7608
+INFO 2019-10-23 17:11:47,437 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.1" 200 193
+ERROR 2019-10-23 17:12:03,249 log 228 Service Unavailable: /oauth/qq/user/
+ERROR 2019-10-23 17:12:03,249 basehttp 124 "GET /oauth/qq/user/?code=9C04426537DBDD37D77B954FB184CB2C HTTP/1.1" 503 28
+INFO 2019-10-23 17:15:13,673 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.1" 200 193
+ERROR 2019-10-23 17:15:29,942 log 228 Service Unavailable: /oauth/qq/user/
+ERROR 2019-10-23 17:15:29,942 basehttp 124 "GET /oauth/qq/user/?code=065286580D6B7FB44DA5E3575D14410D HTTP/1.1" 503 28
+INFO 2019-10-23 17:16:13,089 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.1" 200 193
+ERROR 2019-10-23 17:16:25,523 log 228 Service Unavailable: /oauth/qq/user/
+ERROR 2019-10-23 17:16:25,523 basehttp 124 "GET /oauth/qq/user/?code=63FBC95CE4ED4BD54B5CC18C0CC928C3 HTTP/1.1" 503 28
+INFO 2019-10-23 17:17:48,457 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.1" 200 193
+WARNING 2019-10-23 17:18:08,323 log 228 Method Not Allowed: /oauth/qq/user/
+WARNING 2019-10-23 17:18:08,324 basehttp 124 "GET /oauth/qq/user/?code=378DC41E27490C47926DAC57B0874100 HTTP/1.1" 405 45
+INFO 2019-10-23 17:23:01,666 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.1" 200 193
+WARNING 2019-10-23 17:23:18,172 log 228 Method Not Allowed: /oauth/qq/user/
+WARNING 2019-10-23 17:23:18,172 basehttp 124 "GET /oauth/qq/user/?code=24A58F4051B837D44F4E1E140900CABA HTTP/1.1" 405 45
+INFO 2019-10-23 17:25:03,138 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.1" 200 193
+WARNING 2019-10-23 17:25:19,577 log 228 Method Not Allowed: /oauth/qq/user/
+WARNING 2019-10-23 17:25:19,577 basehttp 124 "GET /oauth/qq/user/?code=255BD4BCCF0A10F5D660DA2B4FCED7CB HTTP/1.1" 405 45
+INFO 2019-10-23 17:34:02,564 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.1" 200 193
+ERROR 2019-10-23 17:34:14,648 log 228 Service Unavailable: /oauth/qq/user/
+ERROR 2019-10-23 17:34:14,648 basehttp 124 "GET /oauth/qq/user/?code=EF1EE587B84A0AC749CBEE6B9801939A HTTP/1.1" 503 28
+INFO 2019-10-23 17:39:02,737 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.1" 200 193
+ERROR 2019-10-23 17:39:14,682 log 228 Service Unavailable: /oauth/qq/user/
+ERROR 2019-10-23 17:39:14,682 basehttp 124 "GET /oauth/qq/user/?code=AAFEAD7F46D9945C002CC31F5D1A16F5 HTTP/1.1" 503 28
+INFO 2019-10-23 17:46:45,720 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.1" 200 193
+ERROR 2019-10-23 17:46:58,059 log 228 Service Unavailable: /oauth/qq/user/
+ERROR 2019-10-23 17:46:58,059 basehttp 124 "GET /oauth/qq/user/?code=4481334370C11EAB0A70D4AB44B56B54 HTTP/1.1" 503 28
+INFO 2019-10-23 17:52:48,274 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.1" 200 193
+INFO 2019-10-23 17:53:02,033 basehttp 124 "OPTIONS /cart/ HTTP/1.1" 200 0
+WARNING 2019-10-23 17:53:02,168 log 228 Not Found: /cart/
+WARNING 2019-10-23 17:53:02,170 basehttp 124 "GET /cart/ HTTP/1.1" 404 7835
+INFO 2019-10-23 17:53:46,857 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.1" 200 193
+INFO 2019-10-23 17:54:54,416 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.1" 200 193
+ERROR 2019-10-23 17:55:59,284 log 228 Internal Server Error: /oauth/qq/authorization/
+Traceback (most recent call last):
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/alvin/python/workspace/meiduo_project/meiduo_mall/meiduo_mall/apps/oauth/views.py", line 25, in get
+    auth_url = oauth.get_auth_url()
+AttributeError: 'OAuthQQ' object has no attribute 'get_auth_url'
+ERROR 2019-10-23 17:55:59,291 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.1" 500 19516
+INFO 2019-10-23 17:56:27,987 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.1" 200 193
+INFO 2019-10-23 18:00:15,919 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.1" 200 193
+INFO 2019-10-23 18:00:49,217 basehttp 124 "OPTIONS /cart/ HTTP/1.1" 200 0
+WARNING 2019-10-23 18:00:49,392 log 228 Not Found: /cart/
+WARNING 2019-10-23 18:00:49,395 basehttp 124 "GET /cart/ HTTP/1.1" 404 7833
+WARNING 2019-10-23 18:00:49,481 log 228 Not Found: /cart/
+WARNING 2019-10-23 18:00:49,483 basehttp 124 "GET /cart/ HTTP/1.1" 404 7833
+WARNING 2019-10-23 18:01:01,987 log 228 Not Found: /cart/
+WARNING 2019-10-23 18:01:01,990 basehttp 124 "GET /cart/ HTTP/1.1" 404 7833
+INFO 2019-10-23 18:01:05,733 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.1" 200 193
+INFO 2019-10-23 18:03:42,466 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.1" 200 193
+INFO 2019-10-23 18:04:27,914 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.1" 200 194
+ERROR 2019-10-23 18:04:36,673 log 228 Service Unavailable: /oauth/qq/user/
+ERROR 2019-10-23 18:04:36,673 basehttp 124 "GET /oauth/qq/user/?code=598FAA1E4DE03F5F2AAF5CCD40A8D4D3 HTTP/1.1" 503 28
+INFO 2019-10-23 18:06:23,468 basehttp 124 "OPTIONS /cart/ HTTP/1.1" 200 0
+WARNING 2019-10-23 18:06:23,631 log 228 Not Found: /cart/
+WARNING 2019-10-23 18:06:23,636 basehttp 124 "GET /cart/ HTTP/1.1" 404 7833
+INFO 2019-10-23 18:06:26,986 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.1" 200 194
+ERROR 2019-10-23 18:06:36,899 log 228 Service Unavailable: /oauth/qq/user/
+ERROR 2019-10-23 18:06:36,899 basehttp 124 "GET /oauth/qq/user/?code=33E18D6DA0FC40C0CEE0DBB27F9BD877 HTTP/1.1" 503 28
+INFO 2019-10-23 18:07:55,876 basehttp 124 "OPTIONS /cart/ HTTP/1.1" 200 0
+WARNING 2019-10-23 18:07:56,034 log 228 Not Found: /cart/
+WARNING 2019-10-23 18:07:56,036 basehttp 124 "GET /cart/ HTTP/1.1" 404 7833
+INFO 2019-10-23 18:07:59,221 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.1" 200 194
+ERROR 2019-10-23 18:08:08,583 log 228 Service Unavailable: /oauth/qq/user/
+ERROR 2019-10-23 18:08:08,583 basehttp 124 "GET /oauth/qq/user/?code=DD21A7B0F60908600E6BE23C5D00493A HTTP/1.1" 503 28
+INFO 2019-10-23 18:09:23,010 basehttp 124 "OPTIONS /cart/ HTTP/1.1" 200 0
+WARNING 2019-10-23 18:09:23,171 log 228 Not Found: /cart/
+WARNING 2019-10-23 18:09:23,174 basehttp 124 "GET /cart/ HTTP/1.1" 404 7833
+INFO 2019-10-23 18:09:26,792 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.1" 200 194
+ERROR 2019-10-23 18:09:35,561 log 228 Service Unavailable: /oauth/qq/user/
+ERROR 2019-10-23 18:09:35,561 basehttp 124 "GET /oauth/qq/user/?code=545C8028E2689B46B235E6A0747EF571 HTTP/1.1" 503 28
+INFO 2019-10-23 18:12:53,104 basehttp 124 "OPTIONS /cart/ HTTP/1.1" 200 0
+WARNING 2019-10-23 18:12:53,300 log 228 Not Found: /cart/
+WARNING 2019-10-23 18:12:53,305 basehttp 124 "GET /cart/ HTTP/1.1" 404 7833
+INFO 2019-10-23 18:13:12,252 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.1" 200 194
+ERROR 2019-10-23 18:13:20,357 log 228 Service Unavailable: /oauth/qq/user/
+ERROR 2019-10-23 18:13:20,358 basehttp 124 "GET /oauth/qq/user/?code=7FBA8367BC2217121178BCB16308120C HTTP/1.1" 503 28
+INFO 2019-10-23 18:15:15,427 basehttp 124 "OPTIONS /cart/ HTTP/1.1" 200 0
+WARNING 2019-10-23 18:15:15,574 log 228 Not Found: /cart/
+WARNING 2019-10-23 18:15:15,576 basehttp 124 "GET /cart/ HTTP/1.1" 404 7833
+INFO 2019-10-23 18:15:18,872 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.1" 200 194
+ERROR 2019-10-23 18:15:26,776 log 228 Service Unavailable: /oauth/qq/user/
+ERROR 2019-10-23 18:15:26,777 basehttp 124 "GET /oauth/qq/user/?code=E92524EBFE6E46F30A6ED38D6AC6861C HTTP/1.1" 503 28
+INFO 2019-10-23 18:26:27,788 basehttp 124 "OPTIONS /cart/ HTTP/1.1" 200 0
+WARNING 2019-10-23 18:26:27,961 log 228 Not Found: /cart/
+WARNING 2019-10-23 18:26:27,964 basehttp 124 "GET /cart/ HTTP/1.1" 404 7833
+INFO 2019-10-23 18:26:31,959 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.1" 200 194
+ERROR 2019-10-23 18:26:40,451 log 228 Internal Server Error: /oauth/qq/user/
+Traceback (most recent call last):
+  File "/home/alvin/python/workspace/meiduo_project/meiduo_mall/meiduo_mall/apps/oauth/views.py", line 119, in get
+    access_token = oauth.get_access_token(code)
+  File "/home/alvin/python/workspace/meiduo_project/meiduo_mall/meiduo_mall/apps/oauth/utils.py", line 57, in get_access_token
+    'redirect_uri': self.redirect_uri
+AttributeError: 'OAuthQQ' object has no attribute 'redirect_uri'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/alvin/python/workspace/meiduo_project/meiduo_mall/meiduo_mall/apps/oauth/views.py", line 123, in get
+    except QQAPIError:
+NameError: name 'QQAPIError' is not defined
+ERROR 2019-10-23 18:26:40,455 basehttp 124 "GET /oauth/qq/user/?code=E53195AD2612BF98269F740E9FA855A1 HTTP/1.1" 500 20037
+INFO 2019-10-23 18:27:42,948 basehttp 124 "OPTIONS /cart/ HTTP/1.1" 200 0
+WARNING 2019-10-23 18:27:43,128 log 228 Not Found: /cart/
+WARNING 2019-10-23 18:27:43,131 basehttp 124 "GET /cart/ HTTP/1.1" 404 7833
+INFO 2019-10-23 18:27:46,090 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.1" 200 194
+ERROR 2019-10-23 18:27:54,713 log 228 Internal Server Error: /oauth/qq/user/
+Traceback (most recent call last):
+  File "/home/alvin/python/workspace/meiduo_project/meiduo_mall/meiduo_mall/apps/oauth/utils.py", line 71, in get_access_token
+    access_token = resp_dict.get("access_token")[0]
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/alvin/python/workspace/meiduo_project/meiduo_mall/meiduo_mall/apps/oauth/views.py", line 119, in get
+    access_token = oauth.get_access_token(code)
+  File "/home/alvin/python/workspace/meiduo_project/meiduo_mall/meiduo_mall/apps/oauth/utils.py", line 75, in get_access_token
+    raise QQAPIException('获取access_token异常')
+NameError: name 'QQAPIException' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/alvin/python/workspace/meiduo_project/meiduo_mall/meiduo_mall/apps/oauth/views.py", line 123, in get
+    except QQAPIError:
+NameError: name 'QQAPIError' is not defined
+ERROR 2019-10-23 18:27:54,720 basehttp 124 "GET /oauth/qq/user/?code=06458DBBA94E2012CFE4207709489207 HTTP/1.1" 500 20332
+INFO 2019-10-23 18:31:32,262 basehttp 124 "OPTIONS /cart/ HTTP/1.1" 200 0
+WARNING 2019-10-23 18:31:32,424 log 228 Not Found: /cart/
+WARNING 2019-10-23 18:31:32,429 basehttp 124 "GET /cart/ HTTP/1.1" 404 7833
+INFO 2019-10-23 18:31:35,861 basehttp 124 "GET /oauth/qq/authorization/?state=/ HTTP/1.1" 200 194
+ERROR 2019-10-23 18:31:45,176 log 228 Service Unavailable: /oauth/qq/user/
+ERROR 2019-10-23 18:31:45,176 basehttp 124 "GET /oauth/qq/user/?code=9C5057A07B15DB9621A06C168D2BCBD6 HTTP/1.1" 503 28
