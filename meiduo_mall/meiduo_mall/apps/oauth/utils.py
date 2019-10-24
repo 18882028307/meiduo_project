@@ -1,3 +1,4 @@
+import json
 import logging
 import urllib
 from urllib.parse import urlencode, parse_qs
@@ -5,7 +6,10 @@ from urllib.request import urlopen
 
 from django.conf import settings
 
+from .exceptions import QQAPIException, OAuthQQAPIError
+
 logger = logging.getLogger('django')
+
 
 class OAuthQQ(object):
     """
@@ -17,7 +21,6 @@ class OAuthQQ(object):
         self.app_key = app_key or settings.QQ_APP_KEY
         self.redirect_url = redirect_url or settings.QQ_REDIRECT_URL
         self.state = state or settings.QQ_STATE
-
 
     def generate_qq_login_url(self):
         """
@@ -51,41 +54,48 @@ class OAuthQQ(object):
             'client_id': self.app_id,
             'client_secret': self.app_key,
             'code': code,
-            'redirect_url': self.redirect_url
+            'redirect_uri': self.redirect_url
         }
 
         url += urlencode(req_data)
+        print(url)
         try:
             # 发送请求
             response = urlopen(url)
+
             # 读取QQ返回的响应体数据
             # access_token=FE04************************CCE2&expires_in=7776000&refresh_token=88E4************************BE1
             response = response.read().decode()
+            print(response)
 
             # 将返回的数据转换为字典
             resp_dict = parse_qs(response)
+            print('666666666666666666666', resp_dict)
 
             access_token = resp_dict.get("access_token")[0]
         except Exception as e:
-            # logger.error(e)
+            logger.error(e)
             # raise QQAPIException('获取access_token异常')
             raise QQAPIException('获取access_token异常')
 
         return access_token
 
-
-    def get_openid(self):
-        """获取QQ的OpenID"""
-        params = {'access_token': self.access_token}
-        url = 'https://graph.qq.com/oauth2.0/me?%s' % urllib.urlencode(params)
+    def get_openid(self, access_token):
+        """
+        获取用户的openid
+        :param access_token: qq提供的access_token
+        :return: open_id
+        """
+        url = 'https://graph.qq.com/oauth2.0/me?access_token=' + access_token
         response = urlopen(url)
-        response = response.read().decode()
-
-        resp_dict = parse_qs(response)
-        openid = resp_dict.get("openid")[0]
-        # v_str = str(response)[9:-3]  # 去掉callback的字符
-        # v_json = json.loads(v_str)
-
-        # openid = v_json['openid']
-        self.openid = openid
+        response_data = response.read().decode()
+        try:
+            # 返回的数据 callback( {"client_id":"YOUR_APPID","openid":"YOUR_OPENID"} )\n;
+            data = json.loads(response_data[10:-4])
+        except Exception:
+            data = parse_qs(response_data)
+            logger.error('code=%s msg=%s' % (data.get('code'), data.get('msg')))
+            raise OAuthQQAPIError
+        openid = data.get('openid', None)
         return openid
+

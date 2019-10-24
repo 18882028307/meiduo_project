@@ -2,221 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db7a646c-e16f-46cc-8de2-86cc94ca15ca" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/meiduo_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/meiduo_project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/cart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/css/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/css/reset.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/find_password.html" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/find_password.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/goods/1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/goods/1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/goods/10.html" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/goods/10.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/goods/11.html" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/goods/11.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/goods/12.html" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/goods/12.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/goods/13.html" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/goods/13.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/goods/14.html" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/goods/14.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/goods/15.html" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/goods/15.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/goods/16.html" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/goods/16.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/goods/17.html" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/goods/17.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/goods/18.html" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/goods/18.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/goods/2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/goods/2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/goods/3.html" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/goods/3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/goods/4.html" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/goods/4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/goods/5.html" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/goods/5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/goods/6.html" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/goods/6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/goods/7.html" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/goods/7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/goods/8.html" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/goods/8.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/goods/9.html" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/goods/9.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/goods_judge.html" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/goods_judge.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/index_base.html" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/index_base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/js/register.js" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/js/register.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/js/slide.js" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/js/slide.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/list_old.html" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/list_old.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/order_success.html" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/order_success.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/place_order.html" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/place_order.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/admin/fonts/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/admin/fonts/LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/CHANGES.md" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/CHANGES.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/LICENSE.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/contents.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/contents.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/CHANGES.md" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/CHANGES.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/README.ru.md" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/README.ru.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/highlight.pack.js" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/highlight.pack.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/arta.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/arta.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/ascetic.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/ascetic.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-dune.dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-dune.dark.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-dune.light.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-dune.light.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-forest.dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-forest.dark.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-forest.light.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-forest.light.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-heath.dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-heath.dark.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-heath.light.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-heath.light.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-lakeside.dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-lakeside.dark.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-lakeside.light.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-lakeside.light.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-seaside.dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-seaside.dark.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-seaside.light.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-seaside.light.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/brown_paper.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/brown_paper.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/dark.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/default.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/docco.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/docco.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/far.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/far.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/foundation.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/foundation.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/github.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/github.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/googlecode.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/googlecode.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/idea.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/idea.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/ir_black.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/ir_black.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/magula.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/magula.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/mono-blue.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/mono-blue.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/monokai.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/monokai.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/monokai_sublime.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/monokai_sublime.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/obsidian.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/obsidian.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/paraiso.dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/paraiso.dark.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/paraiso.light.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/paraiso.light.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/pojoaque.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/pojoaque.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/railscasts.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/railscasts.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/rainbow.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/rainbow.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/school_book.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/school_book.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/solarized_dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/solarized_dark.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/solarized_light.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/solarized_light.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/sunburst.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/sunburst.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/tomorrow-night-blue.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/tomorrow-night-blue.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/tomorrow-night-bright.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/tomorrow-night-bright.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/tomorrow-night-eighties.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/tomorrow-night-eighties.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/tomorrow-night.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/tomorrow-night.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/tomorrow.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/tomorrow.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/vs.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/vs.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/xcode.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/xcode.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/zenburn.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/zenburn.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/colordialog/dialogs/colordialog.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/colordialog/dialogs/colordialog.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/copyformatting/styles/copyformatting.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/copyformatting/styles/copyformatting.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/devtools/lang/_translationstatus.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/devtools/lang/_translationstatus.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/preview/preview.html" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/preview/preview.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/scayt/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/scayt/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/scayt/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/scayt/LICENSE.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/scayt/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/scayt/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/scayt/dialogs/dialog.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/scayt/dialogs/dialog.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/scayt/dialogs/toolbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/scayt/dialogs/toolbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/tableselection/styles/tableselection.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/tableselection/styles/tableselection.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/templates/dialogs/templates.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/templates/dialogs/templates.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/uicolor/lang/_translationstatus.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/uicolor/lang/_translationstatus.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/uicolor/yui/assets/yui.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/uicolor/yui/assets/yui.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/wsc/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/wsc/LICENSE.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/wsc/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/wsc/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/wsc/dialogs/ciframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/wsc/dialogs/ciframe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/wsc/dialogs/tmpFrameset.html" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/wsc/dialogs/tmpFrameset.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/wsc/dialogs/wsc.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/wsc/dialogs/wsc.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/wsc/skins/moono-lisa/wsc.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/plugins/wsc/skins/moono-lisa/wsc.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/skins/moono-lisa/dialog.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/skins/moono-lisa/dialog.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/skins/moono-lisa/dialog_ie.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/skins/moono-lisa/dialog_ie.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/skins/moono-lisa/dialog_ie8.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/skins/moono-lisa/dialog_ie8.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/skins/moono-lisa/dialog_iequirks.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/skins/moono-lisa/dialog_iequirks.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/skins/moono-lisa/editor.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/skins/moono-lisa/editor.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/skins/moono-lisa/editor_gecko.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/skins/moono-lisa/editor_gecko.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/skins/moono-lisa/editor_ie.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/skins/moono-lisa/editor_ie.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/skins/moono-lisa/editor_ie8.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/skins/moono-lisa/editor_ie8.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/skins/moono-lisa/editor_iequirks.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/skins/moono-lisa/editor_iequirks.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/skins/moono-lisa/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/skins/moono-lisa/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/skins/moono/dialog.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/skins/moono/dialog.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/skins/moono/dialog_ie.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/skins/moono/dialog_ie.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/skins/moono/dialog_ie7.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/skins/moono/dialog_ie7.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/skins/moono/dialog_ie8.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/skins/moono/dialog_ie8.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/skins/moono/dialog_iequirks.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/skins/moono/dialog_iequirks.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/skins/moono/editor.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/skins/moono/editor.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/skins/moono/editor_gecko.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/skins/moono/editor_gecko.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/skins/moono/editor_ie.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/skins/moono/editor_ie.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/skins/moono/editor_ie7.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/skins/moono/editor_ie7.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/skins/moono/editor_ie8.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/skins/moono/editor_ie8.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/skins/moono/editor_iequirks.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/skins/moono/editor_iequirks.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/skins/moono/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/skins/moono/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/ckeditor/styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/galleriffic/css/basic.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/galleriffic/css/basic.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/galleriffic/css/black.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/galleriffic/css/black.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/galleriffic/css/galleriffic-1.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/galleriffic/css/galleriffic-1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/galleriffic/css/galleriffic-2.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/galleriffic/css/galleriffic-2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/galleriffic/css/galleriffic-3.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/galleriffic/css/galleriffic-3.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/galleriffic/css/galleriffic-4.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/galleriffic/css/galleriffic-4.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/galleriffic/css/galleriffic-5.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/galleriffic/css/galleriffic-5.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/galleriffic/css/white.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/galleriffic/css/white.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/galleriffic/js/jquery.galleriffic.js" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/galleriffic/js/jquery.galleriffic.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/ckeditor/galleriffic/js/jquery.opacityrollover.js" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/ckeditor/galleriffic/js/jquery.opacityrollover.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/xadmin/css/xadmin.form.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/xadmin/css/xadmin.form.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/xadmin/js/xadmin.plugin.formset.js" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/xadmin/js/xadmin.plugin.formset.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/xadmin/js/xadmin.responsive.js" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/xadmin/js/xadmin.responsive.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.el.js" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/static/xadmin/vendor/bootstrap-datepicker/js/locales/bootstrap-datepicker.el.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/user_center_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/user_center_info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/user_center_order.html" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/user_center_order.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/user_center_pass.html" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/user_center_pass.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../front_end/user_center_site.html" beforeDir="false" afterPath="$PROJECT_DIR$/../front_end/user_center_site.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/meiduo_mall.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/meiduo_mall.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/celery_tasks/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/celery_tasks/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/celery_tasks/email/tasks.py" beforeDir="false" afterPath="$PROJECT_DIR$/celery_tasks/email/tasks.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/celery_tasks/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/celery_tasks/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/celery_tasks/sms/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/celery_tasks/sms/constants.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/celery_tasks/sms/tasks.py" beforeDir="false" afterPath="$PROJECT_DIR$/celery_tasks/sms/tasks.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/celery_tasks/sms/yuntongxun/CCPRestSDK.py" beforeDir="false" afterPath="$PROJECT_DIR$/celery_tasks/sms/yuntongxun/CCPRestSDK.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/celery_tasks/sms/yuntongxun/xmltojson.py" beforeDir="false" afterPath="$PROJECT_DIR$/celery_tasks/sms/yuntongxun/xmltojson.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/meiduo.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/meiduo.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meiduo_mall/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meiduo_mall/apps/areas/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/apps/areas/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meiduo_mall/apps/areas/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/apps/areas/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meiduo_mall/apps/areas/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/apps/areas/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meiduo_mall/apps/areas/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/apps/areas/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meiduo_mall/apps/areas/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/apps/areas/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meiduo_mall/apps/areas/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/apps/areas/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meiduo_mall/apps/areas/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/apps/areas/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meiduo_mall/apps/areas/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/apps/areas/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meiduo_mall/apps/contents/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/apps/contents/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meiduo_mall/apps/contents/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/apps/contents/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meiduo_mall/apps/contents/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/apps/contents/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meiduo_mall/apps/contents/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/apps/contents/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meiduo_mall/apps/contents/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/apps/contents/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meiduo_mall/apps/contents/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/apps/contents/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meiduo_mall/apps/goods/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/apps/goods/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meiduo_mall/apps/goods/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/apps/goods/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meiduo_mall/apps/goods/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/apps/goods/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meiduo_mall/apps/goods/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/apps/goods/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meiduo_mall/apps/goods/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/apps/goods/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meiduo_mall/apps/goods/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/apps/goods/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meiduo_mall/apps/oauth/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/apps/oauth/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meiduo_mall/apps/oauth/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/apps/oauth/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meiduo_mall/apps/oauth/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/apps/oauth/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meiduo_mall/apps/oauth/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/apps/oauth/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meiduo_mall/apps/oauth/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/apps/oauth/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meiduo_mall/apps/oauth/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/apps/oauth/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meiduo_mall/apps/oauth/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/apps/oauth/utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/meiduo_mall/apps/oauth/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/apps/oauth/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meiduo_mall/apps/users/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/apps/users/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meiduo_mall/apps/users/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/apps/users/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meiduo_mall/apps/users/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/apps/users/constants.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meiduo_mall/apps/users/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/apps/users/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meiduo_mall/apps/users/migrations/0002_user_email_active.py" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/apps/users/migrations/0002_user_email_active.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meiduo_mall/apps/users/migrations/0003_auto_20191021_1653.py" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/apps/users/migrations/0003_auto_20191021_1653.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meiduo_mall/apps/users/migrations/0004_auto_20191021_1834.py" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/apps/users/migrations/0004_auto_20191021_1834.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meiduo_mall/apps/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/apps/users/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meiduo_mall/apps/users/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/apps/users/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meiduo_mall/apps/users/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/apps/users/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meiduo_mall/apps/users/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/apps/users/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meiduo_mall/apps/users/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/apps/users/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meiduo_mall/apps/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/apps/users/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meiduo_mall/apps/verifications/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/apps/verifications/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meiduo_mall/apps/verifications/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/apps/verifications/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meiduo_mall/apps/verifications/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/apps/verifications/constants.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meiduo_mall/apps/verifications/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/apps/verifications/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meiduo_mall/apps/verifications/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/apps/verifications/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meiduo_mall/apps/verifications/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/apps/verifications/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meiduo_mall/apps/verifications/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/apps/verifications/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meiduo_mall/apps/verifications/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/apps/verifications/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/meiduo_mall/settings/dev.py" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/settings/dev.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/meiduo_mall/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meiduo_mall/utils/exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/utils/exceptions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meiduo_mall/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/meiduo_mall/wsgi.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -232,8 +25,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/meiduo_mall/apps/oauth/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+            <state relative-caret-position="132">
+              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -244,8 +37,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/meiduo_mall/settings/dev.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="277" column="14" lean-forward="true" selection-start-line="277" selection-start-column="14" selection-end-line="277" selection-end-column="14" />
+            <state relative-caret-position="264">
+              <caret line="247" selection-start-line="247" selection-end-line="247" />
               <folding>
                 <element signature="e#311#326#0" expanded="true" />
               </folding>
@@ -253,35 +46,44 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/meiduo_mall/apps/oauth/utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="27" column="16" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+            <state relative-caret-position="-66">
+              <caret line="82" column="8" selection-start-line="82" selection-start-column="8" selection-end-line="82" selection-end-column="8" />
               <folding>
-                <element signature="e#0#14#0" expanded="true" />
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/meiduo_mall/utils/exceptions.py">
+        <entry file="file://$PROJECT_DIR$/meiduo_mall/apps/oauth/serializers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-22">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="-616">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
               <folding>
-                <element signature="e#0#75#0" expanded="true" />
+                <element signature="e#0#45#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/meiduo_mall/apps/oauth/exceptions.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/meiduo_mall/apps/oauth/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="120" column="33" lean-forward="true" selection-start-line="120" selection-start-column="33" selection-end-line="120" selection-end-column="33" />
+            <state relative-caret-position="219">
+              <caret line="134" column="61" lean-forward="true" selection-start-line="134" selection-start-column="61" selection-end-line="134" selection-end-column="61" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -292,8 +94,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/meiduo_mall/apps/oauth/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-186">
-              <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+            <state relative-caret-position="616">
+              <caret line="34" column="32" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="32" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -302,13 +104,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/meiduo_mall/urls.py">
+        <entry file="file://$PROJECT_DIR$/meiduo_mall/apps/oauth/constants.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
-              <folding>
-                <element signature="e#635#667#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="44">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -359,15 +158,16 @@
         <option value="$PROJECT_DIR$/meiduo_mall/apps/users/models.py" />
         <option value="$PROJECT_DIR$/meiduo_mall/apps/goods/models.py" />
         <option value="$PROJECT_DIR$/meiduo_mall/apps/contents/models.py" />
-        <option value="$PROJECT_DIR$/meiduo_mall/apps/oauth/constants.py" />
         <option value="$PROJECT_DIR$/meiduo_mall/apps/users/serializers.py" />
         <option value="$PROJECT_DIR$/meiduo_mall/apps/oauth/serializers.py" />
         <option value="$PROJECT_DIR$/meiduo_mall/apps/oauth/models.py" />
+        <option value="$PROJECT_DIR$/meiduo_mall/apps/oauth/exceptions.py" />
+        <option value="$PROJECT_DIR$/meiduo_mall/apps/oauth/constants.py" />
         <option value="$PROJECT_DIR$/meiduo_mall/urls.py" />
         <option value="$PROJECT_DIR$/meiduo_mall/apps/oauth/urls.py" />
-        <option value="$PROJECT_DIR$/meiduo_mall/apps/oauth/views.py" />
-        <option value="$PROJECT_DIR$/meiduo_mall/settings/dev.py" />
         <option value="$PROJECT_DIR$/meiduo_mall/apps/oauth/utils.py" />
+        <option value="$PROJECT_DIR$/meiduo_mall/settings/dev.py" />
+        <option value="$PROJECT_DIR$/meiduo_mall/apps/oauth/views.py" />
       </list>
     </option>
   </component>
@@ -444,7 +244,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -492,20 +292,26 @@
       <workItem from="1571798113923" duration="3317000" />
       <workItem from="1571809381639" duration="7965000" />
       <workItem from="1571818403637" duration="409000" />
-      <workItem from="1571819090856" duration="8211000" />
+      <workItem from="1571819090856" duration="11037000" />
+      <workItem from="1571831987661" duration="4458000" />
+      <workItem from="1571836544713" duration="7000" />
+      <workItem from="1571836739415" duration="841000" />
+      <workItem from="1571879062065" duration="3438000" />
+      <workItem from="1571883401942" duration="676000" />
+      <workItem from="1571884444417" duration="2508000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100910000" />
+    <option name="totallyTimeSpent" value="115664000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="947" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17732073" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1917732" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="manage.py@meiduo_mall" weight="0.32917705" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -517,7 +323,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.22319202" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.42643392" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -530,13 +336,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/meiduo_mall/apps/verifications/constants.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../../virtual/django_meiduo/Lib/site-packages/rest_framework/generics.py" />
     <entry file="file://$PROJECT_DIR$/../../../virtual/django_meiduo/Lib/site-packages/django/db/models/base.py" />
     <entry file="file://$PROJECT_DIR$/../../../virtual/django_meiduo/Lib/site-packages/itsdangerous.py" />
@@ -672,11 +471,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/meiduo_project/lib/python3.6/site-packages/rest_framework/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2112" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/meiduo_mall/apps/users/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -771,53 +565,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/meiduo_mall/apps/oauth/constants.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="32" lean-forward="true" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meiduo_mall/apps/oauth/serializers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-396">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/meiduo_mall/apps/oauth/tests.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/meiduo_mall/apps/oauth/admin.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/meiduo_mall/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
-          <folding>
-            <element signature="e#635#667#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/meiduo_mall/apps/users/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="15" column="54" lean-forward="true" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meiduo_mall/apps/oauth/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
@@ -834,19 +591,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/meiduo_mall/apps/oauth/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-186">
-          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/meiduo_mall/utils/exceptions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-22">
+        <state relative-caret-position="88">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="e#0#75#0" expanded="true" />
@@ -854,32 +601,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/meiduo_mall/apps/oauth/views.py">
+    <entry file="file://$PROJECT_DIR$/meiduo_mall/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="120" column="33" lean-forward="true" selection-start-line="120" selection-start-column="33" selection-end-line="120" selection-end-column="33" />
+        <state relative-caret-position="319">
+          <caret line="21" column="44" lean-forward="true" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#635#667#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meiduo_mall/apps/oauth/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meiduo_mall/apps/oauth/exceptions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meiduo_mall/apps/oauth/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="34" column="32" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meiduo_mall/apps/oauth/constants.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/meiduo_mall/settings/dev.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="277" column="14" lean-forward="true" selection-start-line="277" selection-start-column="14" selection-end-line="277" selection-end-column="14" />
+        <state relative-caret-position="264">
+          <caret line="247" selection-start-line="247" selection-end-line="247" />
           <folding>
             <element signature="e#311#326#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/meiduo_project/lib/python3.6/site-packages/rest_framework/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5280">
+          <caret line="248" selection-start-line="248" selection-end-line="248" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meiduo_mall/apps/oauth/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-616">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/meiduo_mall/apps/oauth/utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="27" column="16" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+        <state relative-caret-position="-66">
+          <caret line="82" column="8" selection-start-line="82" selection-start-column="8" selection-end-line="82" selection-end-column="8" />
           <folding>
-            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meiduo_mall/apps/oauth/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="134" column="61" lean-forward="true" selection-start-line="134" selection-start-column="61" selection-end-line="134" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>

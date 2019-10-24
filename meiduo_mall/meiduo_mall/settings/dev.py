@@ -275,6 +275,7 @@ EMAIL_FROM = '美多商城<710363437@qq.com>'
 QQ_APP_ID = '101810281'
 QQ_APP_KEY = '6f6579ecedaecc8dc7d15fb1cf975b1e'
 QQ_REDIRECT_URL = 'http://www.meiduo.com:8080/oauth_callback.html'
+
 QQ_STATE = '/'
 
 

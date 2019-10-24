@@ -4,8 +4,8 @@ from . import views
 
 
 urlpatterns = [
-    url(r'oauth/qq/authorization/', views.QQAuthURLView.as_view()),
-    url(r'oauth/qq/user/', views.QQAuthUserView.as_view()),
+    url(r'qq/authorization/', views.QQAuthURLView.as_view()),
+    url(r'^qq/user/$', views.QQAuthUserView.as_view()),
     # url(r'qq/user/', views.PostQQAuthUserView.as_view()),
     # url(r'qq/user/', views.QQAuthUserView.as_view()),
 ]
