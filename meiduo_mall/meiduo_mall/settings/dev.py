@@ -44,6 +44,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'corsheaders',
     'rest_framework',
+    'ckeditor',
+    'ckeditor_uploader',
     'users.apps.UsersConfig',
     'verifications.apps.VerificationsConfig',
     'areas.apps.AreasConfig',
@@ -277,6 +279,30 @@ QQ_APP_KEY = '6f6579ecedaecc8dc7d15fb1cf975b1e'
 QQ_REDIRECT_URL = 'http://www.meiduo.com:8080/oauth_callback.html'
 
 QQ_STATE = '/'
+
+
+# django文件存储
+DEFAULT_FILE_STORAGE = 'meiduo_mall.utils.fastdfs.storage.FastDFSStorage'
+
+# FastDFS
+# 访问图片的路径域名 ip地址修改为自己机器的ip地址
+FDFS_BASE_URL = 'http://image.meiduo.com:8888/'
+FDFS_CLIENT_CONF = os.path.join(BASE_DIR, 'utils/fastdfs/client.conf')
+
+
+# 富文本编辑器ckeditor配置
+CKEDITOR_CONFIGS = {
+    'default': {
+        'toolbar': 'full',  # 工具条功能
+        'height': 300,  # 编辑器高度
+        # 'width': 300,  # 编辑器宽
+    },
+}
+# 上传图片保存路径，默认时保存在本地的
+# 因为使用了FastDFS，所以此处设为''
+CKEDITOR_UPLOAD_PATH = ''
+
+
 
 
 
