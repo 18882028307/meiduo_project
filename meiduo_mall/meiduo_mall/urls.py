@@ -19,11 +19,11 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    # url(r'ckeditor/', include('ckeditor_uploader.urls')),
     path('oauth/', include('oauth.urls')),
+    url(r'^ckeditor/', include('ckeditor_uploader.urls')),
     path('', include('verifications.urls')),
     path('', include('users.urls')),
     path('', include('areas.urls')),
-    url(r'ckeditor/', include('ckeditor_uploader.urls')),
+    # url(r'ckeditor/', include('ckeditor_uploader.urls')),
 
 ]

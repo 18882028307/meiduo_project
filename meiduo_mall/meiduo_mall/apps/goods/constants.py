@@ -1,0 +1,3 @@
+
+
+HOT_SKUS_COUNT_LIMIT = 5

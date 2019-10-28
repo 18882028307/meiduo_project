@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-
+# -*- coding:UTF-8 -*-
 """
 功能：手动生成所有SKU的静态detail html文件
 """

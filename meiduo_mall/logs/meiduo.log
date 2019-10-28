@@ -2149,3 +2149,131 @@ WARNING 2019-10-24 12:35:50,514 log 228 Bad Request: /oauth/qq/user/
 WARNING 2019-10-24 12:35:50,518 basehttp 124 "POST /oauth/qq/user/ HTTP/1.1" 400 37
 WARNING 2019-10-24 12:36:00,773 log 228 Bad Request: /oauth/qq/user/
 WARNING 2019-10-24 12:36:00,779 basehttp 124 "POST /oauth/qq/user/ HTTP/1.1" 400 37
+INFO 2019-10-25 14:32:08,757 basehttp 124 "OPTIONS /cart/ HTTP/1.1" 200 0
+WARNING 2019-10-25 14:32:09,153 log 228 Not Found: /cart/
+WARNING 2019-10-25 14:32:09,173 basehttp 124 "GET /cart/ HTTP/1.1" 404 7717
+WARNING 2019-10-25 14:37:09,402 log 228 Not Found: /cart/
+WARNING 2019-10-25 14:37:09,410 basehttp 124 "GET /cart/ HTTP/1.1" 404 7717
+WARNING 2019-10-25 14:37:32,727 log 228 Not Found: /cart/
+WARNING 2019-10-25 14:37:32,752 basehttp 124 "GET /cart/ HTTP/1.1" 404 7717
+WARNING 2019-10-25 14:40:36,264 log 228 Not Found: /cart/
+WARNING 2019-10-25 14:40:36,274 basehttp 124 "GET /cart/ HTTP/1.1" 404 7717
+WARNING 2019-10-25 14:42:22,206 log 228 Not Found: /cart/
+WARNING 2019-10-25 14:42:22,214 basehttp 124 "GET /cart/ HTTP/1.1" 404 7718
+WARNING 2019-10-25 16:10:54,894 log 228 Not Found: /skus/search/
+WARNING 2019-10-25 16:10:54,903 basehttp 124 "GET /skus/search/?text=%E6%89%8B%E6%9C%BA&page=1&page_size=6 HTTP/1.1" 404 7790
+INFO 2019-10-25 16:12:21,999 basehttp 124 "OPTIONS /authorizations/ HTTP/1.1" 200 0
+INFO 2019-10-25 16:12:22,262 basehttp 124 "POST /authorizations/ HTTP/1.1" 200 269
+WARNING 2019-10-25 16:12:23,625 log 228 Not Found: /cart/
+WARNING 2019-10-25 16:12:23,632 basehttp 124 "GET /cart/ HTTP/1.1" 404 7718
+INFO 2019-10-25 16:12:36,854 basehttp 124 "OPTIONS /user/ HTTP/1.1" 200 0
+INFO 2019-10-25 16:12:37,006 basehttp 124 "GET /user/ HTTP/1.1" 200 107
+INFO 2019-10-25 16:12:37,036 basehttp 124 "OPTIONS /browse_histories/ HTTP/1.1" 200 0
+WARNING 2019-10-25 16:12:37,144 log 228 Not Found: /browse_histories/
+WARNING 2019-10-25 16:12:37,151 basehttp 124 "GET /browse_histories/ HTTP/1.1" 404 7754
+INFO 2019-10-25 16:23:18,724 basehttp 124 "GET /user/ HTTP/1.1" 200 107
+ERROR 2019-10-25 16:23:19,003 log 228 Internal Server Error: /browse_histories/
+Traceback (most recent call last):
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/alvin/python/workspace/meiduo_project/meiduo_mall/meiduo_mall/apps/users/views.py", line 257, in get
+    sku_id_list = redis_conn.lrange('history_%s' % user_id, 0, constants.USER_BROWSING_HISTORY_COUNTS_LIMIT)
+AttributeError: module 'users.constants' has no attribute 'USER_BROWSING_HISTORY_COUNTS_LIMIT'
+ERROR 2019-10-25 16:23:19,018 basehttp 124 "GET /browse_histories/ HTTP/1.1" 500 20871
+INFO 2019-10-25 16:23:19,940 basehttp 124 "GET /user/ HTTP/1.1" 200 107
+ERROR 2019-10-25 16:23:20,082 log 228 Internal Server Error: /browse_histories/
+Traceback (most recent call last):
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/alvin/python/workspace/meiduo_project/meiduo_mall/meiduo_mall/apps/users/views.py", line 257, in get
+    sku_id_list = redis_conn.lrange('history_%s' % user_id, 0, constants.USER_BROWSING_HISTORY_COUNTS_LIMIT)
+AttributeError: module 'users.constants' has no attribute 'USER_BROWSING_HISTORY_COUNTS_LIMIT'
+ERROR 2019-10-25 16:23:20,100 basehttp 124 "GET /browse_histories/ HTTP/1.1" 500 20871
+WARNING 2019-10-25 16:23:24,771 log 228 Not Found: /cart/
+WARNING 2019-10-25 16:23:24,786 basehttp 124 "GET /cart/ HTTP/1.1" 404 7882
+INFO 2019-10-25 16:24:04,778 basehttp 124 "OPTIONS /cart/ HTTP/1.1" 200 0
+WARNING 2019-10-25 16:24:05,046 log 228 Not Found: /cart/
+WARNING 2019-10-25 16:24:05,052 basehttp 124 "GET /cart/ HTTP/1.1" 404 7882
+WARNING 2019-10-25 16:24:16,428 log 228 Not Found: /categories/323/skus/
+WARNING 2019-10-25 16:24:16,464 log 228 Not Found: /categories/323/hotskus/
+WARNING 2019-10-25 16:24:16,469 basehttp 124 "GET /categories/323/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 404 7976
+WARNING 2019-10-25 16:24:16,483 basehttp 124 "GET /categories/323/hotskus/ HTTP/1.1" 404 7936
+WARNING 2019-10-25 16:24:22,347 log 228 Not Found: /categories/323/skus/
+WARNING 2019-10-25 16:24:22,360 basehttp 124 "GET /categories/323/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 404 7976
+WARNING 2019-10-25 16:24:22,355 log 228 Not Found: /categories/323/hotskus/
+WARNING 2019-10-25 16:24:22,364 basehttp 124 "GET /categories/323/hotskus/ HTTP/1.1" 404 7936
+INFO 2019-10-25 16:25:00,913 basehttp 124 "OPTIONS /authorizations/ HTTP/1.1" 200 0
+WARNING 2019-10-25 16:25:00,928 log 228 Bad Request: /authorizations/
+WARNING 2019-10-25 16:25:00,935 basehttp 124 "POST /authorizations/ HTTP/1.1" 400 67
+WARNING 2019-10-25 16:25:06,198 log 228 Bad Request: /authorizations/
+WARNING 2019-10-25 16:25:06,211 basehttp 124 "POST /authorizations/ HTTP/1.1" 400 67
+INFO 2019-10-25 16:25:13,000 basehttp 124 "POST /authorizations/ HTTP/1.1" 200 269
+INFO 2019-10-25 16:25:13,311 basehttp 124 "OPTIONS /user/ HTTP/1.1" 200 0
+INFO 2019-10-25 16:25:13,437 basehttp 124 "GET /user/ HTTP/1.1" 200 107
+INFO 2019-10-25 16:25:13,460 basehttp 124 "OPTIONS /browse_histories/ HTTP/1.1" 200 0
+ERROR 2019-10-25 16:25:13,556 log 228 Internal Server Error: /browse_histories/
+Traceback (most recent call last):
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/alvin/python/workspace/meiduo_project/meiduo_mall/meiduo_mall/apps/users/views.py", line 257, in get
+    sku_id_list = redis_conn.lrange('history_%s' % user_id, 0, constants.USER_BROWSING_HISTORY_COUNTS_LIMIT)
+AttributeError: module 'users.constants' has no attribute 'USER_BROWSING_HISTORY_COUNTS_LIMIT'
+ERROR 2019-10-25 16:25:13,566 basehttp 124 "GET /browse_histories/ HTTP/1.1" 500 20871
+WARNING 2019-10-25 16:25:18,828 log 228 Not Found: /cart/
+WARNING 2019-10-25 16:25:18,841 basehttp 124 "GET /cart/ HTTP/1.1" 404 7882
+WARNING 2019-10-25 16:25:23,213 log 228 Not Found: /categories/115/skus/
+WARNING 2019-10-25 16:25:23,216 log 228 Not Found: /categories/115/hotskus/
+WARNING 2019-10-25 16:25:23,231 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 404 7976
+WARNING 2019-10-25 16:25:23,235 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7936
+INFO 2019-10-25 16:55:53,339 basehttp 124 "OPTIONS /cart/ HTTP/1.1" 200 0
+WARNING 2019-10-25 16:55:53,796 log 228 Not Found: /cart/
+WARNING 2019-10-25 16:55:53,806 basehttp 124 "GET /cart/ HTTP/1.1" 404 7882
+WARNING 2019-10-25 16:56:02,486 log 228 Not Found: /cart/
+WARNING 2019-10-25 16:56:02,494 basehttp 124 "GET /cart/ HTTP/1.1" 404 7882
+INFO 2019-10-25 16:56:59,226 basehttp 124 "OPTIONS /cart/ HTTP/1.1" 200 0
+WARNING 2019-10-25 16:56:59,723 log 228 Not Found: /cart/
+WARNING 2019-10-25 16:56:59,731 basehttp 124 "GET /cart/ HTTP/1.1" 404 7882
+WARNING 2019-10-25 17:02:13,560 log 228 Not Found: /cart/
+WARNING 2019-10-25 17:02:13,567 basehttp 124 "GET /cart/ HTTP/1.1" 404 7882

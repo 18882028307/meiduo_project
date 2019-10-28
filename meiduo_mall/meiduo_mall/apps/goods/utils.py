@@ -1,19 +1,13 @@
-import os
-import time
 from collections import OrderedDict
 
-from django.conf import settings
-from django.template import loader
-
-from contents.models import ContentCategory
 from goods.models import GoodsChannel
 
 
-def generate_static_index_html():
+def get_categories():
     """
-    生成静态的主页html文件
+    获取商城商品分类菜单
+    :return 菜单字典
     """
-    print('%s: generate_static_index_html' % time.ctime())
     # 商品频道及分类菜单
     # 使用有序字典保存类别的顺序
     # categories = {
@@ -33,12 +27,11 @@ def generate_static_index_html():
     for channel in channels:
         # 获取当前组
         group_id = channel.group_id
-
         if group_id not in categories:
-            # 组建字典结构
-            categories[group_id] = {'channels': [], 'subunits': []}
+            categories[group_id] = {'channels': {}, 'subunits': []}
 
-        cat1 = channel.category  # 当前频道的类别
+        # 当前频道类别
+        cat1 = channel.category
 
         # 追加当前频道
         categories[group_id]['channels'].append({
@@ -46,6 +39,7 @@ def generate_static_index_html():
             'name': cat1.name,
             'url': channel.url
         })
+
         # 构建当前类别的子类别
         for cat2 in cat1.goodscategory_set.all():
             cat2.subunits = []
@@ -53,28 +47,4 @@ def generate_static_index_html():
                 cat2.subunits.append(cat3)
             categories[group_id]['subunits'].append(cat2)
 
-    # 广告内容
-    contents = {}
-    content_categories = ContentCategory.objects.all()
-
-    # {
-    #    'index_new': [] ,
-    #    'index_lbt': []
-    # }
-    for cat in content_categories:
-        contents[cat.key] = cat.content_set.filter(status=True).order_by('sequence')
-
-    # 渲染模板
-    context = {
-        'categories': categories,
-        'contents': contents
-    }
-
-    template = loader.get_template('index.html')
-    html_text = template.render(context)
-
-
-    # 将数据写到文件中，保存下来，形成静态文件
-    file_path = os.path.join(settings.GENERATED_STATIC_HTML_FILES_DIR, 'index.html')
-    with open(file_path, 'w') as f:
-        f.write(html_text)
+    return categories

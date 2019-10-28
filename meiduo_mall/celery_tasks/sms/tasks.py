@@ -1,6 +1,7 @@
 import logging
 
 from celery_tasks.main import celery_app
+
 from . import constants
 from .yuntongxun.sms import CCP
 
@@ -28,3 +29,5 @@ def send_sms_code(mobile, sms_code):
             logger.info("发送验证码短信[正常][ mobile: %s ]" % mobile)
         else:
             logger.warning("发送验证码短信[失败][ mobile: %s ]" % mobile)
+
+
