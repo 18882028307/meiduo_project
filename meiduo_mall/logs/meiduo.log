@@ -2277,3 +2277,220 @@ WARNING 2019-10-25 16:56:59,723 log 228 Not Found: /cart/
 WARNING 2019-10-25 16:56:59,731 basehttp 124 "GET /cart/ HTTP/1.1" 404 7882
 WARNING 2019-10-25 17:02:13,560 log 228 Not Found: /cart/
 WARNING 2019-10-25 17:02:13,567 basehttp 124 "GET /cart/ HTTP/1.1" 404 7882
+INFO 2019-10-28 10:46:59,287 basehttp 124 "OPTIONS /cart/ HTTP/1.1" 200 0
+WARNING 2019-10-28 10:46:59,645 log 228 Not Found: /cart/
+WARNING 2019-10-28 10:46:59,668 basehttp 124 "GET /cart/ HTTP/1.1" 404 7882
+WARNING 2019-10-28 10:47:02,938 log 228 Not Found: /categories/157/skus/
+WARNING 2019-10-28 10:47:03,048 basehttp 124 "GET /categories/157/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 404 7976
+WARNING 2019-10-28 10:47:03,039 log 228 Not Found: /categories/157/hotskus/
+WARNING 2019-10-28 10:47:03,060 basehttp 124 "GET /categories/157/hotskus/ HTTP/1.1" 404 7936
+WARNING 2019-10-28 10:48:38,423 log 228 Not Found: /categories/115/skus/
+WARNING 2019-10-28 10:48:38,417 log 228 Not Found: /categories/115/hotskus/
+WARNING 2019-10-28 10:48:38,438 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7936
+WARNING 2019-10-28 10:48:38,431 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 404 7976
+WARNING 2019-10-28 10:49:28,149 log 228 Not Found: /categories/115/skus/
+WARNING 2019-10-28 10:49:28,153 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=price HTTP/1.1" 404 7969
+WARNING 2019-10-28 10:49:28,908 log 228 Not Found: /categories/115/skus/
+WARNING 2019-10-28 10:49:28,923 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 404 7976
+WARNING 2019-10-28 10:50:04,573 log 228 Not Found: /categories/115/skus/
+WARNING 2019-10-28 10:50:04,595 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 404 7976
+WARNING 2019-10-28 10:50:04,593 log 228 Not Found: /categories/115/hotskus/
+WARNING 2019-10-28 10:50:04,609 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7936
+WARNING 2019-10-28 10:50:14,647 log 228 Not Found: /categories/115/skus/
+WARNING 2019-10-28 10:50:14,650 log 228 Not Found: /categories/115/hotskus/
+WARNING 2019-10-28 10:50:14,668 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 7936
+WARNING 2019-10-28 10:50:14,676 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 404 7976
+WARNING 2019-10-28 10:51:50,297 log 228 Not Found: /categories/115/skus/
+WARNING 2019-10-28 10:51:50,317 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 404 8361
+WARNING 2019-10-28 10:51:50,313 log 228 Not Found: /categories/115/hotskus/
+WARNING 2019-10-28 10:51:50,322 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 8321
+INFO 2019-10-28 10:52:34,267 basehttp 124 "OPTIONS /authorizations/ HTTP/1.1" 200 0
+INFO 2019-10-28 10:52:34,409 basehttp 124 "POST /authorizations/ HTTP/1.1" 200 269
+WARNING 2019-10-28 10:52:35,574 log 228 Not Found: /cart/
+WARNING 2019-10-28 10:52:35,591 basehttp 124 "GET /cart/ HTTP/1.1" 404 8267
+WARNING 2019-10-28 10:52:54,408 log 228 Not Found: /categories/115/hotskus/
+WARNING 2019-10-28 10:52:54,376 log 228 Not Found: /categories/115/skus/
+WARNING 2019-10-28 10:52:54,415 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 404 8361
+WARNING 2019-10-28 10:52:54,421 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 8321
+WARNING 2019-10-28 10:55:03,847 log 228 Not Found: /categories/115/hotskus/
+WARNING 2019-10-28 10:55:03,844 log 228 Not Found: /categories/115/skus/
+WARNING 2019-10-28 10:55:03,870 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 404 8361
+WARNING 2019-10-28 10:55:03,874 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 8321
+WARNING 2019-10-28 10:55:45,613 log 228 Not Found: /categories/115/hotskus/
+WARNING 2019-10-28 10:55:45,615 log 228 Not Found: /categories/115/skus/
+WARNING 2019-10-28 10:55:45,632 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 8211
+WARNING 2019-10-28 10:55:45,639 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 404 8251
+WARNING 2019-10-28 10:56:25,960 log 228 Not Found: /categories/115/skus/
+WARNING 2019-10-28 10:56:25,972 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 404 8361
+WARNING 2019-10-28 10:56:25,976 log 228 Not Found: /categories/115/hotskus/
+WARNING 2019-10-28 10:56:25,983 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 404 8321
+WARNING 2019-10-28 11:00:04,893 log 228 Not Found: /cart/
+WARNING 2019-10-28 11:00:04,894 basehttp 124 "GET /cart/ HTTP/1.1" 404 8267
+WARNING 2019-10-28 11:01:02,052 log 228 Not Found: /skus/search/
+WARNING 2019-10-28 11:01:02,059 basehttp 124 "GET /skus/search/?text=%E6%89%8B%E6%9C%BA&page=1&page_size=6 HTTP/1.1" 404 8339
+WARNING 2019-10-28 11:04:35,919 log 228 Not Found: /categories/163/skus/
+WARNING 2019-10-28 11:04:35,960 basehttp 124 "GET /categories/163/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 404 8361
+WARNING 2019-10-28 11:04:35,968 log 228 Not Found: /categories/163/hotskus/
+WARNING 2019-10-28 11:04:35,976 basehttp 124 "GET /categories/163/hotskus/ HTTP/1.1" 404 8321
+WARNING 2019-10-28 11:05:03,100 log 228 Not Found: /categories/163/skus/
+WARNING 2019-10-28 11:05:03,114 basehttp 124 "GET /categories/163/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 404 8361
+WARNING 2019-10-28 11:05:03,117 log 228 Not Found: /categories/163/hotskus/
+WARNING 2019-10-28 11:05:03,124 basehttp 124 "GET /categories/163/hotskus/ HTTP/1.1" 404 8321
+ERROR 2019-10-28 11:07:21,880 exceptions 26 [<goods.views.HotSKUListView object at 0x7f73ed175780>] Invalid input of type: 'CacheKey'. Convert to a byte, string or number first.
+ERROR 2019-10-28 11:07:21,883 log 228 Insufficient Storage: /categories/115/hotskus/
+ERROR 2019-10-28 11:07:21,898 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 507 35
+INFO 2019-10-28 11:07:21,946 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 1315
+INFO 2019-10-28 11:07:37,863 basehttp 124 "OPTIONS /browse_histories/ HTTP/1.1" 200 0
+ERROR 2019-10-28 11:07:37,908 exceptions 26 [<goods.views.HotSKUListView object at 0x7f73ed19b8d0>] Invalid input of type: 'CacheKey'. Convert to a byte, string or number first.
+ERROR 2019-10-28 11:07:37,932 log 228 Insufficient Storage: /categories/115/hotskus/
+ERROR 2019-10-28 11:07:37,933 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 507 35
+WARNING 2019-10-28 11:07:37,971 log 228 Not Found: /cart/
+WARNING 2019-10-28 11:07:38,013 basehttp 124 "GET /cart/ HTTP/1.1" 404 8265
+ERROR 2019-10-28 11:07:38,213 log 228 Internal Server Error: /browse_histories/
+Traceback (most recent call last):
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/alvin/python/workspace/meiduo_project/meiduo_mall/meiduo_mall/apps/users/views.py", line 253, in post
+    return self.create(request)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/rest_framework/mixins.py", line 21, in create
+    self.perform_create(serializer)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/rest_framework/mixins.py", line 26, in perform_create
+    serializer.save()
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/rest_framework/serializers.py", line 214, in save
+    self.instance = self.create(validated_data)
+  File "/home/alvin/python/workspace/meiduo_project/meiduo_mall/meiduo_mall/apps/users/serializers.py", line 283, in create
+    pl.ltrim('history_%s' % user_id, 0, constants.USER_BROWSING_HISTORY_COUNTS_LIMIT - 1)
+AttributeError: module 'users.constants' has no attribute 'USER_BROWSING_HISTORY_COUNTS_LIMIT'
+ERROR 2019-10-28 11:07:38,229 basehttp 124 "POST /browse_histories/ HTTP/1.1" 500 21594
+INFO 2019-10-28 11:07:46,206 basehttp 124 "GET /categories/115/skus/?page=2&page_size=5&ordering=-create_time HTTP/1.1" 200 1362
+INFO 2019-10-28 11:07:47,708 basehttp 124 "GET /categories/115/skus/?page=3&page_size=5&ordering=-create_time HTTP/1.1" 200 1028
+INFO 2019-10-28 11:07:48,555 basehttp 124 "GET /categories/115/skus/?page=2&page_size=5&ordering=-create_time HTTP/1.1" 200 1362
+INFO 2019-10-28 11:07:50,406 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 1315
+INFO 2019-10-28 11:07:53,062 basehttp 124 "GET /categories/115/skus/?page=2&page_size=5&ordering=-create_time HTTP/1.1" 200 1362
+ERROR 2019-10-28 11:10:03,411 exceptions 26 [<goods.views.HotSKUListView object at 0x7f73ec63f5c0>] Invalid input of type: 'CacheKey'. Convert to a byte, string or number first.
+ERROR 2019-10-28 11:10:03,413 log 228 Insufficient Storage: /categories/115/hotskus/
+ERROR 2019-10-28 11:10:03,418 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 507 35
+INFO 2019-10-28 11:10:03,447 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 1315
+ERROR 2019-10-28 11:15:02,999 exceptions 26 [<goods.views.HotSKUListView object at 0x7f73ec5dac88>] Invalid input of type: 'CacheKey'. Convert to a byte, string or number first.
+ERROR 2019-10-28 11:15:03,009 log 228 Insufficient Storage: /categories/115/hotskus/
+ERROR 2019-10-28 11:15:03,015 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 507 35
+INFO 2019-10-28 11:15:03,059 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 1315
+ERROR 2019-10-28 11:20:06,024 exceptions 26 [<goods.views.HotSKUListView object at 0x7f73ec5daf98>] Invalid input of type: 'CacheKey'. Convert to a byte, string or number first.
+ERROR 2019-10-28 11:20:06,075 log 228 Insufficient Storage: /categories/115/hotskus/
+ERROR 2019-10-28 11:20:06,102 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 507 35
+INFO 2019-10-28 11:20:06,122 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 1315
+ERROR 2019-10-28 11:25:04,189 exceptions 26 [<goods.views.HotSKUListView object at 0x7f73ec63f128>] Invalid input of type: 'CacheKey'. Convert to a byte, string or number first.
+ERROR 2019-10-28 11:25:04,203 log 228 Insufficient Storage: /categories/115/hotskus/
+ERROR 2019-10-28 11:25:04,222 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 507 35
+INFO 2019-10-28 11:25:04,248 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 1315
+ERROR 2019-10-28 11:30:03,867 exceptions 26 [<goods.views.HotSKUListView object at 0x7f73ec60d5f8>] Invalid input of type: 'CacheKey'. Convert to a byte, string or number first.
+ERROR 2019-10-28 11:30:03,870 log 228 Insufficient Storage: /categories/115/hotskus/
+ERROR 2019-10-28 11:30:03,891 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 507 35
+INFO 2019-10-28 11:30:03,913 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 1315
+ERROR 2019-10-28 11:35:03,468 exceptions 26 [<goods.views.HotSKUListView object at 0x7f73ec671e48>] Invalid input of type: 'CacheKey'. Convert to a byte, string or number first.
+ERROR 2019-10-28 11:35:03,470 log 228 Insufficient Storage: /categories/115/hotskus/
+ERROR 2019-10-28 11:35:03,481 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 507 35
+INFO 2019-10-28 11:35:03,531 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 1315
+ERROR 2019-10-28 11:40:03,908 exceptions 26 [<goods.views.HotSKUListView object at 0x7f73ec687080>] Invalid input of type: 'CacheKey'. Convert to a byte, string or number first.
+ERROR 2019-10-28 11:40:03,922 log 228 Insufficient Storage: /categories/115/hotskus/
+ERROR 2019-10-28 11:40:03,942 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 507 35
+INFO 2019-10-28 11:40:03,965 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 1315
+ERROR 2019-10-28 11:45:04,213 exceptions 26 [<goods.views.HotSKUListView object at 0x7f73ee428ef0>] Invalid input of type: 'CacheKey'. Convert to a byte, string or number first.
+ERROR 2019-10-28 11:45:04,217 log 228 Insufficient Storage: /categories/115/hotskus/
+ERROR 2019-10-28 11:45:04,241 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 507 35
+INFO 2019-10-28 11:45:04,268 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 1315
+INFO 2019-10-28 11:49:11,650 basehttp 124 "OPTIONS /cart/ HTTP/1.1" 200 0
+WARNING 2019-10-28 11:49:12,191 log 228 Not Found: /cart/
+WARNING 2019-10-28 11:49:12,196 basehttp 124 "GET /cart/ HTTP/1.1" 404 8265
+INFO 2019-10-28 15:48:22,246 basehttp 124 "OPTIONS /cart/ HTTP/1.1" 200 0
+INFO 2019-10-28 15:48:32,868 basehttp 124 "GET /skus/search/?text=%E6%89%8B%E6%9C%BA&page=1&page_size=6 HTTP/1.1" 200 2492
+ERROR 2019-10-28 15:48:42,312 exceptions 26 [<goods.views.HotSKUListView object at 0x7ff1b6818898>] Invalid input of type: 'CacheKey'. Convert to a byte, string or number first.
+ERROR 2019-10-28 15:48:42,340 log 228 Insufficient Storage: /categories/115/hotskus/
+ERROR 2019-10-28 15:48:42,342 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 507 35
+WARNING 2019-10-28 15:48:42,494 log 228 Not Found: /cart/
+WARNING 2019-10-28 15:48:42,499 basehttp 124 "GET /cart/ HTTP/1.1" 404 9477
+ERROR 2019-10-28 15:48:46,356 exceptions 26 [<goods.views.HotSKUListView object at 0x7ff1b684c9b0>] Invalid input of type: 'CacheKey'. Convert to a byte, string or number first.
+ERROR 2019-10-28 15:48:46,384 log 228 Insufficient Storage: /categories/115/hotskus/
+ERROR 2019-10-28 15:48:46,387 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 507 35
+WARNING 2019-10-28 15:48:46,459 log 228 Not Found: /cart/
+WARNING 2019-10-28 15:48:46,466 basehttp 124 "GET /cart/ HTTP/1.1" 404 9477
+ERROR 2019-10-28 15:48:50,358 exceptions 26 [<goods.views.HotSKUListView object at 0x7ff1b5ff8a58>] Invalid input of type: 'CacheKey'. Convert to a byte, string or number first.
+ERROR 2019-10-28 15:48:50,369 log 228 Insufficient Storage: /categories/115/hotskus/
+ERROR 2019-10-28 15:48:50,411 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 507 35
+WARNING 2019-10-28 15:48:50,453 log 228 Not Found: /cart/
+WARNING 2019-10-28 15:48:50,464 basehttp 124 "GET /cart/ HTTP/1.1" 404 9477
+ERROR 2019-10-28 15:50:04,414 exceptions 26 [<goods.views.HotSKUListView object at 0x7ff1b5ff8e48>] Invalid input of type: 'CacheKey'. Convert to a byte, string or number first.
+ERROR 2019-10-28 15:50:04,434 log 228 Insufficient Storage: /categories/115/hotskus/
+ERROR 2019-10-28 15:50:04,436 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 507 35
+WARNING 2019-10-28 15:50:04,490 log 228 Not Found: /cart/
+WARNING 2019-10-28 15:50:04,506 basehttp 124 "GET /cart/ HTTP/1.1" 404 9477
+ERROR 2019-10-28 15:50:12,064 exceptions 26 [<goods.views.HotSKUListView object at 0x7ff1b5ffdda0>] Invalid input of type: 'CacheKey'. Convert to a byte, string or number first.
+ERROR 2019-10-28 15:50:12,066 log 228 Insufficient Storage: /categories/115/hotskus/
+ERROR 2019-10-28 15:50:12,072 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 507 35
+WARNING 2019-10-28 15:50:12,146 log 228 Not Found: /cart/
+WARNING 2019-10-28 15:50:12,161 basehttp 124 "GET /cart/ HTTP/1.1" 404 9477
+ERROR 2019-10-28 15:50:17,297 exceptions 26 [<goods.views.HotSKUListView object at 0x7ff1b6821518>] Invalid input of type: 'CacheKey'. Convert to a byte, string or number first.
+ERROR 2019-10-28 15:50:17,314 log 228 Insufficient Storage: /categories/115/hotskus/
+ERROR 2019-10-28 15:50:17,316 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 507 35
+WARNING 2019-10-28 15:50:17,368 log 228 Not Found: /cart/
+WARNING 2019-10-28 15:50:17,383 basehttp 124 "GET /cart/ HTTP/1.1" 404 9477
+WARNING 2019-10-28 15:50:21,385 log 228 Not Found: /cart/
+WARNING 2019-10-28 15:50:21,405 basehttp 124 "GET /cart/ HTTP/1.1" 404 9477
+ERROR 2019-10-28 15:50:26,309 exceptions 26 [<goods.views.HotSKUListView object at 0x7ff1b684cc18>] Invalid input of type: 'CacheKey'. Convert to a byte, string or number first.
+ERROR 2019-10-28 15:50:26,315 log 228 Insufficient Storage: /categories/281/hotskus/
+ERROR 2019-10-28 15:50:26,332 basehttp 124 "GET /categories/281/hotskus/ HTTP/1.1" 507 35
+INFO 2019-10-28 15:50:26,347 basehttp 124 "GET /categories/281/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 52
+ERROR 2019-10-28 15:51:04,428 exceptions 26 [<goods.views.HotSKUListView object at 0x7ff1b684c518>] Invalid input of type: 'CacheKey'. Convert to a byte, string or number first.
+ERROR 2019-10-28 15:51:04,437 log 228 Insufficient Storage: /categories/281/hotskus/
+ERROR 2019-10-28 15:51:04,448 basehttp 124 "GET /categories/281/hotskus/ HTTP/1.1" 507 35
+INFO 2019-10-28 15:51:04,454 basehttp 124 "GET /categories/281/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 52
+INFO 2019-10-28 15:51:07,271 basehttp 124 "OPTIONS /cart/ HTTP/1.1" 200 0
+WARNING 2019-10-28 15:51:07,554 log 228 Not Found: /cart/
+WARNING 2019-10-28 15:51:07,564 basehttp 124 "GET /cart/ HTTP/1.1" 404 9477
+INFO 2019-10-28 15:51:14,430 basehttp 124 "OPTIONS /cart/ HTTP/1.1" 200 0
+ERROR 2019-10-28 15:51:17,715 exceptions 26 [<goods.views.HotSKUListView object at 0x7ff1b5ff85f8>] Invalid input of type: 'CacheKey'. Convert to a byte, string or number first.
+ERROR 2019-10-28 15:51:17,721 log 228 Insufficient Storage: /categories/115/hotskus/
+ERROR 2019-10-28 15:51:17,738 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 507 35
+INFO 2019-10-28 15:51:17,790 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 1315
+ERROR 2019-10-28 15:51:26,758 exceptions 26 [<goods.views.HotSKUListView object at 0x7ff1b684c780>] Invalid input of type: 'CacheKey'. Convert to a byte, string or number first.
+ERROR 2019-10-28 15:51:26,763 log 228 Insufficient Storage: /categories/318/hotskus/
+ERROR 2019-10-28 15:51:26,771 basehttp 124 "GET /categories/318/hotskus/ HTTP/1.1" 507 35
+INFO 2019-10-28 15:51:26,776 basehttp 124 "GET /categories/318/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 52
+ERROR 2019-10-28 15:51:40,597 exceptions 26 [<goods.views.HotSKUListView object at 0x7ff1b5faeac8>] Invalid input of type: 'CacheKey'. Convert to a byte, string or number first.
+ERROR 2019-10-28 15:51:40,598 log 228 Insufficient Storage: /categories/116/hotskus/
+ERROR 2019-10-28 15:51:40,609 basehttp 124 "GET /categories/116/hotskus/ HTTP/1.1" 507 35
+INFO 2019-10-28 15:51:40,621 basehttp 124 "GET /categories/116/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 52
+ERROR 2019-10-28 15:51:48,485 exceptions 26 [<goods.views.HotSKUListView object at 0x7ff1b5fbb5c0>] Invalid input of type: 'CacheKey'. Convert to a byte, string or number first.
+ERROR 2019-10-28 15:51:48,497 log 228 Insufficient Storage: /categories/115/hotskus/
+ERROR 2019-10-28 15:51:48,504 basehttp 124 "GET /categories/115/hotskus/ HTTP/1.1" 507 35
+INFO 2019-10-28 15:51:48,540 basehttp 124 "GET /categories/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 1315
+ERROR 2019-10-28 15:51:53,155 exceptions 26 [<goods.views.HotSKUListView object at 0x7ff1b6012eb8>] Invalid input of type: 'CacheKey'. Convert to a byte, string or number first.
+ERROR 2019-10-28 15:51:53,163 log 228 Insufficient Storage: /categories/157/hotskus/
+ERROR 2019-10-28 15:51:53,169 basehttp 124 "GET /categories/157/hotskus/ HTTP/1.1" 507 35
+INFO 2019-10-28 15:51:53,194 basehttp 124 "GET /categories/157/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 450
+ERROR 2019-10-28 15:52:01,058 exceptions 26 [<goods.views.HotSKUListView object at 0x7ff1b5f69208>] Invalid input of type: 'CacheKey'. Convert to a byte, string or number first.
+ERROR 2019-10-28 15:52:01,068 log 228 Insufficient Storage: /categories/157/hotskus/
+ERROR 2019-10-28 15:52:01,079 basehttp 124 "GET /categories/157/hotskus/ HTTP/1.1" 507 35
+INFO 2019-10-28 15:52:01,100 basehttp 124 "GET /categories/157/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 450
+WARNING 2019-10-28 15:52:03,873 log 228 Not Found: /cart/
+WARNING 2019-10-28 15:52:03,887 basehttp 124 "GET /cart/ HTTP/1.1" 404 9477
+WARNING 2019-10-28 15:55:04,282 log 228 Not Found: /cart/
+WARNING 2019-10-28 15:55:04,293 basehttp 124 "GET /cart/ HTTP/1.1" 404 9477
+WARNING 2019-10-28 16:00:04,651 log 228 Not Found: /cart/
+WARNING 2019-10-28 16:00:04,668 basehttp 124 "GET /cart/ HTTP/1.1" 404 9477
+WARNING 2019-10-28 16:05:04,541 log 228 Not Found: /cart/
+WARNING 2019-10-28 16:05:04,555 basehttp 124 "GET /cart/ HTTP/1.1" 404 9477

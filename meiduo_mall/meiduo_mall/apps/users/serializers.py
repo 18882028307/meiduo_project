@@ -10,6 +10,7 @@ from goods.models import SKU
 from .models import Address
 from .utils import get_user_by_account
 from .models import User
+from . import constants
 
 
 class CreateUserSerializer(serializers.ModelSerializer):

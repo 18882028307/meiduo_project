@@ -12,6 +12,8 @@ from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework.viewsets import GenericViewSet
 
+from goods.models import SKU
+from goods.serializers import SKUSerializer
 from . import constants
 from .utils import get_user_by_account
 from verifications.serializers import CheckImageCodeSerializer

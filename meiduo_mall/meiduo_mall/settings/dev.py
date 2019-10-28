@@ -47,12 +47,14 @@ INSTALLED_APPS = [
     'ckeditor',
     'ckeditor_uploader',
     'django_crontab',  # 定时任务
+    'haystack',
     'users.apps.UsersConfig',
     'verifications.apps.VerificationsConfig',
     'areas.apps.AreasConfig',
     'oauth.apps.OauthConfig',
     'goods.apps.GoodsConfig',
     'contents.apps.ContentsConfig',
+    'carts.apps.CartsConfig',
 
 ]
 
@@ -221,6 +223,8 @@ REST_FRAMEWORK = {
        'rest_framework.authentication.SessionAuthentication',
        'rest_framework.authentication.BasicAuthentication',
        ),
+    # 分页
+    'DEFAULT_PAGINATION_CLASS': 'meiduo_mall.utils.paginations.StandardPageNumPagination',
 }
 
 # DRF扩展
@@ -322,6 +326,22 @@ CRONJOBS = [
 ]
 # 解决crontab中文问题
 CRONTAB_COMMAND_PREFIX = 'LANG_ALL=zh_cn.UTF-8'
+
+
+# Haystack
+HAYSTACK_CONNECTIONS = {
+    'default': {
+        'ENGINE': 'haystack.backends.elasticsearch_backend.ElasticsearchSearchEngine',
+        # 此处为elasticsearch运行的服务器ip地址，端口号固定为9200
+        'URL': 'http://192.168.0.155:9200/',
+        # 指定elasticsearch建立的索引库的名称
+        'INDEX_NAME': 'meiduo',
+    },
+}
+
+# 当添加、修改、删除数据时，自动生成索引
+HAYSTACK_SIGNAL_PROCESSOR = 'haystack.signals.RealtimeSignalProcessor'
+
 
 
 # Static files (CSS, JavaScript, Images)
