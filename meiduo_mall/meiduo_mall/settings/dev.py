@@ -55,7 +55,6 @@ INSTALLED_APPS = [
     'goods.apps.GoodsConfig',
     'contents.apps.ContentsConfig',
     'carts.apps.CartsConfig',
-
 ]
 
 MIDDLEWARE = [
@@ -133,6 +132,13 @@ CACHES = {
     "history": {
         "BACKEND": "django_redis.cache.RedisCache",
         "LOCATION": "redis://127.0.0.1/3",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    },
+    "cart": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://127.0.0.1/4",
         "OPTIONS": {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
         }
@@ -333,7 +339,7 @@ HAYSTACK_CONNECTIONS = {
     'default': {
         'ENGINE': 'haystack.backends.elasticsearch_backend.ElasticsearchSearchEngine',
         # 此处为elasticsearch运行的服务器ip地址，端口号固定为9200
-        'URL': 'http://192.168.0.155:9200/',
+        'URL': 'http://192.168.0.141:9200/',
         # 指定elasticsearch建立的索引库的名称
         'INDEX_NAME': 'meiduo',
     },

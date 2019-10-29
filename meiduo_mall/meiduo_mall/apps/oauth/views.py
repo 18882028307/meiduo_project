@@ -8,6 +8,7 @@ from rest_framework.response import Response
 from rest_framework_jwt.settings import api_settings
 from rest_framework.views import APIView
 
+from carts.utils import merge_cart_cookie_to_redis
 from .exceptions import QQAPIError
 from .models import OAuthQQUser
 from .serializers import OAuthQQUserSerializer
@@ -80,7 +81,7 @@ class QQAuthUserView(APIView):
     """
     QQ登录的用户
     """
-    # serializer_class = OAuthQQUserSerializer
+    serializer_class = OAuthQQUserSerializer
 
     def get(self, request):
         """
@@ -123,6 +124,8 @@ class QQAuthUserView(APIView):
                 'user_id': user.id,
                 'username': user.username
             })
+            # 合并购物车
+            response = merge_cart_cookie_to_redis(request, user, response)
             return response
 
     def post(self, request):
@@ -145,5 +148,8 @@ class QQAuthUserView(APIView):
             'user_id': user.id,
             'username': user.username
         })
+
+        # 合并购物车
+        response = merge_cart_cookie_to_redis(request, user, response)
 
         return response

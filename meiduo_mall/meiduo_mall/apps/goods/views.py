@@ -1,3 +1,5 @@
+import json
+
 from django.shortcuts import render
 
 # Create your views here.
@@ -12,7 +14,7 @@ from .models import SKU
 from .serializers import SKUSerializer
 
 
-class HotSKUListView(ListCacheResponseMixin, ListAPIView):
+class HotSKUListView(ListAPIView):
     """
     热销商品, 使用缓存扩展
     """
@@ -21,8 +23,9 @@ class HotSKUListView(ListCacheResponseMixin, ListAPIView):
 
     def get_queryset(self):
         category_id = self.kwargs.get('category_id')
-        return SKU.objects.filter(category_id=category_id, is_launched=True).order_by('-sales')[:constants.HOT_SKUS_COUNT_LIMIT]
-
+        response = SKU.objects.filter(category_id=category_id, is_launched=True).order_by('-sales')[:constants.HOT_SKUS_COUNT_LIMIT]
+        # return SKU.objects.filter(category_id=category_id, is_launched=True).order_by('-sales')[:constants.HOT_SKUS_COUNT_LIMIT]
+        return response
 
 class SKUListView(ListAPIView):
     """
