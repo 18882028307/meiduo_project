@@ -3705,3 +3705,196 @@ INFO 2019-10-30 10:30:03,599 basehttp 124 "GET /orders/?page=1&page_size=5 HTTP/
 INFO 2019-10-30 10:32:08,021 basehttp 124 "OPTIONS /orders/?page=2&page_size=5 HTTP/1.1" 200 0
 INFO 2019-10-30 10:32:08,093 basehttp 124 "GET /orders/?page=2&page_size=5 HTTP/1.1" 200 492
 INFO 2019-10-30 10:32:10,092 basehttp 124 "GET /orders/?page=1&page_size=5 HTTP/1.1" 200 2232
+INFO 2019-10-30 10:35:05,220 basehttp 124 "GET /orders/?page=1&page_size=5 HTTP/1.1" 200 2232
+INFO 2019-10-30 11:48:50,734 basehttp 124 "GET /orders/?page=1&page_size=5 HTTP/1.1" 200 2232
+INFO 2019-10-30 11:49:02,522 basehttp 124 "OPTIONS /orders/20191030022018000000001/payment/ HTTP/1.1" 200 0
+INFO 2019-10-30 11:49:02,673 basehttp 124 "GET /orders/20191030022018000000001/payment/ HTTP/1.1" 200 2252
+INFO 2019-10-30 11:50:04,805 basehttp 124 "GET /orders/?page=1&page_size=5 HTTP/1.1" 200 2232
+INFO 2019-10-30 11:50:51,798 basehttp 124 "GET /orders/20191030022018000000001/payment/ HTTP/1.1" 200 2252
+INFO 2019-10-30 11:52:19,992 basehttp 124 "GET /orders/20191030022018000000001/payment/ HTTP/1.1" 200 2252
+INFO 2019-10-30 11:53:22,546 basehttp 124 "GET /orders/20191030022018000000001/payment/ HTTP/1.1" 200 2252
+INFO 2019-10-30 11:53:44,417 basehttp 124 "GET /orders/20191030022018000000001/payment/ HTTP/1.1" 200 2252
+INFO 2019-10-30 11:54:00,310 basehttp 124 "GET /orders/?page=1&page_size=5 HTTP/1.1" 200 2232
+INFO 2019-10-30 11:54:01,697 basehttp 124 "GET /orders/?page=1&page_size=5 HTTP/1.1" 200 2232
+INFO 2019-10-30 11:54:22,922 basehttp 124 "GET /orders/?page=1&page_size=5 HTTP/1.1" 200 2232
+INFO 2019-10-30 11:54:25,197 basehttp 124 "OPTIONS /user/ HTTP/1.1" 200 0
+INFO 2019-10-30 11:54:25,328 basehttp 124 "GET /user/ HTTP/1.1" 200 107
+INFO 2019-10-30 11:54:25,357 basehttp 124 "OPTIONS /browse_histories/ HTTP/1.1" 200 0
+INFO 2019-10-30 11:54:25,480 basehttp 124 "GET /browse_histories/ HTTP/1.1" 200 1136
+INFO 2019-10-30 11:54:26,643 basehttp 124 "GET /orders/?page=1&page_size=5 HTTP/1.1" 200 2232
+INFO 2019-10-30 11:54:30,285 basehttp 124 "GET /orders/20191030022018000000001/payment/ HTTP/1.1" 200 2252
+INFO 2019-10-30 11:54:58,853 basehttp 124 "GET /orders/?page=1&page_size=5 HTTP/1.1" 200 2232
+INFO 2019-10-30 11:55:04,726 basehttp 124 "GET /orders/?page=1&page_size=5 HTTP/1.1" 200 2232
+INFO 2019-10-30 11:55:09,895 basehttp 124 "GET /orders/20191030022018000000001/payment/ HTTP/1.1" 200 2252
+INFO 2019-10-30 13:48:41,401 basehttp 124 "OPTIONS /orders/?page=1&page_size=5 HTTP/1.1" 200 0
+INFO 2019-10-30 13:48:49,155 basehttp 124 "OPTIONS /orders/20191030021921000000001/payment/ HTTP/1.1" 200 0
+INFO 2019-10-30 13:48:49,301 basehttp 124 "GET /orders/20191030021921000000001/payment/ HTTP/1.1" 200 2252
+INFO 2019-10-30 13:50:31,033 basehttp 124 "OPTIONS /orders/20191030022018000000001/payment/ HTTP/1.1" 200 0
+INFO 2019-10-30 13:50:31,204 basehttp 124 "GET /orders/20191030022018000000001/payment/ HTTP/1.1" 200 2252
+WARNING 2019-10-30 13:53:04,925 log 228 Not Found: /orders/20191030022018000000001/payment/
+WARNING 2019-10-30 13:53:04,939 basehttp 124 "GET /orders/20191030022018000000001/payment/ HTTP/1.1" 404 10214
+INFO 2019-10-30 13:53:21,413 basehttp 124 "GET /orders/?page=1&page_size=5 HTTP/1.1" 200 2232
+ERROR 2019-10-30 13:53:23,258 log 228 Internal Server Error: /orders/20191030022018000000001/payment/
+Traceback (most recent call last):
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/alvin/python/workspace/meiduo_project/meiduo_mall/meiduo_mall/apps/payment/views.py", line 45, in get
+    debug=settings.ALIPAY_DEBUG
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/alipay/__init__.py", line 81, in __init__
+    self._load_key()
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/alipay/__init__.py", line 87, in _load_key
+    with open(self._app_private_key_path) as fp:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/alvin/python/workspace/meiduo_project/meiduo_mall/meiduo_mall/apps/payment/keys/app_private_key.pem'
+ERROR 2019-10-30 13:53:23,284 basehttp 124 "GET /orders/20191030022018000000001/payment/ HTTP/1.1" 500 22135
+ERROR 2019-10-30 13:53:29,793 log 228 Internal Server Error: /orders/20191030022018000000001/payment/
+Traceback (most recent call last):
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/alvin/python/workspace/meiduo_project/meiduo_mall/meiduo_mall/apps/payment/views.py", line 45, in get
+    debug=settings.ALIPAY_DEBUG
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/alipay/__init__.py", line 81, in __init__
+    self._load_key()
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/alipay/__init__.py", line 87, in _load_key
+    with open(self._app_private_key_path) as fp:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/alvin/python/workspace/meiduo_project/meiduo_mall/meiduo_mall/apps/payment/keys/app_private_key.pem'
+ERROR 2019-10-30 13:53:29,806 basehttp 124 "GET /orders/20191030022018000000001/payment/ HTTP/1.1" 500 22135
+INFO 2019-10-30 13:54:04,239 basehttp 124 "GET /orders/?page=1&page_size=5 HTTP/1.1" 200 2232
+ERROR 2019-10-30 13:54:06,858 log 228 Internal Server Error: /orders/20191030022018000000001/payment/
+Traceback (most recent call last):
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/alvin/python/workspace/meiduo_project/meiduo_mall/meiduo_mall/apps/payment/views.py", line 45, in get
+    debug=settings.ALIPAY_DEBUG
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/alipay/__init__.py", line 81, in __init__
+    self._load_key()
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/alipay/__init__.py", line 87, in _load_key
+    with open(self._app_private_key_path) as fp:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/alvin/python/workspace/meiduo_project/meiduo_mall/meiduo_mall/apps/payment/keys/app_private_key.pem'
+ERROR 2019-10-30 13:54:06,876 basehttp 124 "GET /orders/20191030022018000000001/payment/ HTTP/1.1" 500 22135
+INFO 2019-10-30 13:55:03,835 basehttp 124 "GET /orders/?page=1&page_size=5 HTTP/1.1" 200 2232
+ERROR 2019-10-30 13:55:15,157 log 228 Internal Server Error: /orders/20191030022018000000001/payment/
+Traceback (most recent call last):
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/alvin/python/workspace/meiduo_project/meiduo_mall/meiduo_mall/apps/payment/views.py", line 45, in get
+    debug=settings.ALIPAY_DEBUG
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/alipay/__init__.py", line 81, in __init__
+    self._load_key()
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/alipay/__init__.py", line 87, in _load_key
+    with open(self._app_private_key_path) as fp:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/alvin/python/workspace/meiduo_project/meiduo_mall/meiduo_mall/apps/payment/keys/app_private_key.pem'
+ERROR 2019-10-30 13:55:15,179 basehttp 124 "GET /orders/20191030022018000000001/payment/ HTTP/1.1" 500 22135
+INFO 2019-10-30 13:57:22,611 basehttp 124 "GET /orders/?page=1&page_size=5 HTTP/1.1" 200 2232
+INFO 2019-10-30 13:57:24,137 basehttp 124 "GET /orders/20191030022018000000001/payment/ HTTP/1.1" 200 866
+INFO 2019-10-30 13:58:29,413 basehttp 124 "OPTIONS /payment/status/?charset=utf-8&out_trade_no=20191030022018000000001&method=alipay.trade.page.pay.return&total_amount=6688.00&sign=AhVZ5D4GkVibB8MOEwdDTTXs%2BMHoFnFzKgyOkiAha8x6ESa0GdA16n0%2BWEv%2F%2B8si8Nv6eUCEVjgxay1CPHZItuTnDkvpXGuMES1QnUttx2rbacfQhY3%2Fu55rOlNR3ZliEXd5xR51eCsMm%2FUy8zcpneCSDMuF346PyEtJN1uOgMsKa6iM3LjA4lP0ssnkZOcXkV7chvU8emE0CxdnvyWgt7xMVYRXVCn52uWpFrZMeJlwUxoy%2F%2FAW%2B3UizUhJsOVikp9n1A683Yn0zNpnzueV%2BeZAqy8fZes1DMAnZDLVO9TxQK7oL%2FG4Gk4f5FZ79f2ZEPkHJlGXsk5kYQlS26e1MA%3D%3D&trade_no=2019103022001454351000044475&auth_app_id=2016101600703542&version=1.0&app_id=2016101600703542&sign_type=RSA2&seller_id=2088102179903271&timestamp=2019-10-30+13%3A58%3A24 HTTP/1.1" 200 0
+ERROR 2019-10-30 13:58:29,605 exceptions 26 [<payment.views.PaymentStatusView object at 0x7f6eb8079048>] (1146, "Table 'meiduo_mall.tb_payment' doesn't exist")
+ERROR 2019-10-30 13:58:29,612 log 228 Insufficient Storage: /payment/status/
+ERROR 2019-10-30 13:58:29,618 basehttp 124 "PUT /payment/status/?charset=utf-8&out_trade_no=20191030022018000000001&method=alipay.trade.page.pay.return&total_amount=6688.00&sign=AhVZ5D4GkVibB8MOEwdDTTXs%2BMHoFnFzKgyOkiAha8x6ESa0GdA16n0%2BWEv%2F%2B8si8Nv6eUCEVjgxay1CPHZItuTnDkvpXGuMES1QnUttx2rbacfQhY3%2Fu55rOlNR3ZliEXd5xR51eCsMm%2FUy8zcpneCSDMuF346PyEtJN1uOgMsKa6iM3LjA4lP0ssnkZOcXkV7chvU8emE0CxdnvyWgt7xMVYRXVCn52uWpFrZMeJlwUxoy%2F%2FAW%2B3UizUhJsOVikp9n1A683Yn0zNpnzueV%2BeZAqy8fZes1DMAnZDLVO9TxQK7oL%2FG4Gk4f5FZ79f2ZEPkHJlGXsk5kYQlS26e1MA%3D%3D&trade_no=2019103022001454351000044475&auth_app_id=2016101600703542&version=1.0&app_id=2016101600703542&sign_type=RSA2&seller_id=2088102179903271&timestamp=2019-10-30+13%3A58%3A24 HTTP/1.1" 507 35
+INFO 2019-10-30 13:59:29,541 basehttp 124 "OPTIONS /orders/?page=1&page_size=5 HTTP/1.1" 200 0
+INFO 2019-10-30 13:59:29,827 basehttp 124 "GET /orders/?page=1&page_size=5 HTTP/1.1" 200 2232
+INFO 2019-10-30 13:59:38,101 basehttp 124 "GET /orders/?page=1&page_size=5 HTTP/1.1" 200 2232
+INFO 2019-10-30 14:00:05,555 basehttp 124 "GET /orders/?page=1&page_size=5 HTTP/1.1" 200 2232
+INFO 2019-10-30 14:00:23,633 basehttp 124 "OPTIONS /orders/?page=2&page_size=5 HTTP/1.1" 200 0
+INFO 2019-10-30 14:00:23,742 basehttp 124 "GET /orders/?page=2&page_size=5 HTTP/1.1" 200 492
+INFO 2019-10-30 14:00:29,123 basehttp 124 "GET /orders/?page=1&page_size=5 HTTP/1.1" 200 2232
+INFO 2019-10-30 14:04:05,128 basehttp 124 "GET /orders/?page=1&page_size=5 HTTP/1.1" 200 2232
+INFO 2019-10-30 14:04:08,874 basehttp 124 "OPTIONS /orders/20191030022018000000001/payment/ HTTP/1.1" 200 0
+INFO 2019-10-30 14:04:09,050 basehttp 124 "GET /orders/20191030022018000000001/payment/ HTTP/1.1" 200 878
+INFO 2019-10-30 14:04:31,049 basehttp 124 "OPTIONS /orders/?page=1&page_size=5 HTTP/1.1" 200 0
+INFO 2019-10-30 14:04:51,905 basehttp 124 "GET /orders/?page=1&page_size=5 HTTP/1.1" 200 2232
+INFO 2019-10-30 14:04:55,354 basehttp 124 "OPTIONS /orders/20191030022018000000001/payment/ HTTP/1.1" 200 0
+INFO 2019-10-30 14:04:55,588 basehttp 124 "GET /orders/20191030022018000000001/payment/ HTTP/1.1" 200 852
+INFO 2019-10-30 14:05:02,599 basehttp 124 "OPTIONS /orders/?page=1&page_size=5 HTTP/1.1" 200 0
+INFO 2019-10-30 14:05:05,105 basehttp 124 "GET /orders/?page=1&page_size=5 HTTP/1.1" 200 2232
+INFO 2019-10-30 14:06:20,593 basehttp 124 "OPTIONS /orders/?page=2&page_size=5 HTTP/1.1" 200 0
+INFO 2019-10-30 14:06:20,730 basehttp 124 "GET /orders/?page=2&page_size=5 HTTP/1.1" 200 492
+INFO 2019-10-30 14:06:23,216 basehttp 124 "GET /orders/?page=1&page_size=5 HTTP/1.1" 200 2232
+INFO 2019-10-30 14:08:35,378 basehttp 124 "GET /orders/?page=1&page_size=5 HTTP/1.1" 200 2232
+INFO 2019-10-30 14:08:39,243 basehttp 124 "OPTIONS /orders/20191030021921000000001/payment/ HTTP/1.1" 200 0
+INFO 2019-10-30 14:08:39,476 basehttp 124 "GET /orders/20191030021921000000001/payment/ HTTP/1.1" 200 864
+INFO 2019-10-30 14:09:52,333 basehttp 124 "OPTIONS /payment/status/?charset=utf-8&out_trade_no=20191030021921000000001&method=alipay.trade.page.pay.return&total_amount=3388.00&sign=PbnpGjUkMHi25xnBppnGAVJwP4ykonMN6Hymz4Ai%2BLaBTVhI7mjttxvQqcPCjvDbL4D6LAyCGimmeei45AJNNfx%2Br2jiKkzigB%2BgewcL3yyHEcdepMz9sKk%2BSSFmeumw9T9H%2B3869sbIw0K3YoH8yx0vAuu78VHJ9hFimOQv4SyRsSAoxPXuHVB1p9oV9ZzNpQpEfhZR4AsFl33lohEXId%2F%2BdAZXmH7X0HbnsKllxLu7gGtVcNGksVTVOJI1ck5JHBKywxqWHIpaotCe1Vv7BT6XAHItDQgLFlWZohtJXEIx84fJT%2BnGUfXw5ky7B8nXsdFnIu85IgjVGuQAVUrQqA%3D%3D&trade_no=2019103022001454351000044476&auth_app_id=2016101600703542&version=1.0&app_id=2016101600703542&sign_type=RSA2&seller_id=2088102179903271&timestamp=2019-10-30+14%3A09%3A47 HTTP/1.1" 200 0
+ERROR 2019-10-30 14:09:52,708 exceptions 26 [<payment.views.PaymentStatusView object at 0x7f0f40389c88>] (1146, "Table 'meiduo_mall.tb_payment' doesn't exist")
+ERROR 2019-10-30 14:09:52,710 log 228 Insufficient Storage: /payment/status/
+ERROR 2019-10-30 14:09:52,714 basehttp 124 "PUT /payment/status/?charset=utf-8&out_trade_no=20191030021921000000001&method=alipay.trade.page.pay.return&total_amount=3388.00&sign=PbnpGjUkMHi25xnBppnGAVJwP4ykonMN6Hymz4Ai%2BLaBTVhI7mjttxvQqcPCjvDbL4D6LAyCGimmeei45AJNNfx%2Br2jiKkzigB%2BgewcL3yyHEcdepMz9sKk%2BSSFmeumw9T9H%2B3869sbIw0K3YoH8yx0vAuu78VHJ9hFimOQv4SyRsSAoxPXuHVB1p9oV9ZzNpQpEfhZR4AsFl33lohEXId%2F%2BdAZXmH7X0HbnsKllxLu7gGtVcNGksVTVOJI1ck5JHBKywxqWHIpaotCe1Vv7BT6XAHItDQgLFlWZohtJXEIx84fJT%2BnGUfXw5ky7B8nXsdFnIu85IgjVGuQAVUrQqA%3D%3D&trade_no=2019103022001454351000044476&auth_app_id=2016101600703542&version=1.0&app_id=2016101600703542&sign_type=RSA2&seller_id=2088102179903271&timestamp=2019-10-30+14%3A09%3A47 HTTP/1.1" 507 35
+ERROR 2019-10-30 14:10:05,364 exceptions 26 [<payment.views.PaymentStatusView object at 0x7f0f40398400>] (1146, "Table 'meiduo_mall.tb_payment' doesn't exist")
+ERROR 2019-10-30 14:10:05,376 log 228 Insufficient Storage: /payment/status/
+ERROR 2019-10-30 14:10:05,380 basehttp 124 "PUT /payment/status/?charset=utf-8&out_trade_no=20191030021921000000001&method=alipay.trade.page.pay.return&total_amount=3388.00&sign=PbnpGjUkMHi25xnBppnGAVJwP4ykonMN6Hymz4Ai%2BLaBTVhI7mjttxvQqcPCjvDbL4D6LAyCGimmeei45AJNNfx%2Br2jiKkzigB%2BgewcL3yyHEcdepMz9sKk%2BSSFmeumw9T9H%2B3869sbIw0K3YoH8yx0vAuu78VHJ9hFimOQv4SyRsSAoxPXuHVB1p9oV9ZzNpQpEfhZR4AsFl33lohEXId%2F%2BdAZXmH7X0HbnsKllxLu7gGtVcNGksVTVOJI1ck5JHBKywxqWHIpaotCe1Vv7BT6XAHItDQgLFlWZohtJXEIx84fJT%2BnGUfXw5ky7B8nXsdFnIu85IgjVGuQAVUrQqA%3D%3D&trade_no=2019103022001454351000044476&auth_app_id=2016101600703542&version=1.0&app_id=2016101600703542&sign_type=RSA2&seller_id=2088102179903271&timestamp=2019-10-30+14%3A09%3A47 HTTP/1.1" 507 35
+INFO 2019-10-30 14:15:51,340 basehttp 124 "OPTIONS /orders/?page=1&page_size=5 HTTP/1.1" 200 0
+INFO 2019-10-30 14:15:51,756 basehttp 124 "GET /orders/?page=1&page_size=5 HTTP/1.1" 200 2232
+INFO 2019-10-30 14:16:17,460 basehttp 124 "OPTIONS /orders/20191030021921000000001/payment/ HTTP/1.1" 200 0
+INFO 2019-10-30 14:16:17,683 basehttp 124 "GET /orders/20191030021921000000001/payment/ HTTP/1.1" 200 860
+INFO 2019-10-30 14:20:43,814 basehttp 124 "OPTIONS /orders/?page=1&page_size=5 HTTP/1.1" 200 0
+INFO 2019-10-30 14:21:11,805 basehttp 124 "GET /orders/?page=1&page_size=5 HTTP/1.1" 200 2232
+INFO 2019-10-30 14:21:15,732 basehttp 124 "OPTIONS /orders/?page=2&page_size=5 HTTP/1.1" 200 0
+INFO 2019-10-30 14:21:15,812 basehttp 124 "GET /orders/?page=2&page_size=5 HTTP/1.1" 200 492
+INFO 2019-10-30 14:21:18,946 basehttp 124 "OPTIONS /orders/20191029095235000000001/payment/ HTTP/1.1" 200 0
+INFO 2019-10-30 14:21:19,158 basehttp 124 "GET /orders/20191029095235000000001/payment/ HTTP/1.1" 200 863
+INFO 2019-10-30 14:22:30,903 basehttp 124 "OPTIONS /payment/status/?charset=utf-8&out_trade_no=20191029095235000000001&method=alipay.trade.page.pay.return&total_amount=11388.00&sign=Aylh%2BcUz%2BZ2uME4lzrGpkAMhEYmYUT6%2FdZvDiBj3LMMjhUtaBkXyEz1DgRKqdMPV8dsYmioZDlcCk555uvR8C%2FVmmjou4v3956E1ulouD%2BpcH4lJ0KOeV5aCNLAeQnP8QGY1UWaI28LAm6e9qCmuq1JyJedqUCZOCsKoRalIyf5GM66fGKBqGaU9jAlaniW2QUgcG9i0Rd8Ueoex8t3m0S4gr7RsurrXKjB1U9gWrxvgW9dENjLwe13BgCHilbNtR%2FuU1srMjxfRJNjltARF%2F5HBjsrpsF54urFTNaOyXVramI%2F4N%2BIp8wuMQaPqO0qHS6Q3P37EcYWc7afqY4Q%2BfA%3D%3D&trade_no=2019103022001454351000045540&auth_app_id=2016101600703542&version=1.0&app_id=2016101600703542&sign_type=RSA2&seller_id=2088102179903271&timestamp=2019-10-30+14%3A22%3A25 HTTP/1.1" 200 0
+INFO 2019-10-30 14:22:31,320 basehttp 124 "PUT /payment/status/?charset=utf-8&out_trade_no=20191029095235000000001&method=alipay.trade.page.pay.return&total_amount=11388.00&sign=Aylh%2BcUz%2BZ2uME4lzrGpkAMhEYmYUT6%2FdZvDiBj3LMMjhUtaBkXyEz1DgRKqdMPV8dsYmioZDlcCk555uvR8C%2FVmmjou4v3956E1ulouD%2BpcH4lJ0KOeV5aCNLAeQnP8QGY1UWaI28LAm6e9qCmuq1JyJedqUCZOCsKoRalIyf5GM66fGKBqGaU9jAlaniW2QUgcG9i0Rd8Ueoex8t3m0S4gr7RsurrXKjB1U9gWrxvgW9dENjLwe13BgCHilbNtR%2FuU1srMjxfRJNjltARF%2F5HBjsrpsF54urFTNaOyXVramI%2F4N%2BIp8wuMQaPqO0qHS6Q3P37EcYWc7afqY4Q%2BfA%3D%3D&trade_no=2019103022001454351000045540&auth_app_id=2016101600703542&version=1.0&app_id=2016101600703542&sign_type=RSA2&seller_id=2088102179903271&timestamp=2019-10-30+14%3A22%3A25 HTTP/1.1" 200 43
+INFO 2019-10-30 14:22:47,292 basehttp 124 "OPTIONS /orders/?page=1&page_size=5 HTTP/1.1" 200 0
+INFO 2019-10-30 14:22:47,648 basehttp 124 "GET /orders/?page=1&page_size=5 HTTP/1.1" 200 2232
+INFO 2019-10-30 14:23:34,915 basehttp 124 "OPTIONS /orders/?page=2&page_size=5 HTTP/1.1" 200 0
+INFO 2019-10-30 14:23:35,116 basehttp 124 "GET /orders/?page=2&page_size=5 HTTP/1.1" 200 492
+INFO 2019-10-30 14:23:37,214 basehttp 124 "GET /orders/?page=1&page_size=5 HTTP/1.1" 200 2232
+INFO 2019-10-30 14:24:59,081 basehttp 124 "GET /orders/?page=1&page_size=5 HTTP/1.1" 200 2232
+INFO 2019-10-30 14:25:05,877 basehttp 124 "GET /orders/?page=1&page_size=5 HTTP/1.1" 200 2232
+INFO 2019-10-30 14:25:16,867 basehttp 124 "GET /orders/?page=1&page_size=5 HTTP/1.1" 200 2232
+INFO 2019-10-30 14:26:03,461 basehttp 124 "OPTIONS /cart/ HTTP/1.1" 200 0
+INFO 2019-10-30 14:26:03,891 basehttp 124 "GET /cart/ HTTP/1.1" 200 2
+INFO 2019-10-30 14:31:53,575 basehttp 124 "GET /cart/ HTTP/1.1" 200 2
