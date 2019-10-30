@@ -6,6 +6,9 @@ docker container start tracker
 # 启动storage
 docker container start storage
 
+# 启动elasticsearch
+docker container start elasticsearch
+
 # 执行静态服务器
 cd /home/alvin/python/workspace/meiduo_project/front_end
 live-server &

@@ -16,6 +16,7 @@ class AreasViewSet(ReadOnlyModelViewSet):
     retrieve:
     返回特定省或市的下属行政规划区域
     """
+    pagination_class = None  # 不使用分页
 
     def get_queryset(self):
         if self.action == 'list':
