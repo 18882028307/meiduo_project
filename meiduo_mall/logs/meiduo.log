@@ -3898,3 +3898,291 @@ INFO 2019-10-30 14:25:16,867 basehttp 124 "GET /orders/?page=1&page_size=5 HTTP/
 INFO 2019-10-30 14:26:03,461 basehttp 124 "OPTIONS /cart/ HTTP/1.1" 200 0
 INFO 2019-10-30 14:26:03,891 basehttp 124 "GET /cart/ HTTP/1.1" 200 2
 INFO 2019-10-30 14:31:53,575 basehttp 124 "GET /cart/ HTTP/1.1" 200 2
+INFO 2019-10-30 14:35:04,668 basehttp 124 "GET /cart/ HTTP/1.1" 200 2
+INFO 2019-10-30 14:40:03,998 basehttp 124 "GET /cart/ HTTP/1.1" 200 2
+INFO 2019-10-30 14:45:03,885 basehttp 124 "GET /cart/ HTTP/1.1" 200 2
+INFO 2019-10-30 14:50:03,949 basehttp 124 "GET /cart/ HTTP/1.1" 200 2
+INFO 2019-10-30 14:55:03,934 basehttp 124 "GET /cart/ HTTP/1.1" 200 2
+INFO 2019-10-30 15:00:04,940 basehttp 124 "GET /cart/ HTTP/1.1" 200 2
+INFO 2019-10-30 15:05:04,513 basehttp 124 "GET /cart/ HTTP/1.1" 200 2
+INFO 2019-10-30 17:28:56,731 basehttp 124 "OPTIONS /cart/ HTTP/1.1" 200 0
+INFO 2019-10-30 17:28:57,098 basehttp 124 "GET /cart/ HTTP/1.1" 200 2
+INFO 2019-10-30 17:30:10,733 basehttp 124 "OPTIONS /cart/ HTTP/1.1" 200 0
+INFO 2019-10-30 17:30:11,163 basehttp 124 "GET /cart/ HTTP/1.1" 200 2
+ERROR 2019-10-30 17:31:55,599 exception 77 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2019-10-30 17:31:56,514 log 228 Bad Request: /xadmin
+WARNING 2019-10-30 17:31:56,545 basehttp 124 "GET /xadmin HTTP/1.1" 400 75978
+ERROR 2019-10-30 17:32:32,960 exception 77 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2019-10-30 17:32:33,258 log 228 Bad Request: /favicon.ico
+WARNING 2019-10-30 17:32:33,310 basehttp 124 "GET /favicon.ico HTTP/1.1" 400 75840
+INFO 2019-10-30 17:34:05,392 basehttp 124 "GET /xadmin HTTP/1.1" 301 0
+INFO 2019-10-30 17:34:06,161 basehttp 124 "GET /xadmin/ HTTP/1.1" 200 4354
+INFO 2019-10-30 17:34:08,143 basehttp 124 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 200 1888
+INFO 2019-10-30 17:34:08,144 basehttp 124 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 200 37414
+INFO 2019-10-30 17:34:08,152 basehttp 124 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 200 8376
+INFO 2019-10-30 17:34:08,151 basehttp 124 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 126432
+INFO 2019-10-30 17:34:08,169 basehttp 124 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 200 175
+INFO 2019-10-30 17:34:08,176 basehttp 124 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 200 4361
+INFO 2019-10-30 17:34:08,224 basehttp 124 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 200 240196
+INFO 2019-10-30 17:34:08,248 basehttp 124 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 200 8195
+INFO 2019-10-30 17:34:08,267 basehttp 124 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 200 15069
+INFO 2019-10-30 17:34:08,276 basehttp 124 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 200 4561
+INFO 2019-10-30 17:34:08,297 basehttp 124 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 200 42543
+INFO 2019-10-30 17:34:08,360 basehttp 124 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 200 58327
+INFO 2019-10-30 17:34:08,364 basehttp 124 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 200 3401
+INFO 2019-10-30 17:34:08,414 basehttp 124 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 200 31918
+INFO 2019-10-30 17:34:08,416 basehttp 124 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 200 4165
+INFO 2019-10-30 17:34:08,434 basehttp 124 "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 200 3489
+INFO 2019-10-30 17:34:08,615 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 4361
+INFO 2019-10-30 17:34:09,450 basehttp 124 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160
+WARNING 2019-10-30 17:34:09,804 log 228 Not Found: /favicon.ico
+WARNING 2019-10-30 17:34:09,812 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 10319
+INFO 2019-10-30 17:34:58,624 basehttp 124 "POST /xadmin/ HTTP/1.1" 200 4591
+INFO 2019-10-30 17:34:59,204 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 4361
+INFO 2019-10-30 17:35:10,123 basehttp 124 "POST /xadmin/ HTTP/1.1" 302 0
+WARNING 2019-10-30 17:35:16,282 log 228 Forbidden (CSRF token missing or incorrect.): /xadmin/
+WARNING 2019-10-30 17:35:16,322 basehttp 124 "POST /xadmin/ HTTP/1.1" 403 2508
+INFO 2019-10-30 17:35:18,520 basehttp 124 "GET /xadmin/ HTTP/1.1" 200 17520
+INFO 2019-10-30 17:35:19,595 basehttp 124 "GET /cart/ HTTP/1.1" 200 2
+ERROR 2019-10-30 18:02:50,202 exception 77 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2019-10-30 18:02:50,657 log 228 Bad Request: /
+WARNING 2019-10-30 18:02:50,679 basehttp 124 "GET / HTTP/1.1" 400 75914
+ERROR 2019-10-30 18:02:51,625 exception 77 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2019-10-30 18:02:51,870 log 228 Bad Request: /favicon.ico
+WARNING 2019-10-30 18:02:51,882 basehttp 124 "GET /favicon.ico HTTP/1.1" 400 75836
+INFO 2019-10-30 18:03:20,196 basehttp 124 "GET /xadmin/ HTTP/1.1" 200 4354
+INFO 2019-10-30 18:03:20,313 basehttp 124 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+INFO 2019-10-30 18:03:20,395 basehttp 124 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 304 0
+INFO 2019-10-30 18:03:20,435 basehttp 124 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
+INFO 2019-10-30 18:03:20,484 basehttp 124 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
+INFO 2019-10-30 18:03:20,529 basehttp 124 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
+INFO 2019-10-30 18:03:20,550 basehttp 124 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2019-10-30 18:03:20,553 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 4361
+INFO 2019-10-30 18:03:20,568 basehttp 124 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
+INFO 2019-10-30 18:03:20,600 basehttp 124 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+INFO 2019-10-30 18:03:20,598 basehttp 124 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
+INFO 2019-10-30 18:03:20,617 basehttp 124 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
+INFO 2019-10-30 18:03:20,633 basehttp 124 "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 304 0
+INFO 2019-10-30 18:03:20,644 basehttp 124 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 304 0
+INFO 2019-10-30 18:03:20,658 basehttp 124 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
+INFO 2019-10-30 18:03:20,659 basehttp 124 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 304 0
+INFO 2019-10-30 18:03:20,669 basehttp 124 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 304 0
+WARNING 2019-10-30 18:03:21,151 log 228 Not Found: /favicon.ico
+WARNING 2019-10-30 18:03:21,178 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 10320
+ERROR 2019-10-30 18:03:26,066 log 228 Internal Server Error: /xadmin/
+Traceback (most recent call last):
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django_redis/cache.py", line 32, in _decorator
+    return method(self, *args, **kwargs)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django_redis/cache.py", line 124, in has_key
+    return self.client.has_key(*args, **kwargs)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django_redis/client/default.py", line 477, in has_key
+    raise ConnectionInterrupted(connection=client, parent=e)
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/xadmin/sites.py", line 300, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/xadmin/sites.py", line 207, in inner
+    return self.create_admin_view(self.login_view)(request, *args, **kwargs)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/xadmin/views/base.py", line 282, in view
+    return handler(request, *args, **kwargs)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/xadmin/views/website.py", line 71, in post
+    return self.get(request)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/xadmin/views/website.py", line 67, in get
+    return login.as_view(**defaults)(request)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/utils/decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/views/decorators/debug.py", line 76, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/utils/decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/utils/decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/contrib/auth/views.py", line 61, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/views/generic/edit.py", line 142, in post
+    return self.form_valid(form)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/contrib/auth/views.py", line 90, in form_valid
+    auth_login(self.request, form.get_user())
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/contrib/auth/__init__.py", line 108, in login
+    request.session.cycle_key()
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/contrib/sessions/backends/base.py", line 298, in cycle_key
+    self.create()
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/contrib/sessions/backends/cache.py", line 43, in create
+    self._session_key = self._get_new_session_key()
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/contrib/sessions/backends/base.py", line 153, in _get_new_session_key
+    if not self.exists(session_key):
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/contrib/sessions/backends/cache.py", line 70, in exists
+    return bool(session_key) and (self.cache_key_prefix + session_key) in self._cache
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django/core/cache/backends/base.py", line 208, in __contains__
+    return self.has_key(key)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django_redis/cache.py", line 39, in _decorator
+    raise e.parent
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/django_redis/client/default.py", line 475, in has_key
+    return client.exists(key)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/redis/client.py", line 951, in exists
+    return self.execute_command('EXISTS', name)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/redis/client.py", line 673, in execute_command
+    connection.send_command(*args)
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/redis/connection.py", line 610, in send_command
+    self.send_packed_command(self.pack_command(*args))
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/redis/connection.py", line 585, in send_packed_command
+    self.connect()
+  File "/home/alvin/.virtualenvs/meiduo_project/lib/python3.6/site-packages/redis/connection.py", line 489, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:6379. Connection refused.
+ERROR 2019-10-30 18:03:26,105 basehttp 124 "POST /xadmin/ HTTP/1.1" 500 232112
+INFO 2019-10-30 18:03:58,062 basehttp 124 "GET /xadmin/ HTTP/1.1" 200 4354
+INFO 2019-10-30 18:03:58,253 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 4361
+INFO 2019-10-30 18:04:03,224 basehttp 124 "POST /xadmin/ HTTP/1.1" 302 0
+INFO 2019-10-30 18:04:04,934 basehttp 124 "GET /xadmin/ HTTP/1.1" 200 17520
+INFO 2019-10-30 18:04:05,002 basehttp 124 "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 200 790
+INFO 2019-10-30 18:04:05,051 basehttp 124 "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 200 3208
+INFO 2019-10-30 18:04:05,065 basehttp 124 "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 200 1000
+INFO 2019-10-30 18:04:05,105 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-10-30 18:04:22,710 basehttp 124 "GET /xadmin/goods/goodscategory/ HTTP/1.1" 200 154665
+INFO 2019-10-30 18:04:22,746 basehttp 124 "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 200 3763
+INFO 2019-10-30 18:04:22,796 basehttp 124 "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 200 2319
+INFO 2019-10-30 18:04:22,832 basehttp 124 "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 200 529
+INFO 2019-10-30 18:04:22,840 basehttp 124 "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 200 1990
+INFO 2019-10-30 18:04:22,857 basehttp 124 "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 200 4198
+INFO 2019-10-30 18:04:22,870 basehttp 124 "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 200 1105
+INFO 2019-10-30 18:04:22,872 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-10-30 18:04:22,872 basehttp 124 "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 200 1948
+INFO 2019-10-30 18:04:35,993 basehttp 124 "GET /xadmin/xadmin/log/ HTTP/1.1" 200 33323
+INFO 2019-10-30 18:04:36,054 basehttp 124 "GET /static/xadmin/vendor/bootstrap-datepicker/css/datepicker.css HTTP/1.1" 200 10225
+INFO 2019-10-30 18:04:36,088 basehttp 124 "GET /static/xadmin/vendor/select2/select2.css HTTP/1.1" 200 19226
+INFO 2019-10-30 18:04:36,100 basehttp 124 "GET /static/xadmin/vendor/selectize/selectize.css HTTP/1.1" 200 8425
+INFO 2019-10-30 18:04:36,110 basehttp 124 "GET /static/xadmin/vendor/selectize/selectize.bootstrap3.css HTTP/1.1" 200 10602
+INFO 2019-10-30 18:04:36,131 basehttp 124 "GET /static/xadmin/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js HTTP/1.1" 200 32656
+INFO 2019-10-30 18:04:36,144 basehttp 124 "GET /static/xadmin/js/xadmin.widget.datetime.js HTTP/1.1" 200 2979
+INFO 2019-10-30 18:04:36,161 basehttp 124 "GET /static/xadmin/vendor/selectize/selectize.js HTTP/1.1" 200 98602
+INFO 2019-10-30 18:04:36,164 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_zh-hans.js HTTP/1.1" 200 694
+INFO 2019-10-30 18:04:36,187 basehttp 124 "GET /static/xadmin/js/xadmin.widget.select.js HTTP/1.1" 200 1344
+INFO 2019-10-30 18:04:36,191 basehttp 124 "GET /static/xadmin/vendor/select2/select2.js HTTP/1.1" 200 104906
+INFO 2019-10-30 18:04:36,192 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-10-30 18:04:45,176 basehttp 124 "GET /xadmin/users/user/ HTTP/1.1" 200 41822
+INFO 2019-10-30 18:04:45,283 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+ERROR 2019-10-31 09:13:22,917 exception 77 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2019-10-31 09:13:23,688 log 228 Bad Request: /
+WARNING 2019-10-31 09:13:23,714 basehttp 124 "GET / HTTP/1.1" 400 75914
+ERROR 2019-10-31 09:13:25,013 exception 77 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2019-10-31 09:13:25,355 log 228 Bad Request: /favicon.ico
+WARNING 2019-10-31 09:13:25,371 basehttp 124 "GET /favicon.ico HTTP/1.1" 400 75836
+ERROR 2019-10-31 09:13:25,748 exception 77 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2019-10-31 09:13:25,828 log 228 Bad Request: /
+WARNING 2019-10-31 09:13:25,855 basehttp 124 "GET / HTTP/1.1" 400 75914
+ERROR 2019-10-31 09:13:26,350 exception 77 Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2019-10-31 09:13:26,492 log 228 Bad Request: /favicon.ico
+WARNING 2019-10-31 09:13:26,508 basehttp 124 "GET /favicon.ico HTTP/1.1" 400 75836
+INFO 2019-10-31 09:13:52,180 basehttp 124 "GET /xadmin/ HTTP/1.1" 200 17520
+INFO 2019-10-31 09:13:52,333 basehttp 124 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+INFO 2019-10-31 09:13:52,360 basehttp 124 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 304 0
+INFO 2019-10-31 09:13:52,404 basehttp 124 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
+INFO 2019-10-31 09:13:52,452 basehttp 124 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
+INFO 2019-10-31 09:13:52,466 basehttp 124 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
+INFO 2019-10-31 09:13:52,484 basehttp 124 "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 304 0
+INFO 2019-10-31 09:13:52,486 basehttp 124 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2019-10-31 09:13:52,508 basehttp 124 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
+INFO 2019-10-31 09:13:52,538 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-10-31 09:13:52,546 basehttp 124 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+INFO 2019-10-31 09:13:52,561 basehttp 124 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
+INFO 2019-10-31 09:13:52,578 basehttp 124 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
+INFO 2019-10-31 09:13:52,581 basehttp 124 "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 304 0
+INFO 2019-10-31 09:13:52,589 basehttp 124 "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 304 0
+INFO 2019-10-31 09:13:52,600 basehttp 124 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 304 0
+INFO 2019-10-31 09:13:52,611 basehttp 124 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
+INFO 2019-10-31 09:13:52,616 basehttp 124 "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 304 0
+INFO 2019-10-31 09:13:52,628 basehttp 124 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 304 0
+INFO 2019-10-31 09:13:52,639 basehttp 124 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 304 0
+WARNING 2019-10-31 09:13:53,297 log 228 Not Found: /favicon.ico
+WARNING 2019-10-31 09:13:53,307 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 10320
+INFO 2019-10-31 09:14:17,410 basehttp 124 "GET /xadmin/goods/goodscategory/ HTTP/1.1" 200 154665
+INFO 2019-10-31 09:14:17,486 basehttp 124 "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 304 0
+INFO 2019-10-31 09:14:17,605 basehttp 124 "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 304 0
+INFO 2019-10-31 09:14:17,608 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-10-31 09:14:17,610 basehttp 124 "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 304 0
+INFO 2019-10-31 09:14:17,650 basehttp 124 "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 304 0
+INFO 2019-10-31 09:14:17,650 basehttp 124 "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 304 0
+INFO 2019-10-31 09:14:17,661 basehttp 124 "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 304 0
+INFO 2019-10-31 09:14:17,686 basehttp 124 "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 304 0
+INFO 2019-10-31 09:15:07,066 basehttp 124 "GET /xadmin/goods/goodscategory/ HTTP/1.1" 200 154665
+INFO 2019-10-31 09:15:07,183 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-10-31 09:16:14,466 basehttp 124 "GET /xadmin/goods/goodscategory/ HTTP/1.1" 200 154665
+INFO 2019-10-31 09:16:14,594 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-10-31 09:17:53,671 basehttp 124 "GET /xadmin/goods/goodscategory/ HTTP/1.1" 200 154665
+INFO 2019-10-31 09:17:53,778 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-10-31 09:18:05,447 basehttp 124 "GET /xadmin/goods/goodscategory/ HTTP/1.1" 200 154665
+INFO 2019-10-31 09:18:05,539 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-10-31 09:18:49,801 basehttp 124 "GET /xadmin/goods/skuspecification/ HTTP/1.1" 200 43988
+INFO 2019-10-31 09:18:49,881 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-10-31 09:18:54,435 basehttp 124 "GET /xadmin/goods/skuimage/ HTTP/1.1" 200 45503
+INFO 2019-10-31 09:18:54,504 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-10-31 09:18:59,116 basehttp 124 "GET /xadmin/goods/skuimage/43/update/ HTTP/1.1" 200 24904
+INFO 2019-10-31 09:18:59,154 basehttp 124 "GET /static/xadmin/vendor/bootstrap-image-gallery/css/bootstrap-image-gallery.css HTTP/1.1" 200 3339
+INFO 2019-10-31 09:18:59,206 basehttp 124 "GET /static/xadmin/vendor/selectize/selectize.css HTTP/1.1" 304 0
+INFO 2019-10-31 09:18:59,207 basehttp 124 "GET /static/xadmin/vendor/select2/select2.css HTTP/1.1" 304 0
+INFO 2019-10-31 09:18:59,231 basehttp 124 "GET /static/xadmin/vendor/selectize/selectize.bootstrap3.css HTTP/1.1" 304 0
+INFO 2019-10-31 09:18:59,252 basehttp 124 "GET /static/xadmin/vendor/load-image/load-image.js HTTP/1.1" 200 8309
+INFO 2019-10-31 09:18:59,283 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-10-31 09:18:59,326 basehttp 124 "GET /static/xadmin/vendor/bootstrap-image-gallery/js/bootstrap-image-gallery.js HTTP/1.1" 200 15611
+INFO 2019-10-31 09:18:59,328 basehttp 124 "GET /static/xadmin/vendor/selectize/selectize.js HTTP/1.1" 304 0
+INFO 2019-10-31 09:18:59,350 basehttp 124 "GET /static/xadmin/vendor/select2/select2_locale_zh-hans.js HTTP/1.1" 304 0
+INFO 2019-10-31 09:18:59,339 basehttp 124 "GET /static/xadmin/vendor/select2/select2.js HTTP/1.1" 304 0
+INFO 2019-10-31 09:18:59,375 basehttp 124 "GET /static/xadmin/js/xadmin.widget.select.js HTTP/1.1" 304 0
+INFO 2019-10-31 09:18:59,383 basehttp 124 "GET /static/xadmin/js/xadmin.plugin.quick-form.js HTTP/1.1" 200 7546
+INFO 2019-10-31 09:19:11,006 basehttp 124 "GET /xadmin/goods/skuimage/ HTTP/1.1" 200 45503
+INFO 2019-10-31 09:20:40,334 basehttp 124 "GET /xadmin/goods/skuimage/ HTTP/1.1" 200 45503
+INFO 2019-10-31 09:20:40,424 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-10-31 09:26:57,433 basehttp 124 "GET /xadmin/goods/skuimage/ HTTP/1.1" 200 46676
+INFO 2019-10-31 09:26:57,538 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-10-31 09:27:07,750 basehttp 124 "GET /xadmin/orders/orderinfo/ HTTP/1.1" 200 40336
+INFO 2019-10-31 09:27:07,847 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-10-31 09:27:07,850 basehttp 124 "GET /static/xadmin/vendor/flot/jquery.flot.js HTTP/1.1" 200 115930
+INFO 2019-10-31 09:27:07,865 basehttp 124 "GET /static/xadmin/vendor/flot/jquery.flot.pie.js HTTP/1.1" 200 23405
+INFO 2019-10-31 09:27:07,868 basehttp 124 "GET /static/xadmin/vendor/flot/jquery.flot.time.js HTTP/1.1" 200 11679
+INFO 2019-10-31 09:27:07,879 basehttp 124 "GET /static/xadmin/vendor/flot/jquery.flot.resize.js HTTP/1.1" 200 2504
+INFO 2019-10-31 09:27:07,891 basehttp 124 "GET /static/xadmin/vendor/flot/jquery.flot.aggregate.js HTTP/1.1" 200 4096
+INFO 2019-10-31 09:27:07,898 basehttp 124 "GET /static/xadmin/js/xadmin.plugin.charts.js HTTP/1.1" 200 2146
+INFO 2019-10-31 09:27:07,909 basehttp 124 "GET /static/xadmin/vendor/flot/jquery.flot.categories.js HTTP/1.1" 200 6033
+INFO 2019-10-31 09:27:08,235 basehttp 124 "GET /xadmin/orders/orderinfo/chart/order_amount/? HTTP/1.1" 200 422
+INFO 2019-10-31 09:29:55,705 basehttp 124 "GET /xadmin/orders/orderinfo/chart/order_count/? HTTP/1.1" 200 370
+INFO 2019-10-31 09:39:03,181 basehttp 124 "GET /xadmin/orders/orderinfo/ HTTP/1.1" 200 40336
+INFO 2019-10-31 09:39:03,234 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-10-31 09:39:03,526 basehttp 124 "GET /xadmin/orders/orderinfo/chart/order_amount/? HTTP/1.1" 200 422
+INFO 2019-10-31 09:39:07,878 basehttp 124 "GET /xadmin/users/user/ HTTP/1.1" 200 43949
+INFO 2019-10-31 09:39:07,928 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-10-31 09:39:23,282 basehttp 124 "GET /xadmin/users/user/3/update/ HTTP/1.1" 200 37272
+INFO 2019-10-31 09:39:23,335 basehttp 124 "GET /static/xadmin/vendor/bootstrap-datepicker/css/datepicker.css HTTP/1.1" 304 0
+INFO 2019-10-31 09:39:23,354 basehttp 124 "GET /static/xadmin/vendor/bootstrap-clockpicker/bootstrap-clockpicker.css HTTP/1.1" 200 3729
+INFO 2019-10-31 09:39:23,368 basehttp 124 "GET /static/xadmin/css/xadmin.widget.select-transfer.css HTTP/1.1" 200 2317
+INFO 2019-10-31 09:39:23,406 basehttp 124 "GET /static/xadmin/vendor/bootstrap-clockpicker/bootstrap-clockpicker.js HTTP/1.1" 200 21112
+INFO 2019-10-31 09:39:23,411 basehttp 124 "GET /static/xadmin/js/xadmin.widget.select-transfer.js HTTP/1.1" 200 8214
+INFO 2019-10-31 09:39:23,433 basehttp 124 "GET /static/xadmin/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js HTTP/1.1" 304 0
+INFO 2019-10-31 09:39:23,451 basehttp 124 "GET /static/xadmin/js/xadmin.widget.datetime.js HTTP/1.1" 304 0
+INFO 2019-10-31 09:39:23,453 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-10-31 09:40:54,796 basehttp 124 "GET /xadmin/users/user/ HTTP/1.1" 200 43949
+INFO 2019-10-31 09:41:20,737 basehttp 124 "GET /xadmin/users/user/ HTTP/1.1" 200 43773
+INFO 2019-10-31 09:41:20,806 basehttp 124 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684

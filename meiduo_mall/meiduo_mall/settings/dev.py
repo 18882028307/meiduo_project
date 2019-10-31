@@ -48,6 +48,9 @@ INSTALLED_APPS = [
     'ckeditor_uploader',
     'django_crontab',  # 定时任务
     'haystack',
+    'xadmin',
+    'crispy_forms',
+    'reversion',
     'users.apps.UsersConfig',
     'verifications.apps.VerificationsConfig',
     'areas.apps.AreasConfig',

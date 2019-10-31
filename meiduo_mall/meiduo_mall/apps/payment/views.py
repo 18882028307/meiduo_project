@@ -52,7 +52,6 @@ class PaymentView(APIView):
         # 需要跳转到https://openapi.alipay.com/gateway.do? + order_string
         # 拼接链接返回前端
         alipay_url = settings.ALIPAY_GATEWAY_URL + '?' +order_string
-        print(alipay_url)
         return Response({'alipay_url': alipay_url})
 
 
