@@ -108,6 +108,14 @@ DATABASES = {
         'USER': 'meiduo',
         'PASSWORD': 'meiduo',
         'NAME': 'meiduo_mall'
+    },
+    'slave': {
+        'ENGINE': 'django.db.backends.mysql',
+        'HOST': '127.0.0.1',
+        'PORT': 5306,
+        'USER': 'slave1',
+        'PASSWORD': 'slave1',
+        'NAME': 'meiduo_mall'
     }
 }
 
@@ -362,6 +370,11 @@ ALIPAY_DEBUG = True
 ALIPAY_GATEWAY_URL = 'https://openapi.alipaydev.com/gateway.do'
 
 
+# 配置读写分离
+DATABASE_ROUTERS = ['meiduo_mall.utils.db_router.MasterSlaveDBRouter']
+
+# 静态文件目录
+STATIC_ROOT = os.path.join(os.path.dirname(os.path.dirname(BASE_DIR)), 'front_end/static')
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
