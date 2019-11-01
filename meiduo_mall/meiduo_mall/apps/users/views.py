@@ -279,7 +279,7 @@ class UserAuthorizeView(ObtainJSONWebToken):
     def post(self, request, *args, **kwargs):
         # 调用父类的方法，获取drf jwt扩展默认的认证用户处理结果
         response = super().post(request, *args, **kwargs)
-
+        print(response)
         # 仿照drf jwt扩展对于用户登录的认证方式，判断用户是否认证登录成功
         # 如果用户登录认证成功，则合并购物车
         serializer = self.get_serializer(data=request.data)

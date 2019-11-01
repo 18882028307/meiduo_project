@@ -113,8 +113,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'HOST': '127.0.0.1',
         'PORT': 5306,
-        'USER': 'slave1',
-        'PASSWORD': 'slave1',
+        'USER': 'slavel',
+        'PASSWORD': 'slavel',
         'NAME': 'meiduo_mall'
     }
 }
@@ -352,7 +352,7 @@ HAYSTACK_CONNECTIONS = {
     'default': {
         'ENGINE': 'haystack.backends.elasticsearch_backend.ElasticsearchSearchEngine',
         # 此处为elasticsearch运行的服务器ip地址，端口号固定为9200
-        'URL': 'http://192.168.0.141:9200/',
+        'URL': 'http://192.168.0.177:9200/',
         # 指定elasticsearch建立的索引库的名称
         'INDEX_NAME': 'meiduo',
     },

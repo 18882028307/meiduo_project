@@ -9,6 +9,10 @@ docker container start storage
 # 启动elasticsearch
 docker container start elasticsearch
 
+# 启动docker容器的mysql
+docker container start mysql-slave
+
+
 # 执行静态服务器
 cd /home/alvin/python/workspace/meiduo_project/front_end
 live-server &
